@@ -1,0 +1,24 @@
+2022-06-01 16:10:19 ERROR etcd connect error: context deadline exceeded
+gamesvr/manager.Init
+	C:/code/overlord-backend-go/gamesvr/manager/manager.go:80
+main.main
+	C:/code/overlord-backend-go/gamesvr/main.go:12
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:225
+2022-06-01 16:10:19 FATAL manager init error: context deadline exceeded
+main.main
+	C:/code/overlord-backend-go/gamesvr/main.go:14
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:225
+2022-06-01 16:13:34 ERROR init mysql error: dial tcp 10.24.12.30:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+gamesvr/manager.Init
+	C:/code/overlord-backend-go/gamesvr/manager/manager.go:94
+main.main
+	C:/code/overlord-backend-go/gamesvr/main.go:12
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:225
+2022-06-01 16:13:34 FATAL manager init error: dial tcp 10.24.12.30:3306: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+main.main
+	C:/code/overlord-backend-go/gamesvr/main.go:14
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:225

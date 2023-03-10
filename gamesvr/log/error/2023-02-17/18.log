@@ -1,0 +1,8 @@
+2023-02-17 18:20:51 ERROR announcement init failed!!!
+Error 1146: Table 'overlord.announcement' doesn't exist
+gamesvr/manager.Init
+	/Users/xuecenming/Desktop/projects/overlord-backend-go/gamesvr/manager/manager.go:119
+main.main
+	/Users/xuecenming/Desktop/projects/overlord-backend-go/gamesvr/main.go:12
+runtime.main
+	/usr/local/go/src/runtime/proc.go:250

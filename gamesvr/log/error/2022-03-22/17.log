@@ -1,0 +1,42 @@
+2022-03-22 17:00:33 ERROR load user error: unexpected end of JSON input
+gamesvr/session.(*Session).OnCreated
+	C:/code/overlord-backend-go/gamesvr/session/session.go:79
+shared/utility/session.(*EmbedManagedSession).Create
+	C:/code/overlord-backend-go/shared/utility/session/session.go:74
+shared/utility/session.(*manager).getSession
+	C:/code/overlord-backend-go/shared/utility/session/manager.go:93
+shared/utility/session.(*manager).NewSessionIfNotExist
+	C:/code/overlord-backend-go/shared/utility/session/manager.go:76
+gamesvr/controller.(*GameHandler).LoginHandle
+	C:/code/overlord-backend-go/gamesvr/controller/login.go:66
+gamesvr/controller.(*GameHandler).Connect
+	C:/code/overlord-backend-go/gamesvr/controller/handler.go:52
+shared/protobuf/pb._Game_Connect_Handler
+	C:/code/overlord-backend-go/shared/protobuf/pb/game_service_grpc.pb.go:159
+google.golang.org/grpc.(*Server).processUnaryRPC
+	C:/Users/xuecm/go/pkg/mod/google.golang.org/grpc@v1.44.0/server.go:1282
+google.golang.org/grpc.(*Server).handleStream
+	C:/Users/xuecm/go/pkg/mod/google.golang.org/grpc@v1.44.0/server.go:1616
+google.golang.org/grpc.(*Server).serveStreams.func1.2
+	C:/Users/xuecm/go/pkg/mod/google.golang.org/grpc@v1.44.0/server.go:921
+2022-03-22 17:05:09 ERROR load user error: unexpected end of JSON input
+gamesvr/session.(*Session).OnCreated
+	C:/code/overlord-backend-go/gamesvr/session/session.go:79
+shared/utility/session.(*EmbedManagedSession).Create
+	C:/code/overlord-backend-go/shared/utility/session/session.go:74
+shared/utility/session.(*manager).getSession
+	C:/code/overlord-backend-go/shared/utility/session/manager.go:93
+shared/utility/session.(*manager).NewSessionIfNotExist
+	C:/code/overlord-backend-go/shared/utility/session/manager.go:76
+gamesvr/controller.(*GameHandler).LoginHandle
+	C:/code/overlord-backend-go/gamesvr/controller/login.go:66
+gamesvr/controller.(*GameHandler).Connect
+	C:/code/overlord-backend-go/gamesvr/controller/handler.go:52
+shared/protobuf/pb._Game_Connect_Handler
+	C:/code/overlord-backend-go/shared/protobuf/pb/game_service_grpc.pb.go:159
+google.golang.org/grpc.(*Server).processUnaryRPC
+	C:/Users/xuecm/go/pkg/mod/google.golang.org/grpc@v1.44.0/server.go:1282
+google.golang.org/grpc.(*Server).handleStream
+	C:/Users/xuecm/go/pkg/mod/google.golang.org/grpc@v1.44.0/server.go:1616
+google.golang.org/grpc.(*Server).serveStreams.func1.2
+	C:/Users/xuecm/go/pkg/mod/google.golang.org/grpc@v1.44.0/server.go:921

@@ -1,0 +1,856 @@
+syntax = "proto3";
+
+option go_package = "./;pb";
+
+message VOAchievement{
+  repeated int32 donAchievementIds = 1;
+  repeated VOProgress achievementInfo = 2;
+}
+
+message VOBattleCharacter{
+  int32 characterId = 1;
+  int32 position = 2;
+  int32 hpPercent = 3;
+}
+
+message VOBattleNPC {
+  int32 npcId = 1;
+  int32 npcType = 2;
+  int32 hpPercent = 3;
+  int32 position = 4;
+}
+
+message VOBattleCharacterProp {
+  VOUserCharacter character = 1;
+  repeated VOUserEquipment equipments = 2;
+  VOUserWorldItem worldItem = 3;
+}
+
+message VOBattleFighterDetail {
+  VOUserInfoSimple userInfo = 1;
+  int32 power = 2;
+  VOBattleFormation battleFormation = 3;
+  repeated VOBattleCharacterProp characters = 4;
+  VOBattleHeroProp hero = 5;
+}
+
+message VOBattleFormation {
+  VOBattleHero battleHero = 1;
+  repeated VOBattleCharacter battleCharacters = 2;
+  repeated VOBattleSequence battleSequences = 3;
+  repeated VOBattleNPC npcs = 4;
+}
+
+message VOBattleHero{
+  int32 heroId = 1;
+  repeated int32 useSkillIds = 2;
+}
+
+message VOBattleHeroProp{
+  VOHero hero = 1;
+  repeated VOBattleCharacterProp pledgeCharacters = 2;
+  int32 heroLevel = 3;
+}
+
+message VOBattleSequence{
+  repeated VOBattleUnit units = 1;
+}
+
+message VOBattleUnit{
+  int32 unitType = 1;
+  int32 unitId = 2;
+  int32 unitSkillId = 3;
+}
+
+message VOBuildRelocation{
+  int64 buildUid = 1;
+  VOPosition position = 2;
+}
+
+message VOCharacterPosInfo{
+  int32 characterId = 1;
+  int32 pos = 2;
+}
+
+message VOCharacterSkill{
+  int32 skillId = 1;
+  int32 level = 2;
+}
+
+message VOChessInfo{
+  int32 chessConfigId = 1;
+  int32 star = 2;
+}
+
+message VOCommonResource{
+  int32 Gold = 1;
+  int32 DiamondGift = 2;
+  int32 DiamondCash = 3;
+  int32 Energy = 4;
+  int64 EnergyRefreshAt = 5;
+  int32 Exp = 6;
+  int32 Level = 7;
+  int32 heroExp = 8;
+  int32 GuildGold = 9;// 公会代币
+}
+
+message VOCustomEntityProperty{
+  string key = 1;
+  string value = 2;
+}
+
+
+
+message VOGraveyardBase{
+  int32 buildId = 1;
+  int32 level = 2;
+  int32 stage = 3;
+  VOPosition position = 4;
+  int64 inBagTime = 5;
+}
+
+message VOGraveyardBuild{
+  int64 buildUid = 1;
+  VOGraveyardBase buildBase = 2;
+  VOGraveyardTransition transition = 3;
+  VOGraveyardProduce produce = 4;
+  VOGraveyardRequestState requestState = 5; // 建筑互助状态，除装饰物建筑其他都有此数据
+}
+message VOGraveyardRequestState{
+  int32 requestState = 1; // 1.未发送帮助请求，2.正在请求中
+  int32 helpCount = 2; // 收到n人帮助
+}
+
+message VOCharacterPos{
+  int32 position = 1;
+  int32 characterId = 2;
+}
+
+message VOGraveyardPopulationSet{
+  int64 buildUid = 1;
+  int32 currPopulationCount = 2;
+}
+
+message VOGraveyardProduce{
+  int32 populationCount = 1;
+  int32 produceSecs = 2;
+  repeated VOResource productions = 3;
+  repeated VOCharacterPos characters = 4;
+  int32 produceNum = 5; //如果建筑是持续性产出的话表示，此次生产已生产x次，否则表示此次产出目标生产x次
+  int32 totalProduceNum = 6; // 装备建筑表示累计生产的次数
+  VOGraveyardBuff buff = 7;// 如果该建筑有未使用完的buff则有此数据
+  int32 receiveNum = 8; //如果建筑是非持续性产出的话表示，此次生产已领取x次，
+}
+
+message VOGraveyardBuff{
+  int32 buffId = 1;
+  bool isEffective = 2; // 是如果是true就是对产出有影响，如果false就是携带这个buff但是下次才生效
+  int32 restCount = 3; // 次数类buff
+  int64 endAt = 4;// 时间类buff
+}
+
+message VOGraveyardTransition{
+  int32 diffSecs = 1;
+  int32 curtainType = 2;
+}
+
+
+
+message VOItemInfo{
+  int32 itemId = 1;
+  int32 amount = 2;
+  int64 expireAt = 3;
+}
+
+message VOMail{
+  int64 id = 1;
+  int32 templateId = 2;
+  int32 state = 3;
+  string title = 4;
+  string content = 5;
+  repeated VOResource attachment = 6;
+  int64 sendTime = 7;
+  int64 expireTime = 8;
+  repeated string titleArgs = 9;
+  repeated string contentArgs = 10;
+}
+
+message VOManualInfo{
+  int32 manualId = 1;
+  bool rewarded = 2;
+}
+
+message VOMapVaule{
+  string mapValue = 1;
+}
+
+message VOPlayerInfo{
+  VOPlayerProperty baseProperty = 1;
+  repeated VOCustomEntityProperty customProperties = 2;
+}
+
+message VOPlayerProperty{
+  int64 id = 1;
+  string name = 2;
+}
+
+message VOPosition{
+  int32 posX = 1;
+  int32 posY = 2;
+}
+
+message VOProgress{
+  int32 id = 1;
+  int32 progress = 2;
+}
+
+message VORankUser{
+  VOUserInfoSimple userInfo = 1;
+  int32 rank = 2;
+  int32 rankValue = 3;
+  int32 power = 4;
+  VOBattleFormation battleFormation = 5;
+  repeated VOBattleCharacterProp characters = 6;
+  VOBattleHeroProp hero = 7;
+}
+
+message VOResource{
+  int32 itemId = 1;
+  int32 count = 2;
+}
+
+message VOResourceMultiple{
+  repeated VOResource resources = 1;
+}
+
+message VOResourceResult{
+  repeated VOResourceMultiple rewards = 1;
+  VOCommonResource commonResource = 2;
+  repeated VOItemInfo items = 3;
+  repeated VOUserCharacter characters = 4;
+  repeated VOUserEquipment equipments = 5;
+  repeated VOUserWorldItem worldItems = 6;
+}
+
+message VOResult{
+  string url = 1;
+  string title = 2;
+  repeated string snippets = 3;
+}
+
+message VOSingleResult{
+  int64 playerId = 1;
+  int32 rank = 2;
+  string name = 3;
+  repeated VOChessInfo chessList = 4;
+  int32 winRound = 5;
+  int32 loseRound = 6;
+  int32 killNum = 7;
+  int32 killedNum = 8;
+  int32 time = 9;
+  int32 award = 10;
+  int32 round = 11;
+}
+
+message VOLevelResouceResults {
+  VOResourceResult firstPassResult = 1;
+  VOResourceResult passResult = 2;
+  VOResourceResult targetResult = 3;
+  VOResourceResult achievementResult = 4;
+  VOYggdrasilEntityChange entityChange = 5;
+
+}
+
+message VOTask{
+  int32 taskType = 1;
+  repeated int32 donTaskIds = 2;
+  repeated VOProgress taskInfo = 3;
+  int32 activenessPoint = 4;
+  repeated int32 doneActivenessIds = 5;
+}
+
+message VOTpGate{
+  int32 tpGateId = 1;
+  int32 useCount = 2;
+  bool isDestroy = 3;
+}
+
+message VOUserCharacter{
+  int32 characterId = 1;
+  int32 exp = 2;
+  int32 level = 3;
+  int32 star = 4;
+  int32 stage = 5;
+  int64 createAt = 6;
+  repeated VOCharacterSkill skills = 7;
+  int32 heroId = 8;
+  int32 heroPos = 9;
+  int32 power = 10;
+  int64 canYggdrasilTime = 11;
+  int32 rarity = 12;
+}
+
+message VOUserEquipment{
+  int64 equipmentUId = 1;
+  int32 equipmentId = 2;
+  int32 characterId = 3;
+  int32 exp = 4;
+  int32 level = 5;
+  int32 stage = 6;
+  bool lockFlag = 7;
+  int32 camp = 8;
+  int32 campRandom = 9;
+  int64 createAt = 10;
+  repeated VOUEquipmentAttr attrs = 11;
+  int32 recastCamp = 12;
+}
+
+message VOUEquipmentAttr{
+  int32 attr = 1;
+  int32 value = 2;
+}
+
+message VOUserInfo{
+  int64 userId = 1;
+  string nickname = 2;
+  int32 nameIndex = 3; // 名字后缀
+  int32 teamLevel = 4;
+  int32 teamExp = 5;
+  int32 avatar = 6;// 头像
+  int32 frame = 7;// 头像框
+  int64 guildId = 8;
+  string guildName = 9;
+}
+
+message VOUserInfoSimple{
+  int64 userId = 1;
+  string nickname = 2;
+  int32 nameIndex = 3; // 名字后缀
+  int32 teamLevel = 4;
+  int32 avatar = 5;
+}
+
+message VOUserResource{
+  int64 money = 1;
+  int32 diamondGift = 2;
+  int32 diamondCash = 3;
+  int32 energy = 4;
+  int64 energyRefreshAt = 5;
+}
+
+message VOUserTower{
+  int32 passLevelId = 1;
+  repeated int32 doneAchievementLevels = 2;
+}
+
+message VOUserWorldItem{
+  int64 worldItemUId = 1;
+  int32 worldItemId = 2;
+  int32 characterId = 3;
+  int32 star = 4;
+  int32 exp = 5;
+  int32 level = 6;
+  bool lockFlag = 7;
+  int64 createAt = 8;
+}
+
+
+message VOQuest{
+  int32 id = 1;
+  int32 state = 2;
+  int32 progress = 3;
+  int64 completeTime = 4;
+}
+
+message VOQuestActivity{
+  int32 module = 1;                 //任务类型
+  int32 point = 2;                  //活跃度点数
+  repeated int32 rewardRecord = 3;  //领取记录
+}
+
+message VOQuestInfo{
+  repeated VOQuest quests = 1;                  //任务列表
+  repeated VOQuestActivity questActivities = 2; //活跃度记录
+  int64 nextDailyRefreshTime = 3;               //明日刷新时间
+  int64 nextWeeklyRefreshTime = 4;              //下周刷新时间
+}
+
+message VOSignInInfo{
+  int32 signinId = 1;
+  VOSignInRecordAndType recordAndType = 2;
+
+}
+
+message VOSignInRecordAndType{
+  int32 signinType = 1;
+  int32 record = 2;
+  bool  hasSignIn = 3;
+}
+
+message VOSurveyAnswer{
+  int32 qid = 1;
+  string answer = 2;
+}
+
+message VOLevel {
+  int32 levelId = 1;                        //副本id
+  int32 todayPassTimes = 2;                 //今天通关次数
+  int32 totalPassTimes = 3;                 //总通关次数
+  repeated int32 completeTargets = 4;       //完成的目标
+  repeated int32 completeAchievements = 5;  //完成的成就
+}
+
+message VOLevelInfo {
+  repeated VOLevel levels = 1;
+  int32 curLevel = 2;              //当前关卡id
+}
+
+message VOChapter {
+  int32 chapterId = 1;                //章节id
+  int32 score = 2;                    //目标累计
+  repeated int32 RewardRecord = 3;    //领取的奖励
+}
+
+message VOChapterInfo {
+  repeated VOChapter chapters = 1;    //章节数据集合
+}
+
+message VOExploreMap {
+  int32 chapterId = 1;                //章节id
+  VOPosition curPosition = 2;         //当前位置
+}
+
+message VOExploreEvent {
+  int32 id = 1;                       //事件id
+  int64 interactTime = 2;             //上次交互时间
+  int32 interactTimes = 3;            //交互次数
+}
+
+message VOExploreResource {
+  int32 id = 1;                 //资源点id
+  bool collecting = 2;          //是否正在采集
+  int64 collectStartTime = 3;   //上次采集时间
+  int32 collectTimes = 4;       //总采集次数
+  bool hasMonster = 5;          //有怪
+}
+
+message VOExploreTransportGate {
+  int32 id = 1;
+  int32 useTimes = 2;       //使用次数
+  bool destroyed = 3;       //销毁
+}
+
+message VOExploreInfo {
+  repeated VOExploreMap maps = 1;                       //章节数据
+  repeated VOExploreEvent events = 2;                   //事件数据
+  repeated VOExploreResource resources = 3;             //资源点数据
+  repeated int32 unlockFogs = 4;                        //解锁的迷雾
+  repeated VOExploreTransportGate tpGate = 5;           //传送门
+  int32 curChapter = 6;                                 //当前所在章节
+}
+
+message VOGachaInfo{
+  int32 gachaId = 1; // 卡池id
+  int32 todayGachaCount = 2; // 今日抽卡数量
+  int32 SSRProbIncr = 3; // ssr概率增量（万分比）
+}
+
+message VOStoreInfo{
+  int32 storeID = 1;// 商店id
+  int32 storeType = 2; // 商店类型，1为替换式商店，2为阶段式商店
+  int32 updateTimes = 3; // 当前商店在本轮周期中已经主动刷新的次数
+  int64 restTime = 4;// 当前距离商店倒计时刷新的秒数
+  repeated VOSubStoreInfo subStoreInfos = 5;
+}
+
+message VOSubStoreInfo{
+  int32 subStoreId = 1; // 子商店id
+  repeated VOCellInfo cellInfos = 2; // 栏位信息，一共固定20个栏位
+}
+
+message VOCellInfo{
+  int32 goodsId = 1; // 商品的id
+  int32 remainsNum = 2;// 商品剩余的可购买数量
+}
+
+message VOHeroSkill{
+  int32 skillId = 1;
+  int32 level = 2;
+}
+
+message VOHeroAttendant {
+  int32 slot = 1;           //侍从槽位
+  int32 charaId = 2;
+  int32 lastCalcAttr = 3;   //上次计算的属性
+}
+
+message VOHero{
+  int32 heroId = 1;
+  repeated VOHeroSkill skills = 2;              //技能
+  repeated VOHeroAttendant attendants = 3;      //侍从
+  int32 skillItemUsed = 4;                      //技能道具的使用
+  int32 lastCalcAttr = 5;                       //上次保存的属性
+}
+
+message VOHeroInfo {
+  repeated VOHero heros = 1;
+  int32 level = 2;
+  int32 exp = 3;
+  bool newOne = 4;
+}
+
+message VOStaminaInfo{
+  int32 cnt = 1;
+  int32 price = 2;
+}
+
+message VOTower {
+  int32 id = 1;
+  int32 curStage = 2;       //当前层数（最高层）
+  int32 todayGoUpTimes = 3; //今天趴了几层
+}
+
+message VOHeroBattleSkillCastRecord {
+  int32 skillId = 1;
+  int32 castTimes = 2;
+}
+
+message VOHeroBattleStatis {
+  int32 heroId = 1;
+  int32 damage = 2;
+  int32 cure = 3;
+  int32 hurt = 4;
+  repeated VOHeroBattleSkillCastRecord skillCasts = 5;
+}
+
+message VOCharaBattleSkillCastRecord {
+  int32 skillNum = 1;
+  int32 castTimes = 2;
+}
+
+message VOCharaBattleStatis {
+  int32 charaId = 1;
+  int32 damage = 2;
+  int32 cure = 3;
+  int32 hurt = 4;
+  repeated VOCharaBattleSkillCastRecord skillRecord = 5;
+}
+
+message VOBattleStatis {
+  VOHeroBattleStatis hero = 1;
+  repeated VOCharaBattleStatis charas = 2;
+}
+
+message VORedPoint {
+  int32 id = 1;
+  int32 value = 2;
+}
+
+message VOYggdrasilBuild{
+  VOPosition position = 1;
+  int64 buildUid = 2;
+  int32 useCount = 3;// 当前探索使用次数
+  int32 buildId = 4;
+  int32 totalUseCount = 5;// 总使用次数
+  int64 matchUserId = 6;
+}
+
+message VOYggdrasilCoBuild{
+  VOYggdrasilCoBuildBase coBuildBase = 1;
+  repeated VOYggdrasilPortalLocation portalLocations = 2; // 已经激活的传送点
+}
+message VOYggdrasilCoBuildBase{
+  VOPosition position = 1;
+  bool isActivated = 2; // 建筑是否已经激活
+  int32 buildId = 3;
+  int32 progress = 4;
+  int32 totalUseCount = 5;
+  repeated int64 oriContributorIdList = 6;
+}
+
+message VOYggdrasilPortalLocation{
+  int32 LocationType = 1; // 1 是城市， 2 是传送门
+  int32 LocationId = 2;
+}
+
+message VOYggdrasilCharacter{
+  int32 characterId = 1;
+  int32 hpPercent = 2;
+}
+
+message VOYggdrasilDiscardGoods{
+  int64 uid = 1;
+  VOPosition position = 2;
+  VOResource resource = 3;
+  int64 matchUserId = 4;
+}
+
+message VOYggdrasilMark{
+  int64 uid = 1;
+  int32 markId = 2;
+  VOPosition position = 3;
+}
+
+message VOYggdrasilMessage{
+  string comment = 1;
+  VOPosition position = 2;
+  int64 messageUid = 3;
+  int64 matchUserId = 4;
+}
+
+message VOYggdrasilObject{
+  int64 objectUid = 1;
+  int32 objectId = 2;
+  int32 state = 3;
+  VOPosition position = 4;
+}
+
+message VOYggdrasilObjectMove{
+  int64 objectUid = 1;
+  VOPosition position = 2;
+}
+
+message VOYggdrasilPackGoods{
+  int64 goodsId = 1;
+  VOResource resource = 2;
+  int64 oriDiscardUserId = 3;
+}
+
+message VOYggdrasilPosition{
+  VOPosition position = 1;
+  int32 worldId = 2;
+}
+
+message VOYggdrasilSubTaskProcess{
+  int32 process1 = 1;
+  int32 process2 = 2;
+  VOYggdrasilSubTaskAttach attach = 3;
+}
+message VOYggdrasilSubTaskAttach{
+  int32 NpcHp = 1; // 护送npc的血量
+}
+
+// 地图Entity变化
+message VOYggdrasilEntityChange{
+  repeated VOYggdrasilObject objects = 1; // 新增或修改的obj
+  repeated int64 removedObjectUids = 2; // 删除的obj
+  repeated VOYggdrasilBuild builds = 3; // 新增或修改的build
+  repeated int64 removedBuildUids = 4; // 删除的build
+  VOYggdrasilResourceResult yggdrasilResource = 5; // 丢弃物或者背包变动
+  repeated int32 AddEnvTerrain = 6; // 增加的env地形
+  repeated int32 RemoveEnvTerrain = 7; // 删除的env地形
+}
+
+
+// 任务进度
+message VOYggdrasilTaskInfo{
+  int32 taskId = 1;
+  int32 subTaskId = 2;// 当前子任务
+  VOYggdrasilSubTaskInfo taskMain = 3;// 任务进度
+  repeated VOYggdrasilSubTaskInfo multi = 4; // 如果任务类型是完成多个子任务，则用来表示多个子任务的进度
+  repeated int32 completeSubTaskIds = 5; //已完成的子任务（有序）
+}
+
+// 子任务进度
+message VOYggdrasilSubTaskInfo{
+  int32 subTaskId = 1;
+  bool isSubTaskCompleted = 2;
+  repeated VOYggdrasilSubTaskProcess taskProcesses = 3;
+  int32 envId = 4;
+}
+
+message VOYggdrasilTaskTotalInfo{
+  repeated int32 completedTasks = 1;
+  repeated VOYggdrasilTaskInfo taskInfos = 2;
+  int32 trackTask = 3;
+}
+
+message VOYggdrasilUseBuild{
+  VOYggdrasilBuild build = 1;
+  VOResourceResult resourceResult = 2;
+}
+
+message VOYggdrasilUseCoBuild{
+  VOYggdrasilCoBuild build = 1;
+  VOResourceResult resourceResult = 2;
+}
+message VOYggDispatchInfo{
+  int32 dispatchType = 1;  // 指的是日常派遣还是公会派遣
+  int64 updateTime = 2;   // 任务新增倒计时，公会派遣时有意义，日常派遣时则为-1
+  repeated VOYggDispatchTaskState taskStates = 3;   // 当前派遣种类下所有任务的状态以及截至时间
+}
+message VOYggDispatchTaskState{
+  int32 taskId = 1;
+  int32 taskState = 2;      // 0代表待派遣，1代表派遣中，2代表派遣完成待领取奖励
+  int64 restTime = 3;       // 任务挂机倒计时，任务处于派遣中时才有意义
+  int64 closeTime = 4;      // 任务关闭倒计时，公会派遣时有意义，日常派遣时为-1
+}
+message VOYggDispatchCharacter{
+  int32 characterId = 1;
+  bool isInDispatch = 2;
+}
+message VOYggDispatchGuildCharacter{
+  int32 customId = 1;
+  VOUserCharacter  voCharacter = 2; // todo 后续添加公会助力角色右上角小头像
+}
+message VOYggDispatchResourceResult{
+  VOResourceResult basicResult = 1;
+  VOResourceResult extraResult = 2;
+}
+
+message VOYggdrasilUser{
+  int32 status = 1;   // 0表示未出行 1表示出行中
+  int32 ap = 2;
+  int64 apRefreshAt = 3;
+  int32 cityId = 4;   //正在的城市
+  int32 todayTravelTime = 5;  //今日已出行次数
+
+}
+
+message VOYggdrasilTravelInfo{
+  int32 ap = 1; // 出行携带的体力
+  repeated VOYggdrasilCharacter characters = 2; // 角色
+  int32 helpCount = 3; // 帮助他人建造次数
+}
+
+message VOYggdrasilArea{
+  int32 areaId = 1;
+  bool isTaskDone = 2; // 区域任务是否完成
+  int32 exploredPosCount = 3; // 解锁的点数量
+  int32 exploredProgressRewardIndex = 4;// 探索进度已领奖的index
+  repeated VOYggdrasilBuildCount buildCount = 5;// 该区域建造数（根据id）
+  int32 MessageCreateCount = 6; //该区域留言数
+}
+message VOYggdrasilBuildCount {
+  int32 buildId = 1;
+  int32 count = 2;
+}
+
+
+message VOYggdrasilBlock{
+  VOPosition position = 1; // 左下角
+  repeated VOPosition unlockPosList = 2; // 已解锁区域
+  repeated VOYggdrasilBuild builds = 3;
+  repeated VOYggdrasilDiscardGoods discardGoods = 4;
+  repeated VOYggdrasilObject objects = 5;
+  repeated VOYggdrasilMark marks = 6;
+  repeated VOYggdrasilMessage messages = 7;
+  repeated VOYggdrasilCoBuildBase coBuilds = 8;
+}
+message VOYggdrasilBlockAndArea{
+  repeated VOYggdrasilBlock blockList = 1; // block信息
+  repeated VOYggdrasilArea areaList = 2; // area信息
+}
+
+message VOYggdrasilResourceResult{
+  repeated VOYggdrasilDiscardGoods discardGoods = 1; // 新增丢弃物
+  repeated VOYggdrasilPackGoods packGoods = 2; // 新增背包物品
+  repeated int64 deletePackGoodsIds = 3; // 背包物品删除
+  repeated int64 deleteDiscardGoods = 4; // 丢弃物删除
+  repeated VOResource taskPackChange = 5; // 任务背包变动
+
+}
+
+message VOYggdrasilMail{
+  int64 uid = 1;
+  string fromUserName = 2;
+  repeated VOResource attachment = 3;
+  int64 sendTime = 4;
+
+}
+
+message VOYggdrasilReturnCity {
+  int32 cityId = 1;   //正在的城市
+  VOYggdrasilResourceResult yggdrasilResourceResult = 2; //ygg背包资源变化
+  repeated VOYggdrasilPortalLocation portalLocations = 3; // 所有已解锁传送门（包括城市）
+}
+
+message VOScorePassSeason {
+  int32 id = 1;
+  repeated VOScorePassPhase phases = 2;   //开启的phase
+  bool IsEnd = 3;                         //是否结束
+}
+
+message VOScorePassPhase {
+  int32 id = 1;
+  repeated int32 rewardRecord = 2;  //奖励领取记录
+  repeated int32 groups = 3;        //开启的group
+}
+
+message VOScorePassInfo {
+  repeated VOScorePassSeason seasons = 1;
+}
+
+message VOUserCondition {
+  int32 conditionType = 1;
+  repeated int32 conditionParams = 2;
+}
+
+message VOUserConditions {
+  repeated VOUserCondition conditions = 1;
+}
+
+message VOGachaResultRecord {
+  int64 Uid = 1;
+  int32 poolId = 2;
+  int32 itemId = 3;
+  int64 createAt = 4;
+}
+
+// 异界问候
+message VOGreetings {
+  int32 greetingType = 1; // 1是character，2是礼装
+  int32 id = 2; // 角色id或者礼装id
+  int32 count = 3;  // 来自特定id的第count次问候
+  int32 star = 4;
+  int64 timestamp = 5;
+}
+// 佣兵
+message VOMercenarySimple{
+  int32 characterId = 1;
+  string nameFrom = 2;  // 从谁那里借的
+  int32 level = 3;
+  int32 relation = 4;
+}
+message VOMercenaries{
+  int64 userId = 1;
+  string userName = 2;
+  int32 relation = 3;
+  repeated VOMercenaryCharac characters = 4;
+}
+message VOMercenaryCharac{
+  int32 characterId = 1;
+  int32 power = 2;
+  int32 applyCount = 3;
+  int32 star = 4;
+  int32 status = 5; // 0代表可申请，1代表正在申请，2代表正在撤销
+  int32 level = 6;
+  int64 timestamp = 7;  // 当status为2时，此字段才有意义
+}
+message VOMercenaryApply{
+  int32 characterId = 1;
+  int32 relation = 2;
+  int64 applicantId = 3;
+  string applicantName = 4;
+  int64 timestamp = 5;  // 代表发出申请的时间
+}
+message VOMercenaryRecord{
+  int32 characterId = 1;
+  int32 relation = 2;
+  int32 power = 3;
+  int32 star = 4;
+  int32 level = 5;
+  int64 applicantId = 6;
+  string applicantName = 7;
+}
+message VOMercenaryDetail{
+  int32 systemType = 1;
+  int32 useCount = 2;
+  VOBattleCharacterProp character = 3;
+}
+
+message VOFormation{
+  int32 id = 1;
+  int32 formationType = 2;
+  VOBattleFormation battleFormation = 3;
+}

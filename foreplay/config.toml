@@ -1,0 +1,14 @@
+# 服务名，表示服务器职能，用于服务发现和负载均衡
+Service = "foreplay"
+# 服务器名称，唯一不可重复
+ServerName = "foreplay01"
+# http监听地址端口
+HTTPListenPort = 9180
+# csv文件路径
+CSVPath = "./csv/data"
+
+# log
+[Log]
+    LogLevel = "DEBUG"
+    LogDir = "./log"
+    FileSizeLimit = 4294967296

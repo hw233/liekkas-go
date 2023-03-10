@@ -1,0 +1,75 @@
+syntax = "proto3";
+
+import "shared/protobuf/proto/vo.proto";
+
+option go_package = "./;pb";
+
+//1601,EquipmentStrengthen,装备强化
+//1603,EquipmentAdvance,装备突破
+//1605,EquipmentLock,装备锁定切换
+//1607,EquipmentRandCamp,装备重铸-阵营随机
+//1609,EquipmentRandCampConfirm,装备重铸-二次确认
+
+// ------------ 强化装备 ------------
+message C2SEquipmentStrengthen {
+  int64 id = 1; // 强化装备的唯一ID
+  repeated int64 materials = 2; // 素材装备的唯一ID
+  repeated int32 items = 3; // 经验道具数量 长度4，从低到高
+}
+
+message S2CEquipmentStrengthen {
+  VOUserEquipment equipment = 1; // 装备数据
+  VOResourceResult resourceResult = 2; // 玩家资源
+  repeated int64 materials = 3; // 素材装备的唯一ID
+}
+
+// ------------ 突破装备 ------------
+message C2SEquipmentAdvance {
+  int64 id = 1; // 突破装备的唯一ID
+  repeated int64 materials = 2; // 素材装备的唯一ID
+}
+
+message S2CEquipmentAdvance {
+  VOUserEquipment equipment = 1; // 装备数据
+  VOResourceResult resourceResult = 2; // 玩家资源
+  repeated int64 materials = 3; // 素材装备的唯一ID
+}
+
+// ------------ 装备阵营重铸 ------------
+message C2SEquipmentRecastCamp {
+  int64 id = 1; // 装备唯一ID
+}
+
+message S2CEquipmentRecastCamp {
+  int32 camp = 1; // 装备阵营
+  VOResourceResult resourceResult = 2; // 玩家资源
+}
+
+// ------------ 装备阵营重铸确认 ------------
+message C2SEquipmentConfirmRecastCamp {
+  int64 id = 1; // 装备唯一ID
+  bool confirm = 2; // 是否保留重铸结果
+}
+
+message S2CEquipmentConfirmRecastCamp {
+  VOUserEquipment equipment = 1; // 装备数据
+}
+
+// ------------ 装备加锁和解锁 ------------
+message C2SEquipmentLock {
+  int64 id = 1; // 装备唯一ID
+  bool isLock = 2; // 是否加锁
+}
+
+message S2CEquipmentLock {
+  int64 id = 1; // 装备唯一ID
+  bool isLock = 2; // 是否加锁
+}
+
+// ------------ 获取装备列表 ------------
+message C2SEquipmentList {
+}
+
+message S2CEquipmentList {
+  repeated VOUserEquipment equipments = 1; // 装备列表数据
+}

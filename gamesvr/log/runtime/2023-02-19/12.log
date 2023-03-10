@@ -1,0 +1,501 @@
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_action_unlock.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_activity.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_activity_func.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_battle_level.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_battle_npc.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_battle_position.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_boss_infor.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_buff.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_bullet.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_chapter_level_achievement.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_character.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_character_battle.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_character_camp.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_character_career.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_character_data.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_character_feature.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_character_level.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_character_rarity.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_character_skill.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_character_skin.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_character_stage.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_character_star.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_combat_power.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_combat_power_adapt.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_drop_data.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_drop_group.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_equipLevelUp_data.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_equip_advance.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_equip_attributes_data.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_equip_break.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_equip_data.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_equip_rand_attributes.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_equip_rand_attributes_value.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_equip_skill.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_everyday_energy_receive.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_explore_chapter.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_explore_chapter_level.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_explore_chapter_level_adapt.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_explore_chapter_reward.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_explore_event.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_explore_fog.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_explore_gather.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_explore_map_coordinate.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_explore_monster.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_explore_npc.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_explore_resource.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_field_skill.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_fx.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_gacha_drop.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_gacha_global.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_gacha_pool.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_global_string.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_graveyard_build.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_graveyard_build_level.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_graveyard_build_stage.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_graveyard_main_tower_level.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_graveyard_produce_buff.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_guide_module.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_guide_step.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_guild_greetings.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_guild_level.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_guild_task.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_hero.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_hero_camp_skill_filter.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_hero_data.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_hero_extra_data.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_hero_level.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_hero_skill.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_hero_task_data.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_item_data.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_mail_template.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_manual.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_manual_camp.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_manual_character_voice.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_manual_group.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_manual_level_attribute_data.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_mask_word.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_monster_battle.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_monster_data.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_names_npc.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_passive_effect.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_passsive_attributes.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_quick_purchase_stamina.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_rarity.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_score_pass_group.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_score_pass_phase.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_score_pass_reward.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_score_pass_task.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_signin_data.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_skill.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_skill_effect.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_skill_event.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_sound.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_store_general.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_store_goods.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_store_substore.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_store_update.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_survey_info.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_survey_question.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_targeting.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_task_data.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_task_reward.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_team_level.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_tower.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_tower_level.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_tower_stage.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_tp_gate.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_ultra_skill.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_user_avatar.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_vn.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_world_item_advance.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_world_item_attributes_data.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_world_item_data.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_world_item_level_up_data.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_yggdrasil_area.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_yggdrasil_area_city.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_yggdrasil_area_pos.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_yggdrasil_building.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_yggdrasil_cobuilding.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_yggdrasil_daily_monster.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_yggdrasil_dispatch.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_yggdrasil_mark.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_yggdrasil_object.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_yggdrasil_object_state.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_yggdrasil_simple_talk.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_yggdrasil_sub_task.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_yggdrasil_sub_task_env.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_yggdrasil_task.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load cfg_yggdrasil_world.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load gm.csv file success
+2023-02-19 12:11:52 INFO base/config_manager.go:2381 Load protocol.csv file success
+2023-02-19 12:11:52 INFO etcd/dial.go:30 etcd 127.0.0.1:2379 connect success
+2023-02-19 12:11:52 INFO etcd/dial.go:30 etcd 127.0.0.1:2479 connect success
+2023-02-19 12:11:52 INFO etcd/dial.go:30 etcd 127.0.0.1:2579 connect success
+2023-02-19 12:11:52 INFO manager/manager.go:142 now time: 2023-02-19 12:11:52.409031 +0800 CST m=+0.232343418
+2023-02-19 12:11:52 INFO balancer/balancer.go:107 + service [portal] register server [portal01, 192.168.1.9:49872]
+2023-02-19 12:11:52 INFO least_conn/least_conn.go:57 
+--------- service [portal] regenerate server ----------
+          1. portal01, 192.168.1.9:49872
+---------------------------------------------------
+2023-02-19 12:11:52 INFO resolver/watcher.go:55 start watching service [portal]
+2023-02-19 12:11:52 INFO resolver/watcher.go:55 start watching service [guild]
+2023-02-19 12:11:52 INFO resolver/watcher.go:55 start watching service [mail]
+2023-02-19 12:11:52 INFO balancer/balancer.go:107 + service [login] register server [login01, 172.16.11.241:55623]
+2023-02-19 12:11:52 INFO resolver/watcher.go:55 start watching service [login]
+2023-02-19 12:11:52 INFO grpc/server.go:115 grpc listen addr: 192.168.1.9:49945
+2023-02-19 12:12:40 DEBUG controller/login.go:53 player [20211208201649] request C2SLogin: 
+userId: 20211208201649
+
+
+2023-02-19 12:12:40 DEBUG session/session.go:85 load user: {ID:20211208201649 Name:飞鼠_79 Info:0x1400159e200 ItemPack:0x14000c57bd0 CharacterPack:0x14000c57bd8 EquipmentPack:0x14000919380 WorldItemPack:0x14001436c60 HeroPack:0x14000dda948 ManualInfo:0x14000c57be0 QuestPack:0x14000dda978 QuestCache:0x14000919320 Graveyard:0x14001179000 LevelsInfo:0x14001646c30 ChapterInfo:0x14000c57be8 ExploreInfo:0x1400073fb60 TowerInfo:0x14000919330 StoreInfo:0x14000dda9a8 Guild:0x14001304ab0 MailInfo:0x14001436d00 Yggdrasil:0x14000880540 ActivityInfo:0x14000ddaaf8 ScorePassInfo:0x14000c57c28 GachaRecords:0x14001179040 FormationInfo:0x14000c57c30 RewardsResult:0x14001645c20 Notifies:0x14001304b40 Online:false DailyRefreshers:[] OutGameInfo:0x14001304bd0 Mercenary:0x14001646cd0 EmbedModule:0x14001436d80}
+2023-02-19 12:12:40 DEBUG grpc/client_conn.go:168 call rpc method[/Mail/Fetch], id[0], service[mail], server[], args[userId:20211208201649]
+2023-02-19 12:12:42 WARN grpc/client_conn.go:189 call rpc method[/Mail/Fetch], id[0], service[mail], server[], args[userId:20211208201649], error: rpc error: code = DeadlineExceeded desc = context deadline exceeded
+2023-02-19 12:12:42 DEBUG controller/login.go:125 loginResp: userId:20211208201649
+2023-02-19 12:12:45 DEBUG controller/handler.go:136 player [20211208201649] request C2SExchangeCDKey: 
+code:"#GM:addItem(11,1);addItem(11,2)"
+
+2023-02-19 12:12:45 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-19 12:12:45 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-19 12:12:45 DEBUG controller/handler.go:162 player [20211208201649] respone S2CExchangeCDKey: 
+resourceResult:{rewards:{resources:{itemId:11 count:1} resources:{itemId:11 count:2}} commonResource:{Gold:66 Energy:120 EnergyRefreshAt:1676779965 Level:1}}
+
+2023-02-19 12:12:49 DEBUG controller/handler.go:136 player [20211208201649] request C2SExchangeCDKey: 
+code:"#GM:addItem(11,1);addItem(11,2)"
+
+2023-02-19 12:12:49 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-19 12:12:49 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-19 12:12:49 DEBUG controller/handler.go:162 player [20211208201649] respone S2CExchangeCDKey: 
+resourceResult:{rewards:{resources:{itemId:11 count:1} resources:{itemId:11 count:2}} commonResource:{Gold:69 Energy:120 EnergyRefreshAt:1676779969 Level:1}}
+
+2023-02-19 12:12:54 DEBUG controller/handler.go:136 player [20211208201649] request C2SExchangeCDKey: 
+code:"#GM:addItem(11,1);addItem(11,2)"
+
+2023-02-19 12:12:54 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-19 12:12:54 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-19 12:12:54 DEBUG controller/handler.go:162 player [20211208201649] respone S2CExchangeCDKey: 
+resourceResult:{rewards:{resources:{itemId:11 count:1} resources:{itemId:11 count:2}} commonResource:{Gold:72 Energy:120 EnergyRefreshAt:1676779974 Level:1}}
+
+2023-02-19 12:13:22 DEBUG controller/handler.go:136 player [20211208201649] request C2SExchangeCDKey: 
+code:"#GM:addItem(11,1);addItem(11,2)"
+
+2023-02-19 12:13:22 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-19 12:13:22 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-19 12:13:22 DEBUG controller/handler.go:162 player [20211208201649] respone S2CExchangeCDKey: 
+resourceResult:{rewards:{resources:{itemId:11 count:1} resources:{itemId:11 count:2}} commonResource:{Gold:75 Energy:120 EnergyRefreshAt:1676780002 Level:1}}
+
+2023-02-19 12:13:43 DEBUG controller/login.go:53 player [20211208201649] request C2SLogin: 
+userId: 20211208201649
+
+
+2023-02-19 12:13:43 DEBUG controller/login.go:125 loginResp: userId:20211208201649
+2023-02-19 12:13:45 DEBUG controller/handler.go:136 player [20211208201649] request C2SExchangeCDKey: 
+code:"#GM:addItem(11,1);addItem(11,2)"
+
+2023-02-19 12:13:45 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-19 12:13:45 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-19 12:13:45 DEBUG controller/handler.go:162 player [20211208201649] respone S2CExchangeCDKey: 
+resourceResult:{rewards:{resources:{itemId:11 count:1} resources:{itemId:11 count:2}} commonResource:{Gold:78 Energy:120 EnergyRefreshAt:1676780025 Level:1}}
+
+2023-02-19 12:13:48 DEBUG controller/handler.go:136 player [20211208201649] request C2SExchangeCDKey: 
+code:"#GM:addItem(11,1);addItem(11,2)"
+
+2023-02-19 12:13:48 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-19 12:13:48 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-19 12:13:48 DEBUG controller/handler.go:162 player [20211208201649] respone S2CExchangeCDKey: 
+resourceResult:{rewards:{resources:{itemId:11 count:1} resources:{itemId:11 count:2}} commonResource:{Gold:81 Energy:120 EnergyRefreshAt:1676780028 Level:1}}
+
+2023-02-19 12:13:53 DEBUG controller/handler.go:136 player [20211208201649] request C2SExchangeCDKey: 
+code:"#GM:addItem(11,1);addItem(11,2)"
+
+2023-02-19 12:13:53 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-19 12:13:53 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-19 12:13:53 DEBUG controller/handler.go:162 player [20211208201649] respone S2CExchangeCDKey: 
+resourceResult:{rewards:{resources:{itemId:11 count:1} resources:{itemId:11 count:2}} commonResource:{Gold:84 Energy:120 EnergyRefreshAt:1676780033 Level:1}}
+
+2023-02-19 12:13:55 DEBUG controller/handler.go:136 player [20211208201649] request C2SExchangeCDKey: 
+code:"#GM:addItem(11,1);addItem(11,2)"
+
+2023-02-19 12:13:55 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-19 12:13:55 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-19 12:13:55 DEBUG controller/handler.go:162 player [20211208201649] respone S2CExchangeCDKey: 
+resourceResult:{rewards:{resources:{itemId:11 count:1} resources:{itemId:11 count:2}} commonResource:{Gold:87 Energy:120 EnergyRefreshAt:1676780035 Level:1}}
+
+2023-02-19 12:13:57 DEBUG controller/handler.go:136 player [20211208201649] request C2SExchangeCDKey: 
+code:"#GM:addItem(11,1);addItem(11,2)"
+
+2023-02-19 12:13:57 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-19 12:13:57 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-19 12:13:57 DEBUG controller/handler.go:162 player [20211208201649] respone S2CExchangeCDKey: 
+resourceResult:{rewards:{resources:{itemId:11 count:1} resources:{itemId:11 count:2}} commonResource:{Gold:90 Energy:120 EnergyRefreshAt:1676780037 Level:1}}
+
+2023-02-19 12:14:01 DEBUG controller/handler.go:136 player [20211208201649] request C2SExchangeCDKey: 
+code:"#GM:addItem(11,1);addItem(11,2)"
+
+2023-02-19 12:14:01 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-19 12:14:01 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-19 12:14:01 DEBUG controller/handler.go:162 player [20211208201649] respone S2CExchangeCDKey: 
+resourceResult:{rewards:{resources:{itemId:11 count:1} resources:{itemId:11 count:2}} commonResource:{Gold:93 Energy:120 EnergyRefreshAt:1676780041 Level:1}}
+
+2023-02-19 12:14:06 DEBUG controller/handler.go:136 player [20211208201649] request C2SExchangeCDKey: 
+code:"#GM:addItem(11,1);addItem(11,2)"
+
+2023-02-19 12:14:06 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-19 12:14:06 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-19 12:14:06 DEBUG controller/handler.go:162 player [20211208201649] respone S2CExchangeCDKey: 
+resourceResult:{rewards:{resources:{itemId:11 count:1} resources:{itemId:11 count:2}} commonResource:{Gold:96 Energy:120 EnergyRefreshAt:1676780046 Level:1}}
+
+2023-02-19 12:14:09 DEBUG controller/handler.go:136 player [20211208201649] request C2SExchangeCDKey: 
+code:"#GM:addItem(11,1);addItem(11,2)"
+
+2023-02-19 12:14:09 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-19 12:14:09 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-19 12:14:09 DEBUG controller/handler.go:162 player [20211208201649] respone S2CExchangeCDKey: 
+resourceResult:{rewards:{resources:{itemId:11 count:1} resources:{itemId:11 count:2}} commonResource:{Gold:99 Energy:120 EnergyRefreshAt:1676780049 Level:1}}
+
+2023-02-19 12:14:14 DEBUG controller/handler.go:136 player [20211208201649] request C2SExchangeCDKey: 
+code:"#GM:addItem(11,1);addItem(11,2)"
+
+2023-02-19 12:14:14 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-19 12:14:14 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-19 12:14:14 DEBUG controller/handler.go:162 player [20211208201649] respone S2CExchangeCDKey: 
+resourceResult:{rewards:{resources:{itemId:11 count:1} resources:{itemId:11 count:2}} commonResource:{Gold:102 Energy:120 EnergyRefreshAt:1676780054 Level:1}}
+
+2023-02-19 12:14:29 DEBUG controller/handler.go:136 player [20211208201649] request C2SExchangeCDKey: 
+code:"#GM:addItem(11,1);addItem(11,2)"
+
+2023-02-19 12:14:29 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-19 12:14:29 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-19 12:14:29 DEBUG controller/handler.go:162 player [20211208201649] respone S2CExchangeCDKey: 
+resourceResult:{rewards:{resources:{itemId:11 count:1} resources:{itemId:11 count:2}} commonResource:{Gold:105 Energy:120 EnergyRefreshAt:1676780069 Level:1}}
+
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_action_unlock.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_activity.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_activity_func.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_battle_level.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_battle_npc.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_battle_position.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_boss_infor.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_buff.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_bullet.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_chapter_level_achievement.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_character.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_character_battle.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_character_camp.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_character_career.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_character_data.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_character_feature.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_character_level.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_character_rarity.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_character_skill.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_character_skin.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_character_stage.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_character_star.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_combat_power.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_combat_power_adapt.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_drop_data.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_drop_group.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_equipLevelUp_data.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_equip_advance.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_equip_attributes_data.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_equip_break.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_equip_data.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_equip_rand_attributes.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_equip_rand_attributes_value.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_equip_skill.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_everyday_energy_receive.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_explore_chapter.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_explore_chapter_level.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_explore_chapter_level_adapt.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_explore_chapter_reward.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_explore_event.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_explore_fog.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_explore_gather.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_explore_map_coordinate.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_explore_monster.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_explore_npc.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_explore_resource.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_field_skill.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_fx.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_gacha_drop.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_gacha_global.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_gacha_pool.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_global_string.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_graveyard_build.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_graveyard_build_level.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_graveyard_build_stage.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_graveyard_main_tower_level.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_graveyard_produce_buff.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_guide_module.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_guide_step.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_guild_greetings.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_guild_level.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_guild_task.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_hero.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_hero_camp_skill_filter.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_hero_data.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_hero_extra_data.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_hero_level.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_hero_skill.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_hero_task_data.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_item_data.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_mail_template.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_manual.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_manual_camp.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_manual_character_voice.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_manual_group.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_manual_level_attribute_data.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_mask_word.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_monster_battle.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_monster_data.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_names_npc.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_passive_effect.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_passsive_attributes.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_quick_purchase_stamina.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_rarity.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_score_pass_group.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_score_pass_phase.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_score_pass_reward.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_score_pass_task.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_signin_data.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_skill.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_skill_effect.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_skill_event.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_sound.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_store_general.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_store_goods.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_store_substore.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_store_update.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_survey_info.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_survey_question.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_targeting.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_task_data.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_task_reward.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_team_level.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_tower.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_tower_level.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_tower_stage.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_tp_gate.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_ultra_skill.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_user_avatar.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_vn.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_world_item_advance.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_world_item_attributes_data.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_world_item_data.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_world_item_level_up_data.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_yggdrasil_area.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_yggdrasil_area_city.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_yggdrasil_area_pos.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_yggdrasil_building.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_yggdrasil_cobuilding.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_yggdrasil_daily_monster.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_yggdrasil_dispatch.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_yggdrasil_mark.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_yggdrasil_object.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_yggdrasil_object_state.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_yggdrasil_simple_talk.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_yggdrasil_sub_task.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_yggdrasil_sub_task_env.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_yggdrasil_task.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load cfg_yggdrasil_world.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load gm.csv file success
+2023-02-19 12:16:44 INFO base/config_manager.go:2381 Load protocol.csv file success
+2023-02-19 12:16:44 INFO etcd/dial.go:30 etcd 127.0.0.1:2379 connect success
+2023-02-19 12:16:44 INFO etcd/dial.go:30 etcd 127.0.0.1:2479 connect success
+2023-02-19 12:16:44 INFO etcd/dial.go:30 etcd 127.0.0.1:2579 connect success
+2023-02-19 12:16:44 INFO manager/manager.go:142 now time: 2023-02-19 12:16:44.762302 +0800 CST m=+0.212344459
+2023-02-19 12:16:44 INFO balancer/balancer.go:107 + service [portal] register server [portal01, 192.168.1.9:49872]
+2023-02-19 12:16:44 INFO least_conn/least_conn.go:57 
+--------- service [portal] regenerate server ----------
+          1. portal01, 192.168.1.9:49872
+---------------------------------------------------
+2023-02-19 12:16:44 INFO resolver/watcher.go:55 start watching service [portal]
+2023-02-19 12:16:44 INFO resolver/watcher.go:55 start watching service [guild]
+2023-02-19 12:16:44 INFO resolver/watcher.go:55 start watching service [mail]
+2023-02-19 12:16:44 INFO balancer/balancer.go:107 + service [login] register server [login01, 172.16.11.241:55623]
+2023-02-19 12:16:44 INFO resolver/watcher.go:55 start watching service [login]
+2023-02-19 12:16:44 INFO grpc/server.go:115 grpc listen addr: 192.168.1.9:51119
+2023-02-19 12:16:57 INFO balancer/balancer.go:121 - service [portal] unregister server [portal01]
+2023-02-19 12:16:57 INFO balancer/balancer.go:128 + service [portal] register server [portal01, 192.168.1.9:51188]
+2023-02-19 12:16:57 INFO least_conn/least_conn.go:57 
+--------- service [portal] regenerate server ----------
+          1. portal01, 192.168.1.9:51188
+---------------------------------------------------
+2023-02-19 12:18:18 INFO balancer/balancer.go:121 - service [portal] unregister server [portal01]
+2023-02-19 12:18:18 INFO balancer/balancer.go:128 + service [portal] register server [portal01, 192.168.1.9:51376]
+2023-02-19 12:18:18 INFO least_conn/least_conn.go:57 
+--------- service [portal] regenerate server ----------
+          1. portal01, 192.168.1.9:51376
+---------------------------------------------------
+2023-02-19 12:39:50 DEBUG controller/login.go:53 player [20211208201649] request C2SLogin: 
+userId: 20211208201649
+
+
+2023-02-19 12:39:50 DEBUG session/session.go:85 load user: {ID:20211208201649 Name:飞鼠_79 Info:0x14000c10200 ItemPack:0x140014ca050 CharacterPack:0x140014ca060 EquipmentPack:0x140008d8210 WorldItemPack:0x1400007e2a0 HeroPack:0x140014d2120 ManualInfo:0x140014ca070 QuestPack:0x140014d2138 QuestCache:0x140008d8190 Graveyard:0x14000e24a40 LevelsInfo:0x14000dde460 ChapterInfo:0x140014ca090 ExploreInfo:0x14000518420 TowerInfo:0x140008d81c0 StoreInfo:0x140014d2168 Guild:0x1400053a240 MailInfo:0x1400007e320 Yggdrasil:0x140008cc240 ActivityInfo:0x140014d2240 ScorePassInfo:0x140014ca110 GachaRecords:0x14000e24ac0 FormationInfo:0x140014ca120 RewardsResult:0x140007dc240 Notifies:0x1400053a2d0 Online:false DailyRefreshers:[] OutGameInfo:0x1400053a360 Mercenary:0x14000dde500 EmbedModule:0x1400007e480}
+2023-02-19 12:39:50 DEBUG grpc/client_conn.go:168 call rpc method[/Mail/Fetch], id[0], service[mail], server[], args[userId:20211208201649]
+2023-02-19 12:39:52 WARN grpc/client_conn.go:189 call rpc method[/Mail/Fetch], id[0], service[mail], server[], args[userId:20211208201649], error: rpc error: code = DeadlineExceeded desc = context deadline exceeded
+2023-02-19 12:39:52 DEBUG controller/login.go:125 loginResp: userId:20211208201649
+2023-02-19 12:39:56 DEBUG controller/handler.go:136 player [20211208201649] request C2SExchangeCDKey: 
+code:"#GM:addItem(11,1);addItem(11,2)"
+
+2023-02-19 12:39:56 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-19 12:39:56 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-19 12:39:56 DEBUG controller/handler.go:162 player [20211208201649] respone S2CExchangeCDKey: 
+resourceResult:{rewards:{resources:{itemId:11 count:1} resources:{itemId:11 count:2}} commonResource:{Gold:66 Energy:120 EnergyRefreshAt:1676781596 Level:1}}
+
+2023-02-19 12:39:59 DEBUG controller/handler.go:136 player [20211208201649] request C2SExchangeCDKey: 
+code:"#GM:addItem(11,1);addItem(11,2)"
+
+2023-02-19 12:39:59 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-19 12:39:59 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-19 12:39:59 DEBUG controller/handler.go:162 player [20211208201649] respone S2CExchangeCDKey: 
+resourceResult:{rewards:{resources:{itemId:11 count:1} resources:{itemId:11 count:2}} commonResource:{Gold:69 Energy:120 EnergyRefreshAt:1676781599 Level:1}}
+
+2023-02-19 12:40:04 DEBUG controller/handler.go:136 player [20211208201649] request C2SExchangeCDKey: 
+code:"#GM:addItem(11,1);addItem(11,2)"
+
+2023-02-19 12:40:04 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-19 12:40:04 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-19 12:40:04 DEBUG controller/handler.go:162 player [20211208201649] respone S2CExchangeCDKey: 
+resourceResult:{rewards:{resources:{itemId:11 count:1} resources:{itemId:11 count:2}} commonResource:{Gold:72 Energy:120 EnergyRefreshAt:1676781604 Level:1}}
+
+2023-02-19 12:40:05 DEBUG controller/handler.go:136 player [20211208201649] request C2SExchangeCDKey: 
+code:"#GM:addItem(11,1);addItem(11,2)"
+
+2023-02-19 12:40:05 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-19 12:40:05 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-19 12:40:05 DEBUG controller/handler.go:162 player [20211208201649] respone S2CExchangeCDKey: 
+resourceResult:{rewards:{resources:{itemId:11 count:1} resources:{itemId:11 count:2}} commonResource:{Gold:75 Energy:120 EnergyRefreshAt:1676781605 Level:1}}
+
+2023-02-19 12:40:06 DEBUG controller/handler.go:136 player [20211208201649] request C2SExchangeCDKey: 
+code:"#GM:addItem(11,1);addItem(11,2)"
+
+2023-02-19 12:40:06 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-19 12:40:06 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-19 12:40:06 DEBUG controller/handler.go:162 player [20211208201649] respone S2CExchangeCDKey: 
+resourceResult:{rewards:{resources:{itemId:11 count:1} resources:{itemId:11 count:2}} commonResource:{Gold:78 Energy:120 EnergyRefreshAt:1676781606 Level:1}}
+
+2023-02-19 12:40:07 DEBUG controller/handler.go:136 player [20211208201649] request C2SExchangeCDKey: 
+code:"#GM:addItem(11,1);addItem(11,2)"
+
+2023-02-19 12:40:07 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-19 12:40:07 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-19 12:40:07 DEBUG controller/handler.go:162 player [20211208201649] respone S2CExchangeCDKey: 
+resourceResult:{rewards:{resources:{itemId:11 count:1} resources:{itemId:11 count:2}} commonResource:{Gold:81 Energy:120 EnergyRefreshAt:1676781607 Level:1}}
+
+2023-02-19 12:40:08 DEBUG controller/handler.go:136 player [20211208201649] request C2SExchangeCDKey: 
+code:"#GM:addItem(11,1);addItem(11,2)"
+
+2023-02-19 12:40:08 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-19 12:40:08 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-19 12:40:08 DEBUG controller/handler.go:162 player [20211208201649] respone S2CExchangeCDKey: 
+resourceResult:{rewards:{resources:{itemId:11 count:1} resources:{itemId:11 count:2}} commonResource:{Gold:84 Energy:120 EnergyRefreshAt:1676781608 Level:1}}
+
+2023-02-19 12:40:09 DEBUG controller/handler.go:136 player [20211208201649] request C2SExchangeCDKey: 
+code:"#GM:addItem(11,1);addItem(11,2)"
+
+2023-02-19 12:40:09 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-19 12:40:09 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-19 12:40:09 DEBUG controller/handler.go:162 player [20211208201649] respone S2CExchangeCDKey: 
+resourceResult:{rewards:{resources:{itemId:11 count:1} resources:{itemId:11 count:2}} commonResource:{Gold:87 Energy:120 EnergyRefreshAt:1676781609 Level:1}}
+

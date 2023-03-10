@@ -1,0 +1,32 @@
+2022-06-05 18:06:58 ERROR etcd connect error: context deadline exceeded
+gamesvr/manager.Init
+	C:/code/overlord-backend-go/gamesvr/manager/manager.go:80
+main.main
+	C:/code/overlord-backend-go/gamesvr/main.go:12
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:225
+2022-06-05 18:06:58 FATAL manager init error: context deadline exceeded
+main.main
+	C:/code/overlord-backend-go/gamesvr/main.go:14
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:225
+2022-06-05 18:08:12 FATAL register and listen rpc error: listen tcp 169.254.35.241:0: bind: The requested address is not valid in its context.
+main.main
+	C:/code/overlord-backend-go/gamesvr/main.go:32
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:225
+2022-06-05 18:11:39 FATAL register and listen rpc error: listen tcp 169.254.35.241:0: bind: The requested address is not valid in its context.
+main.main
+	C:/code/overlord-backend-go/gamesvr/main.go:32
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:225
+2022-06-05 18:12:09 FATAL register and listen rpc error: listen tcp 169.254.35.241:0: bind: The requested address is not valid in its context.
+main.main
+	C:/code/overlord-backend-go/gamesvr/main.go:32
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:225
+2022-06-05 18:17:28 FATAL register and listen rpc error: listen tcp 169.254.35.241:0: bind: The requested address is not valid in its context.
+main.main
+	C:/code/overlord-backend-go/gamesvr/main.go:32
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:225

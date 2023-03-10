@@ -1,0 +1,74 @@
+2023-02-18 14:02:07 DEBUG controller/handler.go:136 player [20211208201649] request C2SExchangeCDKey: 
+code:"#GM:addItem(11,1);addItem(11,2)"
+
+2023-02-18 14:02:07 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-18 14:02:07 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-18 14:02:07 DEBUG controller/handler.go:162 player [20211208201649] respone S2CExchangeCDKey: 
+resourceResult:{rewards:{resources:{itemId:11 count:1} resources:{itemId:11 count:2}} commonResource:{Gold:54 Energy:120 EnergyRefreshAt:1676700127 Level:1}}
+
+2023-02-18 14:03:16 DEBUG controller/login.go:53 player [20211208201649] request C2SLogin: 
+userId: 20211208201649
+
+
+2023-02-18 14:03:32 DEBUG controller/login.go:125 loginResp: userId:20211208201649
+2023-02-18 14:03:57 DEBUG controller/login.go:53 player [20211208201649] request C2SLogin: 
+userId: 20211208201649
+
+
+2023-02-18 14:03:57 DEBUG controller/login.go:125 loginResp: userId:20211208201649
+2023-02-18 14:04:00 DEBUG controller/handler.go:136 player [20211208201649] request C2SExchangeCDKey: 
+code:"#GM:addItem(11,1);addItem(11,2)"
+
+2023-02-18 14:04:00 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-18 14:04:00 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-18 14:04:00 DEBUG controller/handler.go:162 player [20211208201649] respone S2CExchangeCDKey: 
+resourceResult:{rewards:{resources:{itemId:11 count:1} resources:{itemId:11 count:2}} commonResource:{Gold:57 Energy:120 EnergyRefreshAt:1676700240 Level:1}}
+
+2023-02-18 14:04:05 DEBUG controller/handler.go:136 player [20211208201649] request C2SExchangeCDKey: 
+code:"#GM:addItem(11,1);addItem(11,2)"
+
+2023-02-18 14:04:05 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-18 14:04:05 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-18 14:04:05 DEBUG controller/handler.go:162 player [20211208201649] respone S2CExchangeCDKey: 
+resourceResult:{rewards:{resources:{itemId:11 count:1} resources:{itemId:11 count:2}} commonResource:{Gold:60 Energy:120 EnergyRefreshAt:1676700245 Level:1}}
+
+2023-02-18 14:09:28 DEBUG controller/handler.go:136 player [20211208201649] request C2SExchangeCDKey: 
+code:"#GM:addItem(11,1);addItem(11,2)"
+
+2023-02-18 14:09:28 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-18 14:09:28 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-18 14:09:28 DEBUG controller/handler.go:162 player [20211208201649] respone S2CExchangeCDKey: 
+resourceResult:{rewards:{resources:{itemId:11 count:1} resources:{itemId:11 count:2}} commonResource:{Gold:63 Energy:120 EnergyRefreshAt:1676700568 Level:1}}
+
+2023-02-18 14:10:33 INFO balancer/balancer.go:121 - service [portal] unregister server [portal01]
+2023-02-18 14:10:33 INFO balancer/balancer.go:128 + service [portal] register server [portal01, 192.168.1.9:62338]
+2023-02-18 14:10:33 INFO least_conn/least_conn.go:57 
+--------- service [portal] regenerate server ----------
+          1. portal01, 192.168.1.9:62338
+---------------------------------------------------
+2023-02-18 14:10:50 DEBUG controller/login.go:53 player [20211208201649] request C2SLogin: 
+userId: 20211208201649
+
+
+2023-02-18 14:10:51 DEBUG controller/login.go:125 loginResp: userId:20211208201649
+2023-02-18 14:12:03 DEBUG controller/handler.go:136 player [20211208201649] request C2SExchangeCDKey: 
+code:"#GM:addItem(11,1);addItem(11,2)"
+
+2023-02-18 14:12:03 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-18 14:12:03 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-18 14:12:03 DEBUG controller/handler.go:162 player [20211208201649] respone S2CExchangeCDKey: 
+resourceResult:{rewards:{resources:{itemId:11 count:1} resources:{itemId:11 count:2}} commonResource:{Gold:66 Energy:120 EnergyRefreshAt:1676700723 Level:1}}
+
+2023-02-18 14:12:12 DEBUG controller/login.go:53 player [20211208201649] request C2SLogin: 
+userId: 20211208201649
+
+
+2023-02-18 14:12:13 DEBUG controller/login.go:125 loginResp: userId:20211208201649
+2023-02-18 14:12:16 DEBUG controller/handler.go:136 player [20211208201649] request C2SExchangeCDKey: 
+code:"#GM:addItem(11,1);addItem(11,2)"
+
+2023-02-18 14:12:16 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-18 14:12:16 INFO session/gm.go:40 cmd: gmAddItem
+2023-02-18 14:12:16 DEBUG controller/handler.go:162 player [20211208201649] respone S2CExchangeCDKey: 
+resourceResult:{rewards:{resources:{itemId:11 count:1} resources:{itemId:11 count:2}} commonResource:{Gold:69 Energy:120 EnergyRefreshAt:1676700736 Level:1}}
+

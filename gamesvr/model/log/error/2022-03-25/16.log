@@ -1,0 +1,14 @@
+2022-03-25 16:03:23 ERROR ERROR: load *entry.Character error: (/ﾟДﾟ)/ A Error Occurred!
+Code: -1
+Text: AssociatedSkillNumber not found ,character_id:1011,skillNum:101100
+Trace:
+AssociatedSkillNumber not found ,character_id:1011,skillNum:101100
+
+shared/csv/entry.(*Manager).Reload
+	C:/code/overlord-backend-go/shared/csv/entry/manager.go:123
+gamesvr/model.TestMain
+	C:/code/overlord-backend-go/gamesvr/model/user_test.go:35
+main.main
+	_testmain.go:141
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:225

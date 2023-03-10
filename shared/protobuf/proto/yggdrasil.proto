@@ -1,0 +1,487 @@
+syntax = "proto3";
+
+import "shared/protobuf/proto/vo.proto";
+
+option go_package = "./;pb";
+
+
+// -----------------------------出行，移动相关--------------------------------------------
+
+// 进入玩法界面
+message C2SYggdrasilGetMain {
+}
+
+message S2CYggdrasilGetMain {
+  VOYggdrasilUser user = 1; // 界面信息
+  VOYggdrasilPosition position = 2; // 位置
+  VOYggdrasilTaskTotalInfo voTaskTotalInfo = 3; // 任务信息
+  VOYggdrasilTravelInfo travelInfo = 4; // 如果出行则有出行信息
+  VOYggdrasilBlockAndArea blockAndArea = 5; // 地块信息
+  repeated VOYggdrasilPackGoods packInfo = 6; // 背包
+  repeated VOResource taskPackInfo = 7; // 任务背包
+  VOPosition trackMark = 8;// 追踪标记
+  int32 markTotalCount = 9;// 除追踪标记以外标记总和
+  int32 totalIntimacy = 10;// 我和公会其他成员默契值累加(总点赞数)
+  repeated int32 EnvTerrain = 11; // env地形
+}
+// 获得所有区域信息
+message C2SYggdrasilGetAllArea{
+}
+message S2CYggdrasilGetAllArea{
+  repeated VOYggdrasilArea areas = 1;
+}
+
+// 开始探索
+message C2SYggdrasilExploreStart {
+  repeated int32 exploreCharacters = 1;
+}
+message S2CYggdrasilExploreStart {
+  VOYggdrasilUser user = 1; // 界面信息
+  VOYggdrasilTravelInfo travelInfo = 2;// 出行信息
+  VOYggdrasilBlockAndArea blockAndArea = 3; // 地块信息
+
+
+}
+
+// 获得块信息
+message C2SYggdrasilGetBlockInfo {
+  repeated VOPosition positions = 1; // 获取信息只支持传可以被整除的坐标
+}
+message S2CYggdrasilGetBlockInfo {
+  VOYggdrasilBlockAndArea blockAndArea = 1; //地块信息
+
+}
+
+// 玩家移动
+message C2SYggdrasilExploreMove {
+  VOPosition position = 1;
+}
+message S2CYggdrasilExploreMove {
+  VOYggdrasilPosition position = 1; // 位置
+  int32 ap = 2; // 体力
+  repeated VOPosition unlockPosList = 3; // 新增已解锁区域
+  repeated VOExploredPosCountUpdate posCountUpdate = 4;//探索格子数更新
+}
+
+message VOExploredPosCountUpdate{
+  int32 areaId = 1;
+  int32 exploredPosCount = 2; // 解锁的点数量
+
+}
+message C2SYggdrasilExploreReturnCity {
+}
+message S2CYggdrasilExploreReturnCity {
+  VOYggdrasilReturnCity returnCity = 1;
+  VOResourceResult resourceResult = 2; // 资源变化
+
+}
+
+// 体力耗完休息
+message C2SYggdrasilExploreQuit {
+}
+message S2CYggdrasilExploreQuit {
+  VOYggdrasilUser user = 1; // 界面信息
+  VOResourceResult resourceResult = 2; // 资源变化
+  repeated VOUserCharacter exploreCharacters = 3; //Character 下次可出行时间变化
+}
+
+
+
+// 从城市出发
+message C2SYggdrasilExploreLeaveCity{
+}
+
+message S2CYggdrasilExploreLeaveCity {
+  VOYggdrasilUser user = 1; // 界面信息
+  VOYggdrasilPosition position = 2; // 位置
+  VOYggdrasilTravelInfo travelInfo = 3;// 出行信息
+  VOYggdrasilBlockAndArea blockAndArea = 4; //地块信息
+}
+
+// 异界邮箱获取邮件 第一次的时候传int64最大值,后续每次传上次查询最后一个元素的uid,如果查询结果个数<num则查询结束
+message C2SYggdrasilMailGetByPage{
+  int64 offset = 1 ;
+  int32 num = 2;
+}
+
+
+message S2CYggdrasilMailGetByPage {
+  repeated VOYggdrasilMail mails = 1;
+}
+
+//领取附件
+message C2SYggdrasilMailReceiveOne {
+  int64 mailUid = 1;
+}
+
+message S2CYggdrasilMailReceiveOne {
+  int64 deletedMailUid = 1;
+  VOResourceResult resourceResult = 2;
+}
+
+//一键领取
+message C2SYggdrasilMailReceiveAll {
+}
+
+message S2CYggdrasilMailReceiveAll {
+  repeated int64 deletedMailUids = 1;
+  VOResourceResult resourceResult = 2;
+}
+
+// -----------------------------互动物相关--------------------------------------------
+
+// 操作object (宝箱 魔台等)
+message C2SYggdrasilObjectHandle {
+}
+message S2CYggdrasilObjectHandle {
+  VOYggdrasilEntityChange entityChange = 1;
+  VOResourceResult resourceResult = 2;
+}
+
+// 移动object
+message C2SYggdrasilObjectMove {
+  repeated VOYggdrasilObjectMove objectIdList = 1;
+}
+message S2CYggdrasilObjectMove {
+  repeated VOYggdrasilObject objectList = 1;
+}
+
+// 丢弃物品
+message C2SYggdrasilGoodsDiscard {
+  int64 packGoodsId = 1; //背包物品uid
+}
+message S2CYggdrasilGoodsDiscard {
+  VOYggdrasilResourceResult yggdrasilResourceResult = 1;
+}
+// 捡东西
+message C2SYggdrasilGoodsPickUp {
+  int64 replacedGoodId = 1;//要替换的背包内物品uid
+}
+message S2CYggdrasilGoodsPickUp {
+  VOYggdrasilResourceResult yggdrasilResourceResult = 1;
+}
+
+// 查询某object位置
+message C2SYggdrasilQueryPosition {
+  int32 objectId = 1;
+}
+message S2CYggdrasilQueryPosition {
+  repeated VOYggdrasilObject objects = 1;
+}
+
+// 领取探索进度奖励
+message C2SYggdrasilAreaProgressReward{
+  int32 areaId = 1;
+
+}
+message S2CYggdrasilAreaProgressReward {
+  VOYggdrasilArea area = 1;
+  VOResourceResult resourceResult = 2;
+
+}
+
+// 亲密度变化
+message S2CYggdrasilIntimacyChange {
+  int64 userId = 1;
+  int32 intimacyValue = 2; // 和对应userId玩家亲密度变化
+  int32 totalIntimacy = 3; // 我和公会其他成员默契值累加(总点赞数)
+}
+// -----------------------------任务相关--------------------------------------------
+// 接任务
+message C2SYggdrasilAcceptTask {
+  int32 taskId = 1;
+}
+message S2CYggdrasilAcceptTask {
+  VOYggdrasilTaskInfo taskInfo = 1;
+  VOYggdrasilEntityChange entityChange = 2;
+}
+
+// 放弃任务
+message C2SYggdrasilAbandonTask {
+  int32 taskId = 1;
+}
+message S2CYggdrasilAbandonTask {
+  int32 taskId = 1;
+  VOYggdrasilEntityChange entityChange = 2;
+}
+
+// 完成任务
+message C2SYggdrasilCompleteTask {
+  int32 taskId = 1;
+}
+message S2CYggdrasilCompleteTask {
+  repeated int32 completedTasks = 1;
+  VOYggdrasilEntityChange entityChange = 2;
+  VOResourceResult resourceResult = 3;
+}
+
+// 交付任务物品
+message C2SYggdrasilDeliverTaskGoods {
+  int32 subTaskId = 1;
+  repeated VOResource resources = 2;
+}
+message S2CYggdrasilDeliverTaskGoods {
+  VOResourceResult resourceResult = 1;
+  VOYggdrasilResourceResult yggdrasilResult = 2;
+}
+
+// 设置追踪任务
+message C2SYggdrasilSetTrackTask {
+  int32 trackTask = 1;
+}
+
+message S2CYggdrasilSetTrackTask {
+  int32 trackTask = 1;
+}
+
+// 选择下一个子任务
+message C2SYggdrasilChooseNext {
+  int32 subTaskId = 1;
+}
+
+message S2CYggdrasilChooseNext {
+  VOYggdrasilTaskInfo taskInfo = 1;
+  VOYggdrasilEntityChange entityChange = 2;
+  VOResourceResult resourceResult = 3;
+
+}
+// 任务进度改变推送
+message S2CYggdrasilTaskInfoChange {
+  VOYggdrasilTaskInfo taskInfo = 1;
+  VOYggdrasilEntityChange entityChange = 2;
+  VOResourceResult resourceResult = 3;
+}
+
+// 任务失败推送
+message S2CYggdrasilTaskFail {
+  int32 taskId = 1;
+  VOYggdrasilEntityChange entityChange = 2;
+}
+
+// -----------------------------建筑和标注相关--------------------------------------------
+message C2SYggdrasilMessageCreate{
+  string comment = 1;
+}
+message C2SYggdrasilMessageUpdate{
+  string comment = 1;
+}
+message C2SYggdrasilMessageDestroy{
+  int64 messageUid = 1;
+}
+
+message S2CYggdrasilMessageCreate{
+  VOYggdrasilMessage msg = 1;
+  VOYggdrasilArea area = 2;
+}
+message S2CYggdrasilMessageUpdate{
+  VOYggdrasilMessage msg = 1;
+}
+message S2CYggdrasilMessageDestroy{
+  int64 messageUid = 1;
+  VOYggdrasilArea area = 2;
+}
+// 创建标注
+message C2SYggdrasilMarkCreate {
+  int32 markId = 1;
+  VOPosition pos = 2;
+
+}
+message S2CYggdrasilMarkCreate {
+  VOYggdrasilMark newMark = 1;
+  VOResourceResult resourceResult = 2;
+  int32 markTotalCount = 3;// 除追踪标记以外标记总和
+}
+// 标注销毁
+message C2SYggdrasilMarkDestroy {
+  int64 markUid = 1;
+}
+
+message S2CYggdrasilMarkDestroy {
+  int64 deleteMarkUid = 1;
+  int32 markTotalCount = 2;// 除追踪标记以外标记总和
+}
+
+// 设置追踪标注
+message C2SYggdrasilTrackMark {
+  VOPosition trackMark = 1; // 传空表示移除
+}
+
+message S2CYggdrasilTrackMark {
+  VOPosition trackMark = 1;
+}
+
+message C2SYggdrasilBuildAddAp {
+}
+message C2SYggdrasilBuildAddHp {
+}
+message C2SYggdrasilBuildCreate {
+  int32 buildId = 1;
+}
+message C2SYggdrasilBuildDestroy {
+  int64 buildUid = 1;
+}
+message C2SYggdrasilBuildHelp {
+}
+message C2SYggdrasilBuildUseGetBuff {
+}
+message C2SYggdrasilBuildUsePeeing {
+}
+message C2SYggdrasilBuildUseTransPort {
+  repeated int64 goodsIdList = 1;
+}
+message C2SYggdrasilCoBuildGetInfo{
+}
+message C2SYggTransferPortalBuild{
+}
+message C2SYggTransferPortalActivate{
+}
+
+
+
+message S2CYggdrasilBuildAddAp {
+  VOYggdrasilUseBuild voUseBuild = 1;
+  int32 ap = 2;
+}
+message S2CYggdrasilBuildAddHp {
+  VOYggdrasilUseBuild voUseBuild = 1;
+  repeated VOYggdrasilCharacter exploreCharacters = 2;
+}
+message S2CYggdrasilBuildCreate {
+  VOYggdrasilBuild newBuild = 1;
+  VOResourceResult resourceResult = 2;
+  VOYggdrasilArea area = 3;
+}
+message S2CYggdrasilBuildDestroy {
+  int64 destroyBuildUid = 1;
+  VOResourceResult resourceResult = 2;
+  VOYggdrasilArea area = 3;
+}
+message S2CYggdrasilBuildHelp {
+  VOYggdrasilBuild build = 1;
+  VOResourceResult resourceResult = 2;
+}
+message S2CYggdrasilBuildUseGetBuff {
+  VOYggdrasilUseBuild voUseBuild = 1;
+}
+message S2CYggdrasilBuildUsePeeing {
+  VOYggdrasilUseBuild voUseBuild = 1;
+  VOYggdrasilEntityChange entityChange = 2;
+}
+message S2CYggdrasilBuildUseTransPort {
+  VOYggdrasilUseBuild voUseBuild = 1;
+  VOYggdrasilResourceResult yggResourceResult = 2;
+}
+
+message S2CYggdrasilCoBuildGetInfo{
+  VOYggdrasilCoBuild build = 1;
+}
+message S2CYggTransferPortalBuild{
+  VOYggdrasilUseCoBuild voUseCoBuild = 1;
+  bool buildNotExecuted = 2; // 建筑请求未执行，为true，代表建筑进度已经达到最大，此次请求并未真正执行
+}
+message S2CYggTransferPortalActivate{
+  VOYggdrasilCoBuild voCoBuild = 1;
+}
+
+
+// 使用传送门
+message C2SYggTransferPortalUse{
+  VOYggdrasilPortalLocation location = 1;
+}
+
+message S2CYggTransferPortalUse{
+  VOYggdrasilReturnCity returnCity = 1; // 如果传送回城
+  VOYggdrasilPosition pos = 2; // 如果传送到传送门
+  VOResourceResult result = 3; // 资源变动
+  VOYggdrasilBlockAndArea blockAndArea = 4; // 如果传送到传送门
+}
+
+//--------------派遣---------------
+message C2SYggDispatchGetInfo{
+}
+message S2CYggDispatchGetInfo{
+  repeated VOYggDispatchInfo dispatches = 1;
+}
+message C2SYggDispatchGetDailyTaskInfo{
+  int32 taskId = 1;// 根据任务id获取任务的可用角色信息
+}
+message S2CYggDispatchGetDailyTaskInfo{
+  int32 taskId = 1;
+  repeated int32 characIdInDispatch = 2;// 处于派遣中的侍从id
+}
+message C2SYggDispatchGetGuildTaskInfo{
+  int32 taskId = 1;
+}
+message S2CYggDispatchGetGuildTaskInfo{
+  int32 taskId = 1;
+  repeated int32 characIdInDispatch = 2;// 处于派遣中的侍从id
+  repeated VOYggDispatchGuildCharacter guildCharacs = 3;// 可用的公会助力角色
+}
+message C2SYggDailyDispatchBegin{
+  int32 taskId = 1;
+  repeated int32 userCharacIds = 2;
+}
+message S2CYggDailyDispatchBegin{
+  VOYggDispatchTaskState taskInfo = 1;
+}
+message C2SYggGuildDispatchBegin{
+  int32 taskId = 1;
+  repeated int32 userCharacIds = 2;
+  repeated int32 guildCustomIds = 3;
+}
+message S2CYggGuildDispatchBegin{
+  VOYggDispatchTaskState taskInfo = 1;
+}
+message C2SYggDispatchReceiveRewards{
+  int32 taskId = 1;
+}
+message S2CYggDispatchReceiveRewards{
+  int32 taskId = 1;
+  VOYggDispatchResourceResult rewards = 2;
+}
+message C2SYggDispatchCancel{
+  int32 taskId = 1;
+}
+message S2CYggDispatchCancel{
+  VOYggDispatchTaskState taskInfo = 1;
+}
+
+// ygg特殊的统计（用于新手引导）
+message C2SYggSpecialStatics{
+}
+
+message S2CYggSpecialStatics{
+  VOYggSpecialStatics statics = 1;
+}
+
+message VOYggSpecialStatics{
+  int32 moveCount = 1; // 移动次数
+}
+
+// 放弃进入战斗
+message C2SYggBattleGiveUp{
+  int64 objectUid = 1;
+}
+
+message S2CYggBattleGiveUp{
+  VOYggdrasilPosition position = 1; // 位置
+  VOYggdrasilTravelInfo travelInfo = 2; // 体力
+}
+// 获得主动怪物初始坐标
+message C2SYggMonsterInitPos{
+  int64 objectUid = 1;
+}
+
+message S2CYggMonsterInitPos{
+  VOPosition position = 1; // 坐标
+  int64 objectUid = 2;
+}
+
+// 主动怪物回到初始坐标
+message C2SYggMonsterBackInitPos{
+  int64 objectUid = 1;
+}
+
+message S2CYggMonsterBackInitPos{
+  VOYggdrasilObject monster = 1;
+}

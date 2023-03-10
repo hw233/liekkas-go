@@ -1,0 +1,24 @@
+# 服务名，表示服务器职能，用于服务发现和负载均衡
+Service = "game"
+# 服务器名称，唯一不可重复
+ServerName = "game01"
+# grpc地址
+GRPCListenPort = "8080"
+# csv文件路径
+CSVPath = "/data/config/dev"
+# etcd终端
+ETCDEndpoints = [
+    "10.80.119.4:2379",
+	"10.80.119.5:2379",
+	"10.80.119.17:2379",
+]
+# mysql配置
+[MySQL]
+    Addr = "overlord_dev:&VKH,Hv&sy9@tcp(10.80.119.15:3306)/overlord_user_go?charset=utf8mb4&parseTime=true&loc=Local"
+    MaxIdleConn = 5
+    MaxOpenConn = 5
+# redis配置
+[Redis]
+    Addr = "10.80.119.11:6379"
+    UserName = ""
+    Password = "CrJwCycdo34N"

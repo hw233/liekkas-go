@@ -1,0 +1,146 @@
+2022-03-14 18:03:10 ERROR ERROR: load *entry.YggdrasilEntry error: (/ﾟДﾟ)/ A Error Occurred!
+Code: -1
+Text: FillEnvObj len err, str:-46,
+Trace:
+FillEnvObj len err, str:-46,
+	shared/csv/entry.FillEnvObj()
+		C:/code/overlord-backend-go/shared/csv/entry/base.go:543	
+	shared/csv/entry.StringsToEnvObjs()
+		C:/code/overlord-backend-go/shared/csv/entry/base.go:480	
+	shared/csv/entry.(*YggdrasilEntry).Reload()
+		C:/code/overlord-backend-go/shared/csv/entry/yggdrasil.go:577	
+
+shared/csv/entry.(*Manager).Reload
+	C:/code/overlord-backend-go/shared/csv/entry/manager.go:123
+gamesvr/manager.Init
+	C:/code/overlord-backend-go/gamesvr/manager/manager.go:67
+main.main
+	C:/code/overlord-backend-go/gamesvr/main.go:12
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:225
+2022-03-14 18:03:10 ERROR load config error: FillEnvObj len err, str:-46,
+gamesvr/manager.Init
+	C:/code/overlord-backend-go/gamesvr/manager/manager.go:69
+main.main
+	C:/code/overlord-backend-go/gamesvr/main.go:12
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:225
+2022-03-14 18:03:10 FATAL manager init error: FillEnvObj len err, str:-46,
+main.main
+	C:/code/overlord-backend-go/gamesvr/main.go:14
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:225
+2022-03-14 18:04:04 ERROR ERROR: load *entry.YggdrasilEntry error: (/ﾟДﾟ)/ A Error Occurred!
+Code: -1
+Text: FillEnvObj len err,envId:132, str:-46,
+Trace:
+FillEnvObj len err,envId:132, str:-46,
+	shared/csv/entry.FillEnvObj()
+		C:/code/overlord-backend-go/shared/csv/entry/base.go:543	
+	shared/csv/entry.StringsToEnvObjs()
+		C:/code/overlord-backend-go/shared/csv/entry/base.go:480	
+	shared/csv/entry.(*YggdrasilEntry).Reload()
+		C:/code/overlord-backend-go/shared/csv/entry/yggdrasil.go:577	
+
+shared/csv/entry.(*Manager).Reload
+	C:/code/overlord-backend-go/shared/csv/entry/manager.go:123
+gamesvr/manager.Init
+	C:/code/overlord-backend-go/gamesvr/manager/manager.go:67
+main.main
+	C:/code/overlord-backend-go/gamesvr/main.go:12
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:225
+2022-03-14 18:04:04 ERROR load config error: FillEnvObj len err,envId:132, str:-46,
+gamesvr/manager.Init
+	C:/code/overlord-backend-go/gamesvr/manager/manager.go:69
+main.main
+	C:/code/overlord-backend-go/gamesvr/main.go:12
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:225
+2022-03-14 18:04:04 FATAL manager init error: FillEnvObj len err,envId:132, str:-46,
+main.main
+	C:/code/overlord-backend-go/gamesvr/main.go:14
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:225
+2022-03-14 18:09:54 ERROR Find 40111413 repeated
+shared/csv/base.(*CfgMonsterDataConfig).Load
+	C:/code/overlord-backend-go/shared/csv/base/cfg_monster_data.go:291
+shared/csv/base.(*ConfigManager).LoadConfig
+	C:/code/overlord-backend-go/shared/csv/base/config_manager.go:2377
+gamesvr/manager.Init
+	C:/code/overlord-backend-go/gamesvr/manager/manager.go:65
+main.main
+	C:/code/overlord-backend-go/gamesvr/main.go:12
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:225
+2022-03-14 18:09:54 ERROR ERROR: load *entry.Protocol error: (/ﾟДﾟ)/ A Error Occurred!
+Code: -1
+Text: protocol not found in commands, protocol: ExploreEventNotify
+Trace:
+protocol not found in commands, protocol: ExploreEventNotify
+	shared/utility/errors.Swrapf()
+		C:/code/overlord-backend-go/shared/utility/errors/errors.go:362	
+	shared/csv/entry.(*Protocol).Reload()
+		C:/code/overlord-backend-go/shared/csv/entry/protocol.go:88	
+
+shared/csv/entry.(*Manager).Reload
+	C:/code/overlord-backend-go/shared/csv/entry/manager.go:123
+gamesvr/manager.Init
+	C:/code/overlord-backend-go/gamesvr/manager/manager.go:67
+main.main
+	C:/code/overlord-backend-go/gamesvr/main.go:12
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:225
+2022-03-14 18:09:54 ERROR load config error: protocol not found in commands, protocol: ExploreEventNotify
+gamesvr/manager.Init
+	C:/code/overlord-backend-go/gamesvr/manager/manager.go:69
+main.main
+	C:/code/overlord-backend-go/gamesvr/main.go:12
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:225
+2022-03-14 18:09:54 FATAL manager init error: protocol not found in commands, protocol: ExploreEventNotify
+main.main
+	C:/code/overlord-backend-go/gamesvr/main.go:14
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:225
+2022-03-14 18:11:50 ERROR Find 40111413 repeated
+shared/csv/base.(*CfgMonsterDataConfig).Load
+	C:/code/overlord-backend-go/shared/csv/base/cfg_monster_data.go:291
+shared/csv/base.(*ConfigManager).LoadConfig
+	C:/code/overlord-backend-go/shared/csv/base/config_manager.go:2377
+gamesvr/manager.Init
+	C:/code/overlord-backend-go/gamesvr/manager/manager.go:65
+main.main
+	C:/code/overlord-backend-go/gamesvr/main.go:12
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:225
+2022-03-14 18:11:50 ERROR ERROR: load *entry.Protocol error: (/ﾟДﾟ)/ A Error Occurred!
+Code: -1
+Text: protocol not found in commands, protocol: ExploreEventNotify
+Trace:
+protocol not found in commands, protocol: ExploreEventNotify
+	shared/utility/errors.Swrapf()
+		C:/code/overlord-backend-go/shared/utility/errors/errors.go:362	
+	shared/csv/entry.(*Protocol).Reload()
+		C:/code/overlord-backend-go/shared/csv/entry/protocol.go:88	
+
+shared/csv/entry.(*Manager).Reload
+	C:/code/overlord-backend-go/shared/csv/entry/manager.go:123
+gamesvr/manager.Init
+	C:/code/overlord-backend-go/gamesvr/manager/manager.go:67
+main.main
+	C:/code/overlord-backend-go/gamesvr/main.go:12
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:225
+2022-03-14 18:11:50 ERROR load config error: protocol not found in commands, protocol: ExploreEventNotify
+gamesvr/manager.Init
+	C:/code/overlord-backend-go/gamesvr/manager/manager.go:69
+main.main
+	C:/code/overlord-backend-go/gamesvr/main.go:12
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:225
+2022-03-14 18:11:50 FATAL manager init error: protocol not found in commands, protocol: ExploreEventNotify
+main.main
+	C:/code/overlord-backend-go/gamesvr/main.go:14
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:225

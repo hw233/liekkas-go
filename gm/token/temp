@@ -1,0 +1,4 @@
+2022-03-24 20:22:06 DEBUG controller/handler.go:138 player [20220324202028] respone S2CYggdrasilObjectHandle: 
+entityChange:{objects:{objectUid:173118 objectId:9971 state:9972 position:{posX:-41 posY:-18}} yggdrasilResource:{}}
+resourceResult:{rewards:{resources:{itemId:171111 count:1}}
+ commonResource:{Gold:1088000 DiamondGift:2000400 Energy:1004548 EnergyRefreshAt:1648124529 Exp:169824 Level:60 heroExp:720}}

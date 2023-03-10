@@ -1,0 +1,19 @@
+# 服务器ID
+ServerID = 1
+# grpc监听地址端口
+GRPCAddr = "127.0.0.1:8080"
+# csv文件路径
+CSVPath = "../shared/csv/data"
+# etcd终端
+ETCDEndpoints = [
+    "127.0.0.1:2379",
+	"127.0.0.1:2479",
+	"127.0.0.1:2579",
+]
+TCPConnKeepAlive = "5m"
+# mysql配置
+[MySQL]
+   Addr = "root:xuecm01,@tcp(localhost:3306)/overlord?charset=utf8mb4&parseTime=true&loc=Local"
+   MaxIdleConn = 5
+   MaxOpenConn = 5
+

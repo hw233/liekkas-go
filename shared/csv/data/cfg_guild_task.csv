@@ -1,0 +1,7 @@
+﻿id,count,activation,dropId,isSeparate
+int,int,int,int,bool
+1,50,500,130001,
+2,2000,500,130001,
+3,80,800,130101,true
+4,60,500,130001,
+5,1000,800,130101,true

@@ -1,0 +1,21 @@
+2022-03-30 15:25:03 ERROR ERROR: load GlobalEntry error: json: cannot unmarshal number into Go value of type bool; Field unmarshal error. (name: SpareMaintainSwitch
+shared/csv/entry.(*Manager).Reload
+	C:/code/overlord-backend-go/shared/csv/entry/manager.go:106
+gamesvr/manager.Init
+	C:/code/overlord-backend-go/gamesvr/manager/manager.go:69
+main.main
+	C:/code/overlord-backend-go/gamesvr/main.go:13
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:225
+2022-03-30 15:25:03 ERROR load config error: json: cannot unmarshal number into Go value of type bool; Field unmarshal error. (name: SpareMaintainSwitch
+gamesvr/manager.Init
+	C:/code/overlord-backend-go/gamesvr/manager/manager.go:71
+main.main
+	C:/code/overlord-backend-go/gamesvr/main.go:13
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:225
+2022-03-30 15:25:03 FATAL manager init error: json: cannot unmarshal number into Go value of type bool; Field unmarshal error. (name: SpareMaintainSwitch
+main.main
+	C:/code/overlord-backend-go/gamesvr/main.go:15
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:225

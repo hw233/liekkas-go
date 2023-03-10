@@ -1,0 +1,15 @@
+2022-03-21 15:25:57 ERROR Handle Call return error: (/ﾟДﾟ)/ A Error Occurred!
+Code: -1
+Text: unexpected end of JSON input
+Trace:
+unexpected end of JSON input
+gm/controller.(*PathRouter).HandlePost
+	C:/code/overlord-backend-go/gm/controller/handler.go:80
+gm/controller.(*Dispatcher).ServeHTTP
+	C:/code/overlord-backend-go/gm/controller/dispatch.go:53
+net/http.(*ServeMux).ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2428
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2867
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1932

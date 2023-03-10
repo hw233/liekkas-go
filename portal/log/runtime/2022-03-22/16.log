@@ -1,0 +1,11 @@
+2022-03-22 16:06:13 INFO least_conn/least_conn.go:57 
+--------- service [game] regenerate server ----------
+          1. game01, 10.23.40.30:59297
+---------------------------------------------------
+2022-03-22 16:15:35 INFO balancer/balancer.go:139 - service [game] unregister Server [game01]
+2022-03-22 16:15:42 INFO balancer/balancer.go:107 + service [game] register server [game01, 10.23.40.30:54364]
+2022-03-22 16:15:42 INFO least_conn/least_conn.go:57 
+--------- service [game] regenerate server ----------
+          1. game01, 10.23.40.30:54364
+---------------------------------------------------
+2022-03-22 16:59:58 INFO balancer/balancer.go:139 - service [game] unregister Server [game01]

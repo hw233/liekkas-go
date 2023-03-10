@@ -1,0 +1,4 @@
+id,channel,appVersion,appUrl,compatibleVersions
+int,string,string,string,strings
+1,debug,0.5.0,https://www.google.com/,"0.5.1,0.5.2"
+2,android,0.5.0,https://www.google.com/,

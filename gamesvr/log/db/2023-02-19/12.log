@@ -1,0 +1,4 @@
+2023-02-19 12:12:40 DEBUG mysql/module.go:102 select sql: SELECT `id`,`name`,`info`,`item_pack`,`character_pack`,`equipment_pack`,`world_item_pack`,`hero_pack`,`manual_info`,`quest_pack`,`graveyard`,`levels_info`,`chapter_info`,`explore_info`,`tower_info`,`store_info`,`guild`,`mail_info`,`yggdrasil`,`activity_info`,`score_pass_info`,`gacha_record`,`formation_info`,`mercenary` FROM `user` WHERE `id`=?
+2023-02-19 12:12:40 DEBUG mysql/module.go:104 select i: 0 args: 20211208201649
+2023-02-19 12:39:50 DEBUG mysql/module.go:102 select sql: SELECT `id`,`name`,`info`,`item_pack`,`character_pack`,`equipment_pack`,`world_item_pack`,`hero_pack`,`manual_info`,`quest_pack`,`graveyard`,`levels_info`,`chapter_info`,`explore_info`,`tower_info`,`store_info`,`guild`,`mail_info`,`yggdrasil`,`activity_info`,`score_pass_info`,`gacha_record`,`formation_info`,`mercenary` FROM `user` WHERE `id`=?
+2023-02-19 12:39:50 DEBUG mysql/module.go:104 select i: 0 args: 20211208201649

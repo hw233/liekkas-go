@@ -1,0 +1,42 @@
+2022-03-24 16:00:39 WARN errors/errors_test.go:182 New Title
+UID: 123456
+OpenID: xxxxxxxx
+Code_New: 233
+Trace:
+code errors 111111:111111
+	shared/utility/errors.TestFormat()
+		C:/code/overlord-backend-go/shared/utility/errors/errors_test.go:168	
+	shared/utility/errors.TestFormat()
+		C:/code/overlord-backend-go/shared/utility/errors/errors_test.go:171	
+	shared/utility/errors.TestFormat()
+		C:/code/overlord-backend-go/shared/utility/errors/errors_test.go:172	
+wrap text and trace
+	shared/utility/errors.TestFormat()
+		C:/code/overlord-backend-go/shared/utility/errors/errors_test.go:173	
+go error
+code error2
+	shared/utility/errors.TestFormat()
+		C:/code/overlord-backend-go/shared/utility/errors/errors_test.go:175	
+errorf fffff
+
+2022-03-24 16:01:34 WARN errors/errors_test.go:182 code errors 111111:111111; wrap text and trace; go error; code error2; errorf fffff
+2022-03-24 16:01:50 WARN errors/errors_test.go:182 (/ﾟДﾟ)/ A Error Occurred!
+Code: 233
+Text: code errors 111111:111111; wrap text and trace; go error; code error2; errorf fffff
+Trace:
+code errors 111111:111111
+	shared/utility/errors.TestFormat()
+		C:/code/overlord-backend-go/shared/utility/errors/errors_test.go:168	
+	shared/utility/errors.TestFormat()
+		C:/code/overlord-backend-go/shared/utility/errors/errors_test.go:171	
+	shared/utility/errors.TestFormat()
+		C:/code/overlord-backend-go/shared/utility/errors/errors_test.go:172	
+wrap text and trace
+	shared/utility/errors.TestFormat()
+		C:/code/overlord-backend-go/shared/utility/errors/errors_test.go:173	
+go error
+code error2
+	shared/utility/errors.TestFormat()
+		C:/code/overlord-backend-go/shared/utility/errors/errors_test.go:175	
+errorf fffff
+

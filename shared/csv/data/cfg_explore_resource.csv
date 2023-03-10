@@ -1,0 +1,12 @@
+﻿id,resourceName,resourceMonster,monstermap,time,drop,refreshLimit
+Int,String,Strings,Int,Int,Int,Int
+1,cfg_explore_resource_resourceName_1,CommonAvatar_30003,10102,5,1001,1
+2,cfg_explore_resource_resourceName_2,CommonAvatar_30003,10102,5,1001,1
+3,cfg_explore_resource_resourceName_3,CommonAvatar_30003,10102,5,1001,1
+4,cfg_explore_resource_resourceName_4,CommonAvatar_30003,10102,5,1001,1
+5,cfg_explore_resource_resourceName_1,CommonAvatar_30003,10416,5,1040031,1
+6,cfg_explore_resource_resourceName_1,CommonAvatar_30006,10521,5,1050031,1
+7,cfg_explore_resource_resourceName_1,CommonAvatar_30014,10622,5,1050031,1
+8,cfg_explore_resource_resourceName_1,CommonAvatar_30018,10727,5,1050031,1
+9,cfg_explore_resource_resourceName_1,CommonAvatar_30028,10826,5,1050031,1
+10,cfg_explore_resource_resourceName_1,CommonAvatar_30028,10927,5,1050031,1

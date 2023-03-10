@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option go_package = "./;pb";
+
+service Login {
+    rpc CheckToken(CheckTokenReq) returns (CheckTokenResp);
+    rpc Test(LoginTestReq) returns (LoginTestResp);
+}
+
+message CheckTokenReq {
+    int64 UserID = 1;
+    string Token = 2;
+}
+
+message CheckTokenResp {
+    bool OK = 1;
+}
+
+message LoginTestReq {
+    string msg = 1;
+    int64 id = 2;
+}
+
+message LoginTestResp {
+    string msg = 1;
+    int64 id = 2;
+}

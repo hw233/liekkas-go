@@ -1,0 +1,115 @@
+syntax = "proto3";
+
+import "shared/protobuf/proto/vo.proto";
+
+option go_package = "./;pb";
+
+// 设置看板娘
+message C2SUserKanban{
+  int32 characterId = 1;
+}
+message S2CUserKanban{
+  int32 characterId = 1;
+}
+
+
+// 设置头像
+message C2SUserAvatar {
+  int32 avatar = 1;
+}
+message S2CUserAvatar {
+  int32 avatar = 1;
+}
+// 设置昵称
+message C2SUserNickname {
+  string nickname = 1;
+}
+
+message S2CUserNickname {
+  string nickname = 1;
+  int32 nameIndex = 2;
+  VOResourceResult resourceResult = 3; //资源消耗
+}
+
+// 设置签名
+message C2SUserSignature {
+  string signature = 1;
+}
+message S2CUserSignature {
+  string signature = 1;
+}
+
+// 设置名片展示角色
+message C2SVisitingCardSetCharacter{
+  repeated VOCharacterPos posList = 1;
+}
+message S2CVisitingCardSetCharacter{
+}
+// 设置名片展示世界级道具
+message C2SVisitingCardSetWorldItem{
+  int64 worldItemUId = 1;
+}
+message S2CVisitingCardSetWorldItem{
+}
+// 查看名片信息
+message C2SVisitingCard{
+  int64 userId = 1;
+}
+
+
+message S2CVisitingCard{
+  VOVisitingCard card = 1;
+}
+message VOCharacterVisitingCard{
+  int32 pos = 1;
+  VOUserCharacter character = 2;
+
+}
+
+message VOVisitingCard{
+  VOUserInfo userInfo = 1;
+  int64 registerAt = 2; // 注册日期
+  string signature = 3; // 签名
+  int32 exploreLevel = 4;// 主线进度
+  int32 manualProgress = 5;// 图鉴收集进度，包括角色世界级道具和主线(百分比)
+  int32 achievementProgress = 6;// 成就完成进度
+  repeated VOCharacterVisitingCard characters = 7;// 展示的角色
+  int32 worldItemId = 8;// 展示的世界级道具
+  int64 worldItemUId = 9;// 展示的世界级道具UId
+
+}
+
+// 整点奖励领取情况
+message C2SDailyGiftInfo{
+}
+
+message S2CDailyGiftInfo{
+  repeated bool rewarded = 1;
+}
+
+// 领取整点奖励
+message C2SGetDailyGiftReward{
+  int32 index = 1;// 传参从0开始
+}
+
+
+message S2CGetDailyGiftReward{
+  repeated bool rewarded = 1;
+  VOResourceResult resourceResult = 2;
+
+}
+//设置头像框
+message C2SUserFrame {
+  int32 frame = 1;
+}
+message S2CUserFrame {
+  int32 frame = 1;
+}
+
+//查询是否是第一次改名
+message C2SFetchIsFirstRename {
+}
+
+message S2CFetchIsFirstRename {
+  bool isFirstRename = 1;
+}

@@ -1,0 +1,6 @@
+﻿id,phaseId,startDayOffset,taskGroupId
+int,int,int,int
+1010101,10101,0,101
+1010102,10101,1,102
+1010103,10101,2,103
+1010104,10101,3,104

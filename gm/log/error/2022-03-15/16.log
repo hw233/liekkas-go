@@ -1,0 +1,98 @@
+2022-03-15 16:02:09 ERROR Handle Call return error: (/ﾟДﾟ)/ A Error Occurred!
+Code: -1
+Text: userIds can not be nil
+Trace:
+userIds can not be nil
+	gm/method.(*HttpPostHandler).SendMail()
+		C:/code/overlord-backend-go/gm/method/mail.go:16	
+
+gm/controller.(*PathRouter).HandlePost
+	C:/code/overlord-backend-go/gm/controller/handler.go:101
+gm/controller.(*Dispatcher).ServeHTTP
+	C:/code/overlord-backend-go/gm/controller/dispatch.go:51
+net/http.(*ServeMux).ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2428
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2867
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1932
+2022-03-15 16:02:30 ERROR Handle Call return error: (/ﾟДﾟ)/ A Error Occurred!
+Code: -1
+Text: userIds can not be nil
+Trace:
+userIds can not be nil
+	gm/method.(*HttpPostHandler).SendMail()
+		C:/code/overlord-backend-go/gm/method/mail.go:16	
+
+gm/controller.(*PathRouter).HandlePost
+	C:/code/overlord-backend-go/gm/controller/handler.go:101
+gm/controller.(*Dispatcher).ServeHTTP
+	C:/code/overlord-backend-go/gm/controller/dispatch.go:51
+net/http.(*ServeMux).ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2428
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2867
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1932
+2022-03-15 16:04:53 ERROR Handle Call return error: (/ﾟДﾟ)/ A Error Occurred!
+Code: -1
+Text: json: cannot unmarshal string into Go struct field SendMailParam.expire_day of type int32
+Trace:
+json: cannot unmarshal string into Go struct field SendMailParam.expire_day of type int32
+gm/controller.(*PathRouter).HandlePost
+	C:/code/overlord-backend-go/gm/controller/handler.go:80
+gm/controller.(*Dispatcher).ServeHTTP
+	C:/code/overlord-backend-go/gm/controller/dispatch.go:51
+net/http.(*ServeMux).ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2428
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2867
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1932
+2022-03-15 16:48:43 ERROR Handle Call return error: (/ﾟДﾟ)/ A Error Occurred!
+Code: -1
+Text: json: cannot unmarshal string into Go struct field SendWholeServerMailParam.expire_day of type int32
+Trace:
+json: cannot unmarshal string into Go struct field SendWholeServerMailParam.expire_day of type int32
+gm/controller.(*PathRouter).HandlePost
+	C:/code/overlord-backend-go/gm/controller/handler.go:80
+gm/controller.(*Dispatcher).ServeHTTP
+	C:/code/overlord-backend-go/gm/controller/dispatch.go:51
+net/http.(*ServeMux).ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2428
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2867
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1932
+2022-03-15 16:49:15 ERROR Handle Call return error: (/ﾟДﾟ)/ A Error Occurred!
+Code: -1
+Text: json: cannot unmarshal string into Go struct field SendWholeServerMailParam.expire_day of type int32
+Trace:
+json: cannot unmarshal string into Go struct field SendWholeServerMailParam.expire_day of type int32
+gm/controller.(*PathRouter).HandlePost
+	C:/code/overlord-backend-go/gm/controller/handler.go:80
+gm/controller.(*Dispatcher).ServeHTTP
+	C:/code/overlord-backend-go/gm/controller/dispatch.go:51
+net/http.(*ServeMux).ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2428
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2867
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1932
+2022-03-15 16:53:30 ERROR Handle Call return error: (/ﾟДﾟ)/ A Error Occurred!
+Code: -1
+Text: parsing time "cillum" as "2006-01-02 15:04:05": cannot parse "cillum" as "2006"
+Trace:
+parsing time "cillum" as "2006-01-02 15:04:05": cannot parse "cillum" as "2006"	gm/method.(*HttpPostHandler).SendWholeServerMail()
+		C:/code/overlord-backend-go/gm/method/mail.go:83	
+
+gm/controller.(*PathRouter).HandlePost
+	C:/code/overlord-backend-go/gm/controller/handler.go:101
+gm/controller.(*Dispatcher).ServeHTTP
+	C:/code/overlord-backend-go/gm/controller/dispatch.go:51
+net/http.(*ServeMux).ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2428
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2867
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1932

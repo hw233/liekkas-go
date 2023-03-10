@@ -1,0 +1,3 @@
+2022-03-22 13:29:37 FATAL failed to listen: interrupt
+main.listenSignal
+	C:/code/overlord-backend-go/gamesvr/signal.go:27

@@ -1,0 +1,24 @@
+2022-03-14 15:28:16 INFO etcd/dial.go:30 etcd 127.0.0.1:2379 connect success
+2022-03-14 15:28:16 INFO etcd/dial.go:30 etcd 127.0.0.1:2479 connect success
+2022-03-14 15:30:34 INFO etcd/dial.go:30 etcd 127.0.0.1:2579 connect success
+2022-03-14 15:30:34 INFO controller/handler.go:51 Echo server is listening on [::]:9080 (multi-cores: true, loops: 12)
+
+2022-03-14 15:30:34 INFO resolver/watcher.go:55 start watching service [game]
+2022-03-14 15:30:34 INFO grpc/server.go:66 listen addr: 10.23.40.249:63215
+2022-03-14 15:30:39 INFO balancer/balancer.go:109 + service [game] register server [game01, 10.23.40.249:63244]
+2022-03-14 15:30:39 INFO balancer/picker.go:60 
+--------- service [game] regenerate server ----------
+          1. game01, 10.23.40.249:63244
+---------------------------------------------------
+2022-03-14 15:31:17 INFO balancer/balancer.go:141 - service [game] unregister Server [game01]
+2022-03-14 15:31:22 INFO balancer/balancer.go:109 + service [game] register server [game01, 10.23.40.249:63375]
+2022-03-14 15:31:22 INFO balancer/picker.go:60 
+--------- service [game] regenerate server ----------
+          1. game01, 10.23.40.249:63375
+---------------------------------------------------
+2022-03-14 15:43:27 INFO balancer/balancer.go:141 - service [game] unregister Server [game01]
+2022-03-14 15:43:32 INFO balancer/balancer.go:109 + service [game] register server [game01, 10.23.40.249:49936]
+2022-03-14 15:43:32 INFO balancer/picker.go:60 
+--------- service [game] regenerate server ----------
+          1. game01, 10.23.40.249:49936
+---------------------------------------------------

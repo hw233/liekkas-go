@@ -1,0 +1,33 @@
+# 服务名，表示服务器职能，用于服务发现和负载均衡
+Service = "login"
+# 服务器名称，唯一不可重复
+ServerName = "login01"
+# http监听端口
+HTTPListenPort = "8091"
+# grpc地址
+GRPCListenPort = ""
+# csv文件路径
+CSVPath = "../shared/csv/data"
+# etcd终端
+ETCDEndpoints = [
+    "127.0.0.1:2379",
+	"127.0.0.1:2479",
+	"127.0.0.1:2579",
+]
+
+LogLevel = "DEBUG"
+# 服务器环境
+# ServerENV = "test" 为测试环境，其他均为正式环境
+ServerENV = "test"
+
+# mysql配置
+[MySQL]
+Addr = "root:xuecm01,@tcp(localhost:3306)/overlord?charset=utf8mb4&parseTime=true&loc=Local"
+    MaxIdleConn = 5
+    MaxOpenConn = 5
+    ConnMaxLifetime = "4h"
+# redis配置
+[Redis]
+    Addr = ":6379"
+    UserName = "root"
+    Password = ""

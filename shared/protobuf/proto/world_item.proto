@@ -1,0 +1,52 @@
+syntax = "proto3";
+
+import "shared/protobuf/proto/vo.proto";
+
+option go_package = "./;pb";
+
+// ------------ 强化世界级道具 ------------
+message C2SWorldItemStrengthen {
+  int64 id = 1; // 强化世界级道具的唯一ID
+  repeated int64 materials = 2; // 素材世界级道具的唯一ID
+  repeated int32 items = 3; // 经验道具数量 长度4，从低到高
+}
+
+message S2CWorldItemStrengthen {
+  VOUserWorldItem worldItem = 1; // 世界级道具数据
+  VOResourceResult resourceResult = 2; // 玩家资源
+  repeated int64 materials = 3; // 素材世界级道具的唯一ID
+}
+
+// ------------ 突破世界级道具 ------------
+message C2SWorldItemAdvance {
+  int64 id = 1; // 突破世界级道具的唯一ID
+  repeated int64 materials = 2; // 素材世界级道具的唯一ID
+  int32 itemID = 3; // 消耗的道具ID
+}
+
+message S2CWorldItemAdvance {
+  VOUserWorldItem worldItem = 1; // 世界级道具数据
+  VOResourceResult resourceResult = 2; // 玩家资源
+  repeated int64 materials = 3; // 素材世界级道具的唯一ID
+}
+
+// ------------ 世界级道具加锁和解锁 ------------
+message C2SWorldItemLock {
+  int64 id = 1; // 世界级道具唯一ID
+  bool isLock = 2; // 是否加锁
+}
+
+message S2CWorldItemLock {
+  int64 id = 1; // 装备唯一ID
+  bool isLock = 2; // 是否加锁
+}
+
+// ------------ 获取世界级道具列表 ------------
+message C2SWorldItemList {
+}
+
+message S2CWorldItemList {
+  repeated VOUserWorldItem worldItems = 1; // 世界级道具列表数据
+  int64 recastID = 2; // 重铸世界级道具唯一ID
+  int32 recastCamp = 3; // 重铸世界级道具阵营
+}

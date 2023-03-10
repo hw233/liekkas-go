@@ -1,0 +1,10 @@
+2022-03-14 15:30:39 FATAL mail manager init error: Error 1146: Table 'overlord_user_go.server_group_mails' doesn't exist
+main.main
+	C:/code/overlord-backend-go/mailserver/main.go:19
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:225
+2022-03-14 15:30:55 FATAL mail manager init error: Error 1146: Table 'overlord_user_go.server_group_mails' doesn't exist
+main.main
+	C:/code/overlord-backend-go/mailserver/main.go:19
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:225

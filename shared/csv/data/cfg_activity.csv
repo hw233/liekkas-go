@@ -1,0 +1,3 @@
+﻿id,timeType,startTime,endTime,unlockConditions,closeConditions
+int,int,string,string,strings,strings
+1001,2,0,99999,1:1,

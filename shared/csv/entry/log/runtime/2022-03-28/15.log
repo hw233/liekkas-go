@@ -1,0 +1,931 @@
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_action_unlock.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_activity.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_activity_func.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_battle_level.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_battle_npc.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_battle_position.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_boss_infor.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_buff.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_bullet.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_chapter_level_achievement.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_character.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_character_battle.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_character_camp.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_character_career.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_character_data.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_character_feature.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_character_level.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_character_rarity.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_character_skill.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_character_skin.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_character_stage.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_character_star.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_combat_power.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_combat_power_adapt.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_drop_data.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_drop_group.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_equipLevelUp_data.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_equip_advance.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_equip_attributes_data.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_equip_break.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_equip_data.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_equip_rand_attributes.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_equip_rand_attributes_value.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_equip_skill.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_everyday_energy_receive.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_explore_chapter.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_explore_chapter_level.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_explore_chapter_level_adapt.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_explore_chapter_reward.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_explore_event.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_explore_fog.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_explore_gather.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_explore_map_coordinate.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_explore_monster.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_explore_npc.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_explore_resource.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_field_skill.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_fx.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_gacha_drop.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_gacha_global.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_gacha_pool.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_global_string.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_graveyard_build.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_graveyard_build_level.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_graveyard_build_stage.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_graveyard_main_tower_level.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_graveyard_produce_buff.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_guide_module.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_guide_step.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_guild_greetings.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_guild_level.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_guild_task.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_hero.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_hero_camp_skill_filter.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_hero_data.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_hero_extra_data.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_hero_level.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_hero_skill.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_hero_task_data.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_item_data.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_mail_template.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_manual.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_manual_camp.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_manual_character_voice.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_manual_group.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_manual_level_attribute_data.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_mask_word.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_monster_battle.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_monster_data.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_names_npc.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_passive_effect.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_passsive_attributes.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_quick_purchase_stamina.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_rarity.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_score_pass_group.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_score_pass_phase.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_score_pass_reward.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_score_pass_task.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_signin_data.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_skill.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_skill_effect.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_skill_event.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_sound.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_store_general.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_store_goods.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_store_substore.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_store_update.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_survey_info.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_survey_question.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_targeting.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_task_data.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_task_reward.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_team_level.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_tower.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_tower_level.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_tower_stage.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_tp_gate.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_ultra_skill.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_user_avatar.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_vn.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_world_item_advance.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_world_item_attributes_data.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_world_item_data.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_world_item_level_up_data.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_yggdrasil_area.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_yggdrasil_area_city.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_yggdrasil_area_pos.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_yggdrasil_building.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_yggdrasil_cobuilding.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_yggdrasil_daily_monster.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_yggdrasil_dispatch.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_yggdrasil_mark.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_yggdrasil_object.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_yggdrasil_object_state.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_yggdrasil_simple_talk.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_yggdrasil_sub_task.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_yggdrasil_sub_task_env.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_yggdrasil_task.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load cfg_yggdrasil_world.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load gm.csv file success
+2022-03-28 15:45:52 INFO base/config_manager.go:2381 Load protocol.csv file success
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 6-17开场
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 库鲁雪
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 1-3结束
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 10-5
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 3-3
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 3-9开场
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 10-19结束
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 4-1
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 10-2
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 11-20
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 2-3
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 3-1结束
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 8-15
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 5-10
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 5-1
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 12-18
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 2-2
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 3-2
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 7-1
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 11-6结束
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 12-19
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 2-6开场
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 9-9
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 9-22开场
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 8-19开场
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 恩菲雷亚
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 8-5
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 10-19开场
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 1-1结束
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 12-1
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 4-6结束
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 4-7
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 8-19结束
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 3-8结束
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 5-14
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 1-2开场
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 2-4
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 4-9
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 6-12结束
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 6-17结束
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 5-16开场
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 10-11
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 泽伯鲁
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 11-1结束
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 7-14
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 11-7
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 12章彩蛋
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 4-3
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 9章彩蛋
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 10-1
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 6-3
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 8-22结束
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 11-6开场
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 6章彩蛋结束
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 12-25开场
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 7-22开场
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 11-11
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 哥布林队长
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 3-1开场
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 3-6
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 6章彩蛋开场
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 11-25结束
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 1-3开场
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 6-12开场
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 11-2
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 斯修·乔乔
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 休古·兹兹
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 11-1开场
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 11-10结束
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 11-21
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 12-25结束
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 9-1开场
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 10-20
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 4章彩蛋
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 5-12
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 6-9
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 3章彩蛋
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 10-14
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 序章开场
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 4-12开场
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 11-10开场
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 商人
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 扎里尤斯
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 7-10
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 9-22结束
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 12-17
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 8-1开场
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 8-7
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 11-15
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 2-1开场
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 2章彩蛋
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 4-12结束
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 安莉
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 1章彩蛋
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 8-1结束
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 6-13
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 11-25开场
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 2-1结束
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 5-7
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 8-13
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 1-1开场
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 8-3
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 7-6
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 8-11开场
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 1-2结束
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 9-5
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 10-22结束
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 士兵
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 亚乌菈
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 6-6
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 3-9结束
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 2-5
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 9-1结束
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 11-16
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 10-22开场
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 8-11结束
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 3-8开场
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 4-6开场
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 7章彩蛋
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 5-4开场
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 10-8
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 序章结束
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 7-22结束
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 9-13
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 公会接待员
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 沙斯林
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 5-4结束
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 8-17
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 6-1
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 8-22开场
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 12-11
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 2-6结束
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 5-16结束
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 8-9
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 7-2
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 7-12
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 5章彩蛋
+2022-03-28 15:45:52 DEBUG entry/manual.go:58 12-5
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_action_unlock.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_activity.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_activity_func.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_battle_level.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_battle_npc.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_battle_position.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_boss_infor.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_buff.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_bullet.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_chapter_level_achievement.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_character.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_character_battle.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_character_camp.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_character_career.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_character_data.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_character_feature.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_character_level.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_character_rarity.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_character_skill.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_character_skin.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_character_stage.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_character_star.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_combat_power.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_combat_power_adapt.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_drop_data.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_drop_group.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_equipLevelUp_data.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_equip_advance.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_equip_attributes_data.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_equip_break.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_equip_data.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_equip_rand_attributes.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_equip_rand_attributes_value.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_equip_skill.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_everyday_energy_receive.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_explore_chapter.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_explore_chapter_level.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_explore_chapter_level_adapt.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_explore_chapter_reward.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_explore_event.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_explore_fog.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_explore_gather.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_explore_map_coordinate.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_explore_monster.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_explore_npc.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_explore_resource.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_field_skill.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_fx.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_gacha_drop.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_gacha_global.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_gacha_pool.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_global_string.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_graveyard_build.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_graveyard_build_level.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_graveyard_build_stage.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_graveyard_main_tower_level.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_graveyard_produce_buff.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_guide_module.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_guide_step.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_guild_greetings.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_guild_level.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_guild_task.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_hero.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_hero_camp_skill_filter.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_hero_data.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_hero_extra_data.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_hero_level.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_hero_skill.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_hero_task_data.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_item_data.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_mail_template.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_manual.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_manual_camp.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_manual_character_voice.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_manual_group.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_manual_level_attribute_data.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_mask_word.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_monster_battle.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_monster_data.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_names_npc.csv file success
+2022-03-28 15:46:28 INFO base/config_manager.go:2381 Load cfg_passive_effect.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load cfg_passsive_attributes.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load cfg_quick_purchase_stamina.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load cfg_rarity.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load cfg_score_pass_group.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load cfg_score_pass_phase.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load cfg_score_pass_reward.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load cfg_score_pass_task.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load cfg_signin_data.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load cfg_skill.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load cfg_skill_effect.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load cfg_skill_event.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load cfg_sound.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load cfg_store_general.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load cfg_store_goods.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load cfg_store_substore.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load cfg_store_update.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load cfg_survey_info.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load cfg_survey_question.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load cfg_targeting.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load cfg_task_data.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load cfg_task_reward.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load cfg_team_level.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load cfg_tower.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load cfg_tower_level.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load cfg_tower_stage.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load cfg_tp_gate.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load cfg_ultra_skill.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load cfg_user_avatar.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load cfg_vn.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load cfg_world_item_advance.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load cfg_world_item_attributes_data.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load cfg_world_item_data.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load cfg_world_item_level_up_data.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load cfg_yggdrasil_area.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load cfg_yggdrasil_area_city.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load cfg_yggdrasil_area_pos.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load cfg_yggdrasil_building.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load cfg_yggdrasil_cobuilding.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load cfg_yggdrasil_daily_monster.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load cfg_yggdrasil_dispatch.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load cfg_yggdrasil_mark.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load cfg_yggdrasil_object.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load cfg_yggdrasil_object_state.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load cfg_yggdrasil_simple_talk.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load cfg_yggdrasil_sub_task.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load cfg_yggdrasil_sub_task_env.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load cfg_yggdrasil_task.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load cfg_yggdrasil_world.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load gm.csv file success
+2022-03-28 15:46:29 INFO base/config_manager.go:2381 Load protocol.csv file success
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 11-25结束
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 3-6
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 3-8结束
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 7-2
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 10-22结束
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 2-6开场
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 3-9结束
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 6-12结束
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 7-10
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 11-2
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 8-22开场
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 11-21
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 3章彩蛋
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 1-3开场
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 10-22开场
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 2-3
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 4-6开场
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 4-9
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 6-13
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 4-3
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 1-1开场
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 7-1
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 7-6
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 8-9
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 9-5
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 泽伯鲁
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 2-1开场
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 7章彩蛋
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 8-17
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 10-2
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 11-1结束
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 8-3
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 8-11开场
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 商人
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 4-12结束
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 10-11
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 7-12
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 8-7
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 11-10开场
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 11-25开场
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 5-1
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 12-1
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 2-4
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 4章彩蛋
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 11-10结束
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 6-1
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 9章彩蛋
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 序章结束
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 5-4结束
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 5-10
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 9-22开场
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 5-12
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 9-22结束
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 12-25开场
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 2-1结束
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 7-22开场
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 1-2开场
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 10-5
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 10-8
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 11-15
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 12-18
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 2-2
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 11-16
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 8-22结束
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 12-25结束
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 沙斯林
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 6章彩蛋开场
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 斯修·乔乔
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 3-1结束
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 8-19结束
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 安莉
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 3-2
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 4-1
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 6-6
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 8-15
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 10-19开场
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 4-6结束
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 5章彩蛋
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 11-7
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 3-3
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 10-19结束
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 1-3结束
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 11-1开场
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 11-11
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 4-12开场
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 5-16结束
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 10-14
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 5-7
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 8-13
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 9-13
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 2-6结束
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 3-1开场
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 9-9
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 11-6结束
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 序章开场
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 2章彩蛋
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 3-8开场
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 12-19
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 1章彩蛋
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 8-11结束
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 亚乌菈
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 扎里尤斯
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 6-12开场
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 9-1结束
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 12-5
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 6-17结束
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 6-3
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 8-1结束
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 8-19开场
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 10-1
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 9-1开场
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 12章彩蛋
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 5-14
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 7-14
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 6-17开场
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 1-1结束
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 3-9开场
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 4-7
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 11-20
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 7-22结束
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 8-1开场
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 士兵
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 哥布林队长
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 休古·兹兹
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 12-11
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 5-4开场
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 6-9
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 6章彩蛋结束
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 12-17
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 2-5
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 11-6开场
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 恩菲雷亚
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 1-2结束
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 5-16开场
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 8-5
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 10-20
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 库鲁雪
+2022-03-28 15:46:31 DEBUG entry/manual.go:59 公会接待员
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_action_unlock.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_activity.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_activity_func.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_battle_level.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_battle_npc.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_battle_position.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_boss_infor.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_buff.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_bullet.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_chapter_level_achievement.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_character.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_character_battle.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_character_camp.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_character_career.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_character_data.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_character_feature.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_character_level.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_character_rarity.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_character_skill.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_character_skin.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_character_stage.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_character_star.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_combat_power.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_combat_power_adapt.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_drop_data.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_drop_group.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_equipLevelUp_data.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_equip_advance.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_equip_attributes_data.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_equip_break.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_equip_data.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_equip_rand_attributes.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_equip_rand_attributes_value.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_equip_skill.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_everyday_energy_receive.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_explore_chapter.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_explore_chapter_level.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_explore_chapter_level_adapt.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_explore_chapter_reward.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_explore_event.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_explore_fog.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_explore_gather.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_explore_map_coordinate.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_explore_monster.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_explore_npc.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_explore_resource.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_field_skill.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_fx.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_gacha_drop.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_gacha_global.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_gacha_pool.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_global_string.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_graveyard_build.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_graveyard_build_level.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_graveyard_build_stage.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_graveyard_main_tower_level.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_graveyard_produce_buff.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_guide_module.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_guide_step.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_guild_greetings.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_guild_level.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_guild_task.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_hero.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_hero_camp_skill_filter.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_hero_data.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_hero_extra_data.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_hero_level.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_hero_skill.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_hero_task_data.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_item_data.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_mail_template.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_manual.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_manual_camp.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_manual_character_voice.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_manual_group.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_manual_level_attribute_data.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_mask_word.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_monster_battle.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_monster_data.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_names_npc.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_passive_effect.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_passsive_attributes.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_quick_purchase_stamina.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_rarity.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_score_pass_group.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_score_pass_phase.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_score_pass_reward.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_score_pass_task.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_signin_data.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_skill.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_skill_effect.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_skill_event.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_sound.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_store_general.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_store_goods.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_store_substore.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_store_update.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_survey_info.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_survey_question.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_targeting.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_task_data.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_task_reward.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_team_level.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_tower.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_tower_level.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_tower_stage.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_tp_gate.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_ultra_skill.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_user_avatar.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_vn.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_world_item_advance.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_world_item_attributes_data.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_world_item_data.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_world_item_level_up_data.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_yggdrasil_area.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_yggdrasil_area_city.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_yggdrasil_area_pos.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_yggdrasil_building.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_yggdrasil_cobuilding.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_yggdrasil_daily_monster.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_yggdrasil_dispatch.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_yggdrasil_mark.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_yggdrasil_object.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_yggdrasil_object_state.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_yggdrasil_simple_talk.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_yggdrasil_sub_task.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_yggdrasil_sub_task_env.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_yggdrasil_task.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load cfg_yggdrasil_world.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load gm.csv file success
+2022-03-28 15:50:32 INFO base/config_manager.go:2381 Load protocol.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_action_unlock.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_activity.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_activity_func.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_battle_level.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_battle_npc.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_battle_position.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_boss_infor.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_buff.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_bullet.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_chapter_level_achievement.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_character.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_character_battle.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_character_camp.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_character_career.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_character_data.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_character_feature.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_character_level.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_character_rarity.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_character_skill.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_character_skin.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_character_stage.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_character_star.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_combat_power.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_combat_power_adapt.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_drop_data.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_drop_group.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_equipLevelUp_data.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_equip_advance.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_equip_attributes_data.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_equip_break.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_equip_data.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_equip_rand_attributes.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_equip_rand_attributes_value.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_equip_skill.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_everyday_energy_receive.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_explore_chapter.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_explore_chapter_level.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_explore_chapter_level_adapt.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_explore_chapter_reward.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_explore_event.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_explore_fog.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_explore_gather.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_explore_map_coordinate.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_explore_monster.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_explore_npc.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_explore_resource.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_field_skill.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_fx.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_gacha_drop.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_gacha_global.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_gacha_pool.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_global_string.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_graveyard_build.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_graveyard_build_level.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_graveyard_build_stage.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_graveyard_main_tower_level.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_graveyard_produce_buff.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_guide_module.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_guide_step.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_guild_greetings.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_guild_level.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_guild_task.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_hero.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_hero_camp_skill_filter.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_hero_data.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_hero_extra_data.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_hero_level.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_hero_skill.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_hero_task_data.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_item_data.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_mail_template.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_manual.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_manual_camp.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_manual_character_voice.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_manual_group.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_manual_level_attribute_data.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_mask_word.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_monster_battle.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_monster_data.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_names_npc.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_passive_effect.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_passsive_attributes.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_quick_purchase_stamina.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_rarity.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_score_pass_group.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_score_pass_phase.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_score_pass_reward.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_score_pass_task.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_signin_data.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_skill.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_skill_effect.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_skill_event.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_sound.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_store_general.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_store_goods.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_store_substore.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_store_update.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_survey_info.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_survey_question.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_targeting.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_task_data.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_task_reward.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_team_level.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_tower.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_tower_level.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_tower_stage.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_tp_gate.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_ultra_skill.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_user_avatar.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_vn.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_world_item_advance.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_world_item_attributes_data.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_world_item_data.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_world_item_level_up_data.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_yggdrasil_area.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_yggdrasil_area_city.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_yggdrasil_area_pos.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_yggdrasil_building.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_yggdrasil_cobuilding.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_yggdrasil_daily_monster.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_yggdrasil_dispatch.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_yggdrasil_mark.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_yggdrasil_object.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_yggdrasil_object_state.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_yggdrasil_simple_talk.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_yggdrasil_sub_task.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_yggdrasil_sub_task_env.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_yggdrasil_task.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load cfg_yggdrasil_world.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load gm.csv file success
+2022-03-28 15:50:42 INFO base/config_manager.go:2381 Load protocol.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_action_unlock.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_activity.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_activity_func.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_battle_level.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_battle_npc.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_battle_position.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_boss_infor.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_buff.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_bullet.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_chapter_level_achievement.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_character.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_character_battle.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_character_camp.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_character_career.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_character_data.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_character_feature.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_character_level.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_character_rarity.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_character_skill.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_character_skin.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_character_stage.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_character_star.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_combat_power.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_combat_power_adapt.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_drop_data.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_drop_group.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_equipLevelUp_data.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_equip_advance.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_equip_attributes_data.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_equip_break.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_equip_data.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_equip_rand_attributes.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_equip_rand_attributes_value.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_equip_skill.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_everyday_energy_receive.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_explore_chapter.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_explore_chapter_level.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_explore_chapter_level_adapt.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_explore_chapter_reward.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_explore_event.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_explore_fog.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_explore_gather.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_explore_map_coordinate.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_explore_monster.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_explore_npc.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_explore_resource.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_field_skill.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_fx.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_gacha_drop.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_gacha_global.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_gacha_pool.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_global_string.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_graveyard_build.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_graveyard_build_level.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_graveyard_build_stage.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_graveyard_main_tower_level.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_graveyard_produce_buff.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_guide_module.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_guide_step.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_guild_greetings.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_guild_level.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_guild_task.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_hero.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_hero_camp_skill_filter.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_hero_data.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_hero_extra_data.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_hero_level.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_hero_skill.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_hero_task_data.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_item_data.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_mail_template.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_manual.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_manual_camp.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_manual_character_voice.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_manual_group.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_manual_level_attribute_data.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_mask_word.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_monster_battle.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_monster_data.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_names_npc.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_passive_effect.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_passsive_attributes.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_quick_purchase_stamina.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_rarity.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_score_pass_group.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_score_pass_phase.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_score_pass_reward.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_score_pass_task.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_signin_data.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_skill.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_skill_effect.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_skill_event.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_sound.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_store_general.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_store_goods.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_store_substore.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_store_update.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_survey_info.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_survey_question.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_targeting.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_task_data.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_task_reward.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_team_level.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_tower.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_tower_level.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_tower_stage.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_tp_gate.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_ultra_skill.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_user_avatar.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_vn.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_world_item_advance.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_world_item_attributes_data.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_world_item_data.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_world_item_level_up_data.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_yggdrasil_area.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_yggdrasil_area_city.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_yggdrasil_area_pos.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_yggdrasil_building.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_yggdrasil_cobuilding.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_yggdrasil_daily_monster.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_yggdrasil_dispatch.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_yggdrasil_mark.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_yggdrasil_object.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_yggdrasil_object_state.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_yggdrasil_simple_talk.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_yggdrasil_sub_task.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_yggdrasil_sub_task_env.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_yggdrasil_task.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load cfg_yggdrasil_world.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load gm.csv file success
+2022-03-28 15:53:37 INFO base/config_manager.go:2381 Load protocol.csv file success

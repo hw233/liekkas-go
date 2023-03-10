@@ -1,0 +1,18 @@
+2022-03-14 17:50:02 INFO balancer/balancer.go:141 - service [game] unregister Server [game01]
+2022-03-14 17:50:09 INFO balancer/balancer.go:109 + service [game] register server [game01, 10.23.40.249:50171]
+2022-03-14 17:50:09 INFO balancer/picker.go:60 
+--------- service [game] regenerate server ----------
+          1. game01, 10.23.40.249:50171
+---------------------------------------------------
+2022-03-14 17:54:23 INFO balancer/balancer.go:141 - service [game] unregister Server [game01]
+2022-03-14 17:54:28 INFO balancer/balancer.go:109 + service [game] register server [game01, 10.23.40.249:53638]
+2022-03-14 17:54:28 INFO balancer/picker.go:60 
+--------- service [game] regenerate server ----------
+          1. game01, 10.23.40.249:53638
+---------------------------------------------------
+2022-03-14 17:55:47 INFO balancer/balancer.go:141 - service [game] unregister Server [game01]
+2022-03-14 17:55:54 INFO balancer/balancer.go:109 + service [game] register server [game01, 10.23.40.249:53797]
+2022-03-14 17:55:54 INFO balancer/picker.go:60 
+--------- service [game] regenerate server ----------
+          1. game01, 10.23.40.249:53797
+---------------------------------------------------

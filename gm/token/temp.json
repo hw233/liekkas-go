@@ -1,0 +1,266 @@
+{
+  "exp": 640,
+  "level": 12,
+  "name_index": 1,
+  "is_first_rename": false,
+  "avatar": 1811012,
+  "frame": 1831001,
+  "signature": "",
+  "kanban": 1012,
+  "power": 7524,
+  "register_at": 1666119599,
+  "last_login_time": 1666119599,
+  "gold": 109000,
+  "diamond_gift": 835,
+  "diamond_cash": 0,
+  "energy": {
+    "num": 80,
+    "last": 1666121275
+  },
+  "drop_info": {},
+  "sign_in": {
+    "SignInGroups": {
+      "20221001": {
+        "has_signin": true,
+        "type": 1,
+        "record": 1,
+        "last_time_sign": 1666120462
+      }
+    }
+  },
+  "survey_record": 0,
+  "stamina_record": {
+    "stamina_record": 0,
+    "last_time_update": 0
+  },
+  "rewarded_vn_ids": [],
+  "passed_guide_ids": [
+    10,
+    20,
+    21,
+    30,
+    31,
+    32,
+    40,
+    41,
+    42,
+    43,
+    45,
+    50,
+    51,
+    52,
+    53,
+    60,
+    61,
+    63,
+    64,
+    66,
+    67,
+    70,
+    71,
+    72,
+    81,
+    82,
+    83,
+    84,
+    90,
+    92,
+    93,
+    94,
+    100,
+    101,
+    102,
+    103,
+    104,
+    110,
+    69,
+    130,
+    131,
+    133,
+    149,
+    150,
+    176,
+    160,
+    169,
+    170,
+    180,
+    181,
+    182,
+    183,
+    184,
+    187,
+    171,
+    172,
+    173,
+    200,
+    195,
+    201,
+    210
+  ],
+  "ap": {
+    "num": 180,
+    "last": 1666121399
+  },
+  "card_show": {
+    "characters_set": false,
+    "characters": {},
+    "characters_cache": {
+      "1": {
+        "characterId": 1002,
+        "exp": 2300,
+        "level": 9,
+        "star": 1,
+        "stage": 1,
+        "createAt": 1648456095,
+        "skills": [
+          {
+            "skillId": 100201,
+            "level": 1
+          },
+          {
+            "skillId": 100203,
+            "level": 1
+          },
+          {
+            "skillId": 100200,
+            "level": 1
+          },
+          {
+            "skillId": 100204,
+            "level": 1
+          },
+          {
+            "skillId": 100205,
+            "level": 1
+          }
+        ],
+        "power": 1484,
+        "canYggdrasilTime": 1648456095,
+        "rarity": 4
+      },
+      "2": {
+        "characterId": 1012,
+        "exp": 2190,
+        "level": 9,
+        "star": 1,
+        "createAt": 1648455576,
+        "skills": [
+          {
+            "skillId": 101201,
+            "level": 1
+          },
+          {
+            "skillId": 101204,
+            "level": 1
+          },
+          {
+            "skillId": 101205,
+            "level": 1
+          }
+        ],
+        "power": 468,
+        "canYggdrasilTime": 1648455576,
+        "rarity": 3
+      },
+      "3": {
+        "characterId": 2007,
+        "exp": 2130,
+        "level": 9,
+        "star": 1,
+        "createAt": 1648456095,
+        "skills": [
+          {
+            "skillId": 200700,
+            "level": 1
+          },
+          {
+            "skillId": 200701,
+            "level": 1
+          },
+          {
+            "skillId": 200704,
+            "level": 1
+          },
+          {
+            "skillId": 200705,
+            "level": 1
+          }
+        ],
+        "heroId": 1,
+        "power": 466,
+        "canYggdrasilTime": 1648456095,
+        "rarity": 3
+      },
+      "4": {
+        "characterId": 2005,
+        "level": 1,
+        "star": 1,
+        "createAt": 1648456095,
+        "skills": [
+          {
+            "skillId": 299504,
+            "level": 1
+          },
+          {
+            "skillId": 200504,
+            "level": 1
+          },
+          {
+            "skillId": 200505,
+            "level": 1
+          },
+          {
+            "skillId": 200501,
+            "level": 1
+          }
+        ],
+        "power": 466,
+        "canYggdrasilTime": 1648456095,
+        "rarity": 3
+      }
+    },
+    "world_item_u_id": 0,
+    "world_item_id": 0
+  },
+  "latest_explore_level": 10406,
+  "explored_level_vns": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    16,
+    17,
+    18,
+    19,
+    20,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    29,
+    30,
+    31,
+    32
+  ],
+  "daily_gift_info_rewarded": [
+    false,
+    false,
+    false
+  ],
+  "achievement_finish_count": 5,
+  "manual_count": 0,
+  "last_daily_refresh_time": 1666036800,
+  "total_login_day": 1,
+  "total_login_time": 0
+}

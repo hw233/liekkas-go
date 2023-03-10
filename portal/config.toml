@@ -1,0 +1,33 @@
+# 服务名，表示服务器职能，用于服务发现和负载均衡
+Service = "portal"
+# 服务器Name
+ServerName = "portal01"
+# tcp监听地址端口
+TCPListenPort = "9080"
+# grpc监听地址
+GRPCListenPort = "9090"
+# etcd终端
+ETCDEndpoints = [
+    "127.0.0.1:2379",
+	"127.0.0.1:2479",
+	"127.0.0.1:2579",
+]
+# tcp维持时间
+TCPConnKeepAlive = "0"
+# 最大连接数
+MaxConn = 65535
+# 请求次数限制初始值（令牌桶算法
+RequestRateCap = 600
+# 请求次数限制每秒
+RequestRateSec = 10
+# redis配置
+[Redis]
+    Addr = ":6379"
+    UserName = "root"
+    Password = ""
+
+# log
+[Log]
+    LogLevel = "DEBUG"
+    LogDir = "./log"
+    FileSizeLimit = 4294967296

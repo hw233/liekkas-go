@@ -1,0 +1,1608 @@
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_action_unlock.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_activity.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_activity_func.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_battle_level.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_battle_npc.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_battle_position.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_boss_infor.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_buff.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_bullet.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_chapter_level_achievement.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_character.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_character_battle.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_character_camp.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_character_career.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_character_data.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_character_feature.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_character_level.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_character_rarity.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_character_skill.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_character_skin.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_character_stage.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_character_star.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_combat_power.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_combat_power_adapt.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_drop_data.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_drop_group.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_equipLevelUp_data.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_equip_advance.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_equip_attributes_data.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_equip_break.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_equip_data.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_equip_rand_attributes.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_equip_rand_attributes_value.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_equip_skill.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_everyday_energy_receive.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_explore_chapter.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_explore_chapter_level.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_explore_chapter_level_adapt.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_explore_chapter_reward.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_explore_event.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_explore_fog.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_explore_gather.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_explore_map_coordinate.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_explore_monster.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_explore_npc.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_explore_resource.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_field_skill.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_fx.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_gacha_drop.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_gacha_global.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_gacha_pool.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_global_string.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_graveyard_build.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_graveyard_build_level.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_graveyard_build_stage.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_graveyard_main_tower_level.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_graveyard_produce_buff.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_guide_module.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_guide_step.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_guild_greetings.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_guild_level.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_guild_task.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_hero.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_hero_camp_skill_filter.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_hero_data.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_hero_extra_data.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_hero_level.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_hero_skill.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_hero_task_data.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_item_data.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_mail_template.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_manual.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_manual_camp.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_manual_character_voice.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_manual_group.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_manual_level_attribute_data.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_mask_word.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_monster_battle.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_monster_data.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_names_npc.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_passive_effect.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_passsive_attributes.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_quick_purchase_stamina.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_rarity.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_score_pass_group.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_score_pass_phase.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_score_pass_reward.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_score_pass_task.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_signin_data.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_skill.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_skill_effect.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_skill_event.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_sound.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_store_general.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_store_goods.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_store_substore.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_store_update.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_survey_info.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_survey_question.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_targeting.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_task_data.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_task_reward.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_team_level.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_tower.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_tower_level.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_tower_stage.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_tp_gate.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_ultra_skill.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_user_avatar.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_vn.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_world_item_advance.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_world_item_attributes_data.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_world_item_data.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_world_item_level_up_data.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_yggdrasil_area.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_yggdrasil_area_city.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_yggdrasil_area_pos.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_yggdrasil_building.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_yggdrasil_cobuilding.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_yggdrasil_daily_monster.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_yggdrasil_dispatch.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_yggdrasil_mark.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_yggdrasil_object.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_yggdrasil_object_state.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_yggdrasil_simple_talk.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_yggdrasil_sub_task.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_yggdrasil_sub_task_env.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_yggdrasil_task.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load cfg_yggdrasil_world.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load gm.csv file success
+2022-03-21 14:29:08 INFO base/config_manager.go:2381 Load protocol.csv file success
+2022-03-21 14:29:08 INFO entry/drop.go:111 drop dropID: 9999999, type: 1 mode: 0, count: 5, prob: [0 0 1000 0 1000], rewards: [{0 0xc0010c9280} {0 0xc0010d2f10} {1000 0xc0010f4f10} {0 0xc001121a70} {1000 0xc001121aa0}]
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_action_unlock.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_activity.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_activity_func.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_battle_level.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_battle_npc.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_battle_position.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_boss_infor.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_buff.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_bullet.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_chapter_level_achievement.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_character.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_character_battle.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_character_camp.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_character_career.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_character_data.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_character_feature.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_character_level.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_character_rarity.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_character_skill.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_character_skin.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_character_stage.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_character_star.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_combat_power.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_combat_power_adapt.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_drop_data.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_drop_group.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_equipLevelUp_data.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_equip_advance.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_equip_attributes_data.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_equip_break.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_equip_data.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_equip_rand_attributes.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_equip_rand_attributes_value.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_equip_skill.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_everyday_energy_receive.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_explore_chapter.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_explore_chapter_level.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_explore_chapter_level_adapt.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_explore_chapter_reward.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_explore_event.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_explore_fog.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_explore_gather.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_explore_map_coordinate.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_explore_monster.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_explore_npc.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_explore_resource.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_field_skill.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_fx.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_gacha_drop.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_gacha_global.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_gacha_pool.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_global_string.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_graveyard_build.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_graveyard_build_level.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_graveyard_build_stage.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_graveyard_main_tower_level.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_graveyard_produce_buff.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_guide_module.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_guide_step.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_guild_greetings.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_guild_level.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_guild_task.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_hero.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_hero_camp_skill_filter.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_hero_data.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_hero_extra_data.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_hero_level.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_hero_skill.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_hero_task_data.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_item_data.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_mail_template.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_manual.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_manual_camp.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_manual_character_voice.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_manual_group.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_manual_level_attribute_data.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_mask_word.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_monster_battle.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_monster_data.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_names_npc.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_passive_effect.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_passsive_attributes.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_quick_purchase_stamina.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_rarity.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_score_pass_group.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_score_pass_phase.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_score_pass_reward.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_score_pass_task.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_signin_data.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_skill.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_skill_effect.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_skill_event.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_sound.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_store_general.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_store_goods.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_store_substore.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_store_update.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_survey_info.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_survey_question.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_targeting.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_task_data.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_task_reward.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_team_level.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_tower.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_tower_level.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_tower_stage.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_tp_gate.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_ultra_skill.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_user_avatar.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_vn.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_world_item_advance.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_world_item_attributes_data.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_world_item_data.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_world_item_level_up_data.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_yggdrasil_area.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_yggdrasil_area_city.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_yggdrasil_area_pos.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_yggdrasil_building.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_yggdrasil_cobuilding.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_yggdrasil_daily_monster.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_yggdrasil_dispatch.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_yggdrasil_mark.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_yggdrasil_object.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_yggdrasil_object_state.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_yggdrasil_simple_talk.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_yggdrasil_sub_task.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_yggdrasil_sub_task_env.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_yggdrasil_task.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load cfg_yggdrasil_world.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load gm.csv file success
+2022-03-21 14:29:49 INFO base/config_manager.go:2381 Load protocol.csv file success
+2022-03-21 14:29:49 INFO entry/drop.go:111 drop dropID: 9999999, type: 1 mode: 0, count: 5, prob: [1000 1000 0 0 0], rewards: [{1000 0xc00119d340} {1000 0xc0011b1940} {0 0xc0011c8a60} {0 0xc0011e6310} {0 0xc0011e6a30}]
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{10 26},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{10 26},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{5 25},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{5 25},posTypeAfter:1
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-14 6},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-14 6},posTypeAfter:1
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{11 21},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{11 21},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-5 -26},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-5 -26},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{1 27},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{1 27},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-5 26},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-5 26},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-11 20},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-11 20},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{6 -27},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{6 -27},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{11 -2},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{11 -2},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-15 -2},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-15 -2},posTypeAfter:1
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-11 27},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-11 27},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-7 8},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-7 8},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{20 -26},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{20 -26},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{9 -27},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{9 -27},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-4 3},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-4 3},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-9 -34},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-9 -34},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-16 15},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-16 15},posTypeAfter:1
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-17 19},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-17 19},posTypeAfter:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-10 -11},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-10 -11},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-13 -24},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-13 -24},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{12 -15},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{12 -15},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{24 -20},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{24 -20},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-7 -15},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-7 -15},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{16 -2},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{16 -2},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-2 -21},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-2 -21},posTypeAfter:1
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-8 16},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-8 16},posTypeAfter:1
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{17 -8},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{17 -8},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{6 12},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{6 12},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{13 -36},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{13 -36},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-14 -40},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-14 -40},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-2 -11},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-2 -11},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{15 12},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{15 12},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{14 -5},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{14 -5},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-3 -31},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-3 -31},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-11 -32},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-11 -32},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-12 7},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-12 7},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-6 28},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-6 28},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{16 8},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{16 8},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-1 15},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-1 15},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{15 3},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{15 3},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-6 -12},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-6 -12},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-13 4},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-13 4},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-26 -53},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-26 -53},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-61 26},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-61 26},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-44 14},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-44 14},posTypeAfter:1
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-60 -34},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-60 -34},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-62 -49},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-62 -49},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-67 -37},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-67 -37},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-52 -36},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-52 -36},posTypeAfter:1
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-45 13},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-45 13},posTypeAfter:1
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-67 24},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-67 24},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-46 -40},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-46 -40},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-26 -44},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-26 -44},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-19 10},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-19 10},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-48 -5},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-48 -5},posTypeAfter:1
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-27 -18},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-27 -18},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-52 -14},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-52 -14},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-52 -35},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-52 -35},posTypeAfter:1
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-51 -38},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-51 -38},posTypeAfter:1
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-38 8},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-38 8},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-66 20},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-66 20},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-41 -44},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-41 -44},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-59 26},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-59 26},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-50 -42},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-50 -42},posTypeAfter:1
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-70 0},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-70 0},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-55 23},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-55 23},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-25 -14},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-25 -14},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-20 10},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-20 10},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-21 18},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-21 18},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-24 -53},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-24 -53},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-45 15},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-45 15},posTypeAfter:1
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-33 -47},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-33 -47},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-27 13},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-27 13},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-46 17},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-46 17},posTypeAfter:1
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-48 -19},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-48 -19},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-42 -57},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-42 -57},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-48 -3},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-48 -3},posTypeAfter:1
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-50 -53},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-50 -53},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-35 -43},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-35 -43},posTypeAfter:1
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-20 -16},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-20 -16},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-55 16},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-55 16},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-28 -53},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-28 -53},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-49 -51},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-49 -51},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-27 -39},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-27 -39},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-27 -21},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-27 -21},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-23 9},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-23 9},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-31 21},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-31 21},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-36 -32},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-36 -32},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-59 16},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-59 16},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-47 -24},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-47 -24},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-25 2},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-25 2},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-35 -25},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-35 -25},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-67 6},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-67 6},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-57 -39},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-57 -39},posTypeAfter:1
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-73 -10},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-73 -10},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-32 -43},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-32 -43},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-36 -37},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-36 -37},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-69 16},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-69 16},posTypeAfter:1
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-57 -11},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-57 -11},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-60 -17},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-60 -17},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-45 16},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-45 16},posTypeAfter:1
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-60 -49},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-60 -49},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-20 -51},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-20 -51},posTypeAfter:1
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-52 -37},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-52 -37},posTypeAfter:1
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-58 -25},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-58 -25},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-47 -6},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-47 -6},posTypeAfter:1
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-41 -45},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-41 -45},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-66 -40},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-66 -40},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-74 -16},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-74 -16},posTypeAfter:1
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-60 -1},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-60 -1},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-39 9},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-39 9},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-46 20},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-46 20},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-42 -45},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-42 -45},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-39 -54},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-39 -54},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-33 18},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-33 18},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-56 27},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-56 27},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-51 -36},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-51 -36},posTypeAfter:1
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-46 -13},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-46 -13},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-56 28},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-56 28},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-41 20},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-41 20},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-41 23},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-41 23},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-68 -27},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-68 -27},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-58 -37},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-58 -37},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-44 -49},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-44 -49},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-26 -21},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-26 -21},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-55 4},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-55 4},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-57 19},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-57 19},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-63 -10},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-63 -10},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-37 -49},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-37 -49},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-65 -23},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-65 -23},posTypeAfter:1
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-52 -38},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-52 -38},posTypeAfter:1
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-42 5},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-42 5},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-41 -42},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-41 -42},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-43 -31},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-43 -31},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-30 -52},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-30 -52},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-44 0},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-44 0},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-43 -30},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-43 -30},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-20 11},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-20 11},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-47 -57},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-47 -57},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-47 -4},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-47 -4},posTypeAfter:1
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-21 -27},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-21 -27},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-51 14},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-51 14},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-27 -33},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-27 -33},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-73 1},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-73 1},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-62 26},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-62 26},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-59 -27},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-59 -27},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-20 -38},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-20 -38},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{7 -7},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{7 -7},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-17 -32},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-17 -32},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-14 -19},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-14 -19},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-64 -37},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-64 -37},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{7 29},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{7 29},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-16 23},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-16 23},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-62 -25},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-62 -25},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-13 -8},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-13 -8},posTypeAfter:2
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{5 12},posTypeBefore:0
+2022-03-21 14:29:49 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{5 12},posTypeAfter:2
+2022-03-21 14:29:50 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-36 14},posTypeBefore:0
+2022-03-21 14:29:50 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-36 14},posTypeAfter:2
+2022-03-21 14:29:50 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-8 -24},posTypeBefore:0
+2022-03-21 14:29:50 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-8 -24},posTypeAfter:2
+2022-03-21 14:29:50 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-15 11},posTypeBefore:0
+2022-03-21 14:29:50 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-15 11},posTypeAfter:2
+2022-03-21 14:29:50 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{13 -14},posTypeBefore:0
+2022-03-21 14:29:50 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{13 -14},posTypeAfter:2
+2022-03-21 14:29:50 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-9 1},posTypeBefore:0
+2022-03-21 14:29:50 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-9 1},posTypeAfter:2
+2022-03-21 14:29:50 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-12 17},posTypeBefore:0
+2022-03-21 14:29:50 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-12 17},posTypeAfter:2
+2022-03-21 14:29:50 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{12 -4},posTypeBefore:0
+2022-03-21 14:29:50 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{12 -4},posTypeAfter:2
+2022-03-21 14:29:50 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-23 3},posTypeBefore:0
+2022-03-21 14:29:50 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-23 3},posTypeAfter:2
+2022-03-21 14:29:50 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-42 -36},posTypeBefore:0
+2022-03-21 14:29:50 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-42 -36},posTypeAfter:2
+2022-03-21 14:29:50 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{1 -24},posTypeBefore:0
+2022-03-21 14:29:50 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{1 -24},posTypeAfter:2
+2022-03-21 14:29:50 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-56 -32},posTypeBefore:0
+2022-03-21 14:29:50 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-56 -32},posTypeAfter:2
+2022-03-21 14:29:50 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-2 11},posTypeBefore:0
+2022-03-21 14:29:50 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-2 11},posTypeAfter:2
+2022-03-21 14:29:50 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{16 -36},posTypeBefore:0
+2022-03-21 14:29:50 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{16 -36},posTypeAfter:2
+2022-03-21 14:29:50 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-3 21},posTypeBefore:0
+2022-03-21 14:29:50 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-3 21},posTypeAfter:2
+2022-03-21 14:29:50 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-58 -43},posTypeBefore:0
+2022-03-21 14:29:50 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-58 -43},posTypeAfter:2
+2022-03-21 14:29:50 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-33 -45},posTypeBefore:0
+2022-03-21 14:29:50 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-33 -45},posTypeAfter:2
+2022-03-21 14:29:50 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-46 -20},posTypeBefore:0
+2022-03-21 14:29:50 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-46 -20},posTypeAfter:2
+2022-03-21 14:29:50 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{3 -12},posTypeBefore:0
+2022-03-21 14:29:50 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{3 -12},posTypeAfter:2
+2022-03-21 14:29:50 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{14 -7},posTypeBefore:0
+2022-03-21 14:29:50 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{14 -7},posTypeAfter:2
+2022-03-21 14:29:50 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-24 -22},posTypeBefore:0
+2022-03-21 14:29:50 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-24 -22},posTypeAfter:2
+2022-03-21 14:29:50 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{1 19},posTypeBefore:0
+2022-03-21 14:29:50 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{1 19},posTypeAfter:2
+2022-03-21 14:29:50 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-9 -32},posTypeBefore:0
+2022-03-21 14:29:50 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-9 -32},posTypeAfter:2
+2022-03-21 14:29:50 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{16 -15},posTypeBefore:0
+2022-03-21 14:29:50 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{16 -15},posTypeAfter:2
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_action_unlock.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_activity.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_activity_func.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_battle_level.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_battle_npc.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_battle_position.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_boss_infor.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_buff.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_bullet.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_chapter_level_achievement.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_character.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_character_battle.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_character_camp.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_character_career.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_character_data.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_character_feature.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_character_level.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_character_rarity.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_character_skill.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_character_skin.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_character_stage.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_character_star.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_combat_power.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_combat_power_adapt.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_drop_data.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_drop_group.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_equipLevelUp_data.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_equip_advance.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_equip_attributes_data.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_equip_break.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_equip_data.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_equip_rand_attributes.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_equip_rand_attributes_value.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_equip_skill.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_everyday_energy_receive.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_explore_chapter.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_explore_chapter_level.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_explore_chapter_level_adapt.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_explore_chapter_reward.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_explore_event.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_explore_fog.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_explore_gather.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_explore_map_coordinate.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_explore_monster.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_explore_npc.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_explore_resource.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_field_skill.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_fx.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_gacha_drop.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_gacha_global.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_gacha_pool.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_global_string.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_graveyard_build.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_graveyard_build_level.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_graveyard_build_stage.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_graveyard_main_tower_level.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_graveyard_produce_buff.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_guide_module.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_guide_step.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_guild_greetings.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_guild_level.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_guild_task.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_hero.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_hero_camp_skill_filter.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_hero_data.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_hero_extra_data.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_hero_level.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_hero_skill.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_hero_task_data.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_item_data.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_mail_template.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_manual.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_manual_camp.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_manual_character_voice.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_manual_group.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_manual_level_attribute_data.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_mask_word.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_monster_battle.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_monster_data.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_names_npc.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_passive_effect.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_passsive_attributes.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_quick_purchase_stamina.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_rarity.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_score_pass_group.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_score_pass_phase.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_score_pass_reward.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_score_pass_task.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_signin_data.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_skill.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_skill_effect.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_skill_event.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_sound.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_store_general.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_store_goods.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_store_substore.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_store_update.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_survey_info.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_survey_question.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_targeting.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_task_data.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_task_reward.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_team_level.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_tower.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_tower_level.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_tower_stage.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_tp_gate.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_ultra_skill.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_user_avatar.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_vn.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_world_item_advance.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_world_item_attributes_data.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_world_item_data.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_world_item_level_up_data.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_yggdrasil_area.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_yggdrasil_area_city.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_yggdrasil_area_pos.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_yggdrasil_building.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_yggdrasil_cobuilding.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_yggdrasil_daily_monster.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_yggdrasil_dispatch.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_yggdrasil_mark.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_yggdrasil_object.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_yggdrasil_object_state.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_yggdrasil_simple_talk.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_yggdrasil_sub_task.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_yggdrasil_sub_task_env.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_yggdrasil_task.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load cfg_yggdrasil_world.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load gm.csv file success
+2022-03-21 14:30:31 INFO base/config_manager.go:2381 Load protocol.csv file success
+2022-03-21 14:30:31 INFO entry/drop.go:111 drop dropID: 9999999, type: 1 mode: 0, count: 5, prob: [1000 1000 0 0 0], rewards: [{1000 0xc00116b230} {1000 0xc001170ef0} {0 0xc0011a8af0} {0 0xc0011aede0} {0 0xc0011b4d20}]
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-11 20},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-11 20},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-14 -40},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-14 -40},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-5 -26},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-5 -26},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-11 27},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-11 27},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{5 25},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{5 25},posTypeAfter:1
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-7 8},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-7 8},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{6 12},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{6 12},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-2 -21},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-2 -21},posTypeAfter:1
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{16 -2},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{16 -2},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-14 6},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-14 6},posTypeAfter:1
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{17 -8},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{17 -8},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-15 -2},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-15 -2},posTypeAfter:1
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-7 -15},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-7 -15},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{24 -20},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{24 -20},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-5 26},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-5 26},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-10 -11},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-10 -11},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-2 -11},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-2 -11},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{15 12},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{15 12},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{1 27},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{1 27},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{10 26},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{10 26},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{11 -2},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{11 -2},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{9 -27},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{9 -27},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{20 -26},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{20 -26},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-17 19},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-17 19},posTypeAfter:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-1 15},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-1 15},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{11 21},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{11 21},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{16 8},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{16 8},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-4 3},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-4 3},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{13 -36},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{13 -36},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{14 -5},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{14 -5},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-16 15},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-16 15},posTypeAfter:1
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-8 16},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-8 16},posTypeAfter:1
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-9 -34},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-9 -34},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-12 7},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-12 7},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{15 3},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{15 3},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-6 28},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-6 28},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{12 -15},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{12 -15},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-13 -24},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-13 -24},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-3 -31},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-3 -31},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-11 -32},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-11 -32},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{6 -27},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{6 -27},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{12 -4},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{12 -4},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{7 29},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{7 29},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-6 -12},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-6 -12},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-13 -8},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-13 -8},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-57 -11},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-57 -11},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-31 21},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-31 21},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-50 -53},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-50 -53},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-55 16},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-55 16},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-37 -49},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-37 -49},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-67 6},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-67 6},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-55 4},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-55 4},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-58 -25},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-58 -25},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-73 1},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-73 1},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-21 18},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-21 18},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-48 -5},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-48 -5},posTypeAfter:1
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-52 -38},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-52 -38},posTypeAfter:1
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-59 16},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-59 16},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-67 -37},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-67 -37},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-38 8},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-38 8},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-60 -17},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-60 -17},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-35 -25},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-35 -25},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-55 23},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-55 23},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-41 20},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-41 20},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-50 -42},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-50 -42},posTypeAfter:1
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-69 16},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-69 16},posTypeAfter:1
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-51 14},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-51 14},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-59 26},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-59 26},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-24 -53},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-24 -53},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-65 -23},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-65 -23},posTypeAfter:1
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-59 -27},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-59 -27},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-48 -19},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-48 -19},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-66 -40},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-66 -40},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-32 -43},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-32 -43},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-39 -54},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-39 -54},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-47 -24},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-47 -24},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-42 5},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-42 5},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-58 -37},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-58 -37},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-74 -16},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-74 -16},posTypeAfter:1
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-45 16},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-45 16},posTypeAfter:1
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-66 20},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-66 20},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-52 -35},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-52 -35},posTypeAfter:1
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-41 -42},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-41 -42},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-46 -40},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-46 -40},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-27 -39},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-27 -39},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-41 -45},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-41 -45},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-41 -44},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-41 -44},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-47 -57},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-47 -57},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-52 -14},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-52 -14},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-41 23},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-41 23},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-26 -44},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-26 -44},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-33 18},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-33 18},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-26 -21},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-26 -21},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-42 -45},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-42 -45},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-36 -32},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-36 -32},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-46 20},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-46 20},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-51 -36},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-51 -36},posTypeAfter:1
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-20 10},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-20 10},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-60 -1},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-60 -1},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-49 -51},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-49 -51},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-45 13},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-45 13},posTypeAfter:1
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-57 -39},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-57 -39},posTypeAfter:1
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-42 -57},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-42 -57},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-20 11},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-20 11},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-27 -33},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-27 -33},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-28 -53},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-28 -53},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-26 -53},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-26 -53},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-27 -21},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-27 -21},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-19 10},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-19 10},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-68 -27},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-68 -27},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-43 -30},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-43 -30},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-27 13},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-27 13},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-56 28},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-56 28},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-47 -6},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-47 -6},posTypeAfter:1
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-33 -47},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-33 -47},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-30 -52},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-30 -52},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-67 24},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-67 24},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-27 -18},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-27 -18},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-46 17},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-46 17},posTypeAfter:1
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-47 -4},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-47 -4},posTypeAfter:1
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-60 -34},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-60 -34},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-51 -38},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-51 -38},posTypeAfter:1
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-73 -10},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-73 -10},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-61 26},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-61 26},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-62 -49},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-62 -49},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-44 0},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-44 0},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-36 -37},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-36 -37},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-48 -3},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-48 -3},posTypeAfter:1
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-20 -51},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-20 -51},posTypeAfter:1
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-25 -14},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-25 -14},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-52 -36},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-52 -36},posTypeAfter:1
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-20 -16},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-20 -16},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-46 -13},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-46 -13},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-39 9},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-39 9},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-56 27},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-56 27},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-44 14},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-44 14},posTypeAfter:1
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-35 -43},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-35 -43},posTypeAfter:1
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-25 2},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-25 2},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-44 -49},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-44 -49},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-43 -31},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-43 -31},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-62 26},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-62 26},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-21 -27},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-21 -27},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-57 19},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-57 19},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-52 -37},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-52 -37},posTypeAfter:1
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-63 -10},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-63 -10},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-45 15},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-45 15},posTypeAfter:1
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-60 -49},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-60 -49},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-70 0},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-70 0},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-23 9},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-23 9},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-56 -32},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-56 -32},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-42 -36},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-42 -36},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-17 -32},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-17 -32},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-16 23},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-16 23},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-23 3},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-23 3},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-24 -22},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-24 -22},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-3 21},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-3 21},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-36 14},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-36 14},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-64 -37},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-64 -37},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-62 -25},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-62 -25},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{5 12},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{5 12},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{7 -7},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{7 -7},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-8 -24},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-8 -24},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{14 -7},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{14 -7},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-9 -32},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-9 -32},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{1 -24},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{1 -24},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{16 -36},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{16 -36},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-15 11},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-15 11},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-58 -43},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-58 -43},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-9 1},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-9 1},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-12 17},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-12 17},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{3 -12},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{3 -12},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{13 -14},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{13 -14},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-20 -38},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-20 -38},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-13 4},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-13 4},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-46 -20},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-46 -20},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{16 -15},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{16 -15},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{1 19},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{1 19},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-2 11},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-2 11},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-14 -19},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-14 -19},posTypeAfter:2
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-33 -45},posTypeBefore:0
+2022-03-21 14:30:31 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-33 -45},posTypeAfter:2
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_action_unlock.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_activity.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_activity_func.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_battle_level.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_battle_npc.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_battle_position.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_boss_infor.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_buff.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_bullet.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_chapter_level_achievement.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_character.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_character_battle.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_character_camp.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_character_career.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_character_data.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_character_feature.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_character_level.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_character_rarity.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_character_skill.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_character_skin.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_character_stage.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_character_star.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_combat_power.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_combat_power_adapt.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_drop_data.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_drop_group.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_equipLevelUp_data.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_equip_advance.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_equip_attributes_data.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_equip_break.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_equip_data.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_equip_rand_attributes.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_equip_rand_attributes_value.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_equip_skill.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_everyday_energy_receive.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_explore_chapter.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_explore_chapter_level.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_explore_chapter_level_adapt.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_explore_chapter_reward.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_explore_event.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_explore_fog.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_explore_gather.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_explore_map_coordinate.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_explore_monster.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_explore_npc.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_explore_resource.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_field_skill.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_fx.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_gacha_drop.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_gacha_global.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_gacha_pool.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_global_string.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_graveyard_build.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_graveyard_build_level.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_graveyard_build_stage.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_graveyard_main_tower_level.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_graveyard_produce_buff.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_guide_module.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_guide_step.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_guild_greetings.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_guild_level.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_guild_task.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_hero.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_hero_camp_skill_filter.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_hero_data.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_hero_extra_data.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_hero_level.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_hero_skill.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_hero_task_data.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_item_data.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_mail_template.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_manual.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_manual_camp.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_manual_character_voice.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_manual_group.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_manual_level_attribute_data.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_mask_word.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_monster_battle.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_monster_data.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_names_npc.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_passive_effect.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_passsive_attributes.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_quick_purchase_stamina.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_rarity.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_score_pass_group.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_score_pass_phase.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_score_pass_reward.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_score_pass_task.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_signin_data.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_skill.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_skill_effect.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_skill_event.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_sound.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_store_general.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_store_goods.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_store_substore.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_store_update.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_survey_info.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_survey_question.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_targeting.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_task_data.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_task_reward.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_team_level.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_tower.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_tower_level.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_tower_stage.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_tp_gate.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_ultra_skill.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_user_avatar.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_vn.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_world_item_advance.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_world_item_attributes_data.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_world_item_data.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_world_item_level_up_data.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_yggdrasil_area.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_yggdrasil_area_city.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_yggdrasil_area_pos.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_yggdrasil_building.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_yggdrasil_cobuilding.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_yggdrasil_daily_monster.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_yggdrasil_dispatch.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_yggdrasil_mark.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_yggdrasil_object.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_yggdrasil_object_state.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_yggdrasil_simple_talk.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_yggdrasil_sub_task.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_yggdrasil_sub_task_env.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_yggdrasil_task.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load cfg_yggdrasil_world.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load gm.csv file success
+2022-03-21 14:30:55 INFO base/config_manager.go:2381 Load protocol.csv file success
+2022-03-21 14:31:05 INFO entry/drop.go:111 drop dropID: 9999999, type: 1 mode: 0, count: 5, prob: [1000 0 0 1000 0], rewards: [{1000 0xc001088070} {0 0xc001167070} {0 0xc00116bd30} {1000 0xc001170540} {0 0xc001170ce0}]
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{16 -2},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{16 -2},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-10 -11},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-10 -11},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-5 26},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-5 26},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-8 16},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-8 16},posTypeAfter:1
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-13 -24},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-13 -24},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{10 26},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{10 26},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-2 -21},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-2 -21},posTypeAfter:1
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-11 27},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-11 27},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{12 -15},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{12 -15},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-6 28},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-6 28},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-4 3},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-4 3},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{5 25},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{5 25},posTypeAfter:1
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{11 -2},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{11 -2},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-1 15},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-1 15},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{16 8},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{16 8},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-15 -2},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-15 -2},posTypeAfter:1
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{13 -36},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{13 -36},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-16 15},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-16 15},posTypeAfter:1
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-14 -40},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-14 -40},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{9 -27},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{9 -27},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-3 -31},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-3 -31},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-7 -15},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-7 -15},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{24 -20},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{24 -20},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{14 -5},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{14 -5},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-5 -26},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-5 -26},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-7 8},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-7 8},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{1 27},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{1 27},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-12 7},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-12 7},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{6 12},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{6 12},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-2 -11},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-2 -11},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-11 -32},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-11 -32},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{20 -26},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{20 -26},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-11 20},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-11 20},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{6 -27},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{6 -27},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{17 -8},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{17 -8},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-9 -34},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-9 -34},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{15 3},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{15 3},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-17 19},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-17 19},posTypeAfter:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{15 12},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{15 12},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{11 21},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{11 21},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-14 6},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-14 6},posTypeAfter:1
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-15 11},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-15 11},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-57 -11},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-57 -11},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-60 -49},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-60 -49},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-41 -44},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-41 -44},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-44 0},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-44 0},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-27 13},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-27 13},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-63 -10},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-63 -10},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-38 8},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-38 8},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-50 -42},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-50 -42},posTypeAfter:1
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-61 26},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-61 26},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-66 20},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-66 20},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-39 9},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-39 9},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-21 -27},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-21 -27},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-25 -14},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-25 -14},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-47 -4},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-47 -4},posTypeAfter:1
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-60 -17},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-60 -17},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-43 -30},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-43 -30},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-47 -6},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-47 -6},posTypeAfter:1
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-60 -34},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-60 -34},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-27 -39},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-27 -39},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-24 -53},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-24 -53},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-36 -32},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-36 -32},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-66 -40},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-66 -40},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-58 -25},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-58 -25},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-50 -53},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-50 -53},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-45 15},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-45 15},posTypeAfter:1
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-62 26},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-62 26},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-35 -43},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-35 -43},posTypeAfter:1
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-46 20},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-46 20},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-67 -37},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-67 -37},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-56 27},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-56 27},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-27 -18},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-27 -18},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-59 26},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-59 26},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-57 19},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-57 19},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-21 18},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-21 18},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-33 18},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-33 18},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-73 1},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-73 1},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-56 28},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-56 28},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-46 -40},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-46 -40},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-23 9},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-23 9},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-31 21},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-31 21},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-41 -45},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-41 -45},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-32 -43},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-32 -43},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-46 17},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-46 17},posTypeAfter:1
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-41 20},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-41 20},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-48 -3},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-48 -3},posTypeAfter:1
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-46 -13},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-46 -13},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-58 -37},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-58 -37},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-39 -54},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-39 -54},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-49 -51},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-49 -51},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-67 6},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-67 6},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-33 -47},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-33 -47},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-55 23},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-55 23},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-60 -1},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-60 -1},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-62 -49},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-62 -49},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-67 24},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-67 24},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-27 -21},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-27 -21},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-41 -42},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-41 -42},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-45 13},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-45 13},posTypeAfter:1
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-74 -16},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-74 -16},posTypeAfter:1
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-35 -25},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-35 -25},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-44 14},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-44 14},posTypeAfter:1
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-65 -23},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-65 -23},posTypeAfter:1
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-20 -51},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-20 -51},posTypeAfter:1
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-43 -31},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-43 -31},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-36 -37},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-36 -37},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-51 14},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-51 14},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-70 0},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-70 0},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-41 23},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-41 23},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-20 11},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-20 11},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-48 -5},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-48 -5},posTypeAfter:1
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-48 -19},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-48 -19},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-42 -45},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-42 -45},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-69 16},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-69 16},posTypeAfter:1
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-26 -53},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-26 -53},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-47 -24},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-47 -24},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-37 -49},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-37 -49},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-68 -27},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-68 -27},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-27 -33},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-27 -33},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-73 -10},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-73 -10},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-20 10},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-20 10},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-20 -16},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-20 -16},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-26 -21},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-26 -21},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-28 -53},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-28 -53},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-42 -57},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-42 -57},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-52 -35},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-52 -35},posTypeAfter:1
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-19 10},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-19 10},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-52 -38},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-52 -38},posTypeAfter:1
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-25 2},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-25 2},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-26 -44},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-26 -44},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-55 16},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-55 16},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-45 16},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-45 16},posTypeAfter:1
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-30 -52},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-30 -52},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-55 4},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-55 4},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-42 5},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-42 5},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-59 -27},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-59 -27},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-44 -49},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-44 -49},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-57 -39},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-57 -39},posTypeAfter:1
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-59 16},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-59 16},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-51 -36},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-51 -36},posTypeAfter:1
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-52 -37},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-52 -37},posTypeAfter:1
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-51 -38},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-51 -38},posTypeAfter:1
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-52 -36},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-52 -36},posTypeAfter:1
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-47 -57},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-47 -57},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-52 -14},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-52 -14},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-64 -37},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-64 -37},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{12 -4},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{12 -4},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-8 -24},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-8 -24},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{3 -12},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{3 -12},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-6 -12},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-6 -12},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-12 17},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-12 17},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-9 -32},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-9 -32},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{7 -7},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{7 -7},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-3 21},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-3 21},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{1 -24},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{1 -24},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{16 -36},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{16 -36},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-17 -32},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-17 -32},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-33 -45},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-33 -45},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{1 19},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{1 19},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{13 -14},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{13 -14},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-2 11},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-2 11},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-46 -20},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-46 -20},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-36 14},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-36 14},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-42 -36},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-42 -36},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-56 -32},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-56 -32},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-20 -38},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-20 -38},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-23 3},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-23 3},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{14 -7},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{14 -7},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-24 -22},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-24 -22},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-16 23},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-16 23},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-58 -43},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-58 -43},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-62 -25},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-62 -25},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{5 12},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{5 12},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-13 4},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-13 4},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{16 -15},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{16 -15},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-13 -8},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-13 -8},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-14 -19},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-14 -19},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{7 29},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{7 29},posTypeAfter:2
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:696 RefreshTerrainForObjectChange pos:{-9 1},posTypeBefore:0
+2022-03-21 14:31:05 DEBUG model/yggdrasil_entity.go:698 RefreshTerrainForObjectChange pos:{-9 1},posTypeAfter:2

@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package = "./;pb";
+
+service Pure {
+	rpc Scan(ScanRequest) returns (ScanReply);
+	rpc Filter(FilterRequest) returns (FilterReply);
+}
+
+message ScanRequest {
+	string Text = 1;
+}
+
+message ScanReply {
+	bool Pass = 1;
+}
+
+message FilterRequest {
+	string Text = 1;
+}
+
+message FilterReply {
+	string Text = 1;
+}
+

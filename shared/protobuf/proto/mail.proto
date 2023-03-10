@@ -1,0 +1,112 @@
+syntax = "proto3";
+
+import "shared/protobuf/proto/vo.proto";
+
+option go_package = "./;pb";
+
+service Mail {
+	rpc Fetch(MailFetchReq) returns (MailFetchResp);
+    rpc SendWholeServerMail(SendWholeServerMailReq) returns (SendWholeServerMailResp);
+    rpc SendGroupMail(SendGroupMailReq) returns (SendGroupMailResp);
+    rpc SendPersonalMail(SendPersonalMailReq) returns (SendPersonalMailResp);
+}
+
+message MailFetchReq {
+    int64 userId = 1;
+}
+
+message MailFetchResp {
+    int64 userId = 1;
+    repeated VOServerMail groupMails = 2;
+    repeated VOServerMail personalMails = 3;
+}
+
+message SendWholeServerMailReq {
+    int32 templateId = 1;
+    string title = 2;
+    repeated string titleArgs = 3;
+    string content = 4;
+    repeated string contentArgs = 5;
+    repeated VOResource attachment = 6;
+    string sender = 8;
+    int64 startTime = 9;
+    int64 expireTime = 10;
+    int64 endTime = 11;
+}
+
+
+message SendWholeServerMailResp {
+}
+
+message SendGroupMailReq {
+    int32 templateId = 1;
+    string title = 2;
+    repeated string titleArgs = 3;
+    string content = 4;
+    repeated string contentArgs = 5;
+    repeated VOResource attachment = 6;
+    string sender = 8;
+    int64 startTime = 9;
+    int64 expireTime = 10;
+    int64 endTime = 11;
+    repeated int64 users = 12;
+}
+
+message SendGroupMailResp {
+}
+
+message SendPersonalMailReq {
+    int32 templateId = 1;
+    string title = 2;
+    repeated string titleArgs = 3;
+    string content = 4;
+    repeated string contentArgs = 5;
+    repeated VOResource attachment = 6;
+    string sender = 7;
+    int64 startTime = 8;
+    int64 endTime = 9;
+    int64 expireTime = 10;
+    repeated int64 users = 11;
+}
+
+message SendPersonalMailResp {
+}
+
+message NewGroupMailReq {
+    VOServerGroupMail mail = 1;
+}
+
+message NewGroupMailResp {
+}
+
+message NewPersonalMailReq {
+    VOServerPersonalMail mail = 1;
+}
+
+message NewPersonalMailResp {
+}
+
+message VOServerMail {
+    int64 id = 1;
+    int32 templateId = 2;
+    string title = 3;
+    repeated string titleArgs = 4;
+    string content = 5;
+    repeated string contentArgs = 6;
+    repeated VOResource attachment = 7;
+    string sender = 8;
+    int64 sendTime = 9;
+    int64 expireTime = 10;
+    int64 endTime = 11;
+}
+
+message VOServerGroupMail {
+    VOServerMail mail = 1;
+    bool sendAll = 2;
+    repeated int64 users = 3;
+}
+
+message VOServerPersonalMail {
+    VOServerMail mail = 1;
+    int64 user = 2;
+}

@@ -1,0 +1,5 @@
+﻿id,surveyType,startDate,dayCnt,unlockCondition,questionCnt,maxLen,dropID
+int,int,int,int,strings,int,int,int
+1,1,20211026,28,1:5,80,500,5000001
+2,2,20211026,28,,80,500,5000001
+3,3,20211026,28,1:5,80,500,5000001

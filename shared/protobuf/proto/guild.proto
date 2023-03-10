@@ -1,0 +1,774 @@
+syntax = "proto3";
+
+import "shared/protobuf/proto/vo.proto";
+
+option go_package = "./;pb";
+
+service Guild {
+  rpc ShowInfo(GuildShowInfoReq) returns (GuildShowInfoResp);
+  rpc Info(GuildInfoReq) returns (GuildInfoResp);
+  rpc Create(GuildCreateReq) returns (GuildCreateResp);
+  rpc Dissolve(GuildDissolveReq) returns (GuildDissolveResp);
+  rpc CancelDissolve(GuildCancelDissolveReq) returns (GuildCancelDissolveResp);
+  rpc Apply(GuildApplyReq) returns (GuildApplyResp);
+  rpc HandleApplied(GuildHandleAppliedReq) returns (GuildHandleAppliedResp);
+  rpc CancelApply(GuildCancelApplyReq) returns (GuildCancelApplyResp);
+  rpc Quit(GuildQuitReq) returns (GuildQuitResp);
+  rpc Kick(GuildKickReq) returns (GuildKickResp);
+  rpc Chat(GuildChatReq) returns (GuildChatResp);
+  rpc Promotion(GuildPromotionReq) returns (GuildPromotionResp);
+  rpc Demotion(GuildDemotionReq) returns (GuildDemotionResp);
+  rpc Transfer(GuildTransferReq) returns (GuildTransferResp);
+  rpc Recommend(GuildRecommendReq) returns (GuildRecommendResp);
+  rpc IsDissolved(GuildIsDissolvedReq) returns (GuildIsDissolvedResp);
+  rpc Sync(GuildSyncReq) returns (GuildSyncResp);
+  rpc CoBuildGetInfo(GuildCoBuildGetInfoReq) returns(GuildCoBuildGetInfoResp);
+  rpc CoBuildImprove(GuildCoBuildImproveReq) returns(GuildCoBuildImproveResp);
+  rpc CoBuildUse(GuildCoBuildUseReq) returns(GuildCoBuildUseResp);
+  rpc Members(GuildMembersReq) returns(GuildMembersResp);
+  rpc GetDispatchCharac(GuildGetDispatchCharacReq) returns(GuildGetDispatchCharacResp);
+  rpc AddGreetings(GuildAddGreetingsReq) returns(GuildAddGreetingsResp);
+  rpc GetGreetings(GuildGetGreetingsReq) returns(GuildGetGreetingsResp);
+  rpc UpdateGreetingsRecord(GuildUpdateGreetingsReq) returns(GuildUpdateGreetingsResp);
+  rpc GetGraveyardRequests(GuildGetGraveyardRequestsReq) returns(GuildGetGraveyardRequestsResp);
+  rpc AddGraveyardRequest(GuildAddGraveyardRequestReq) returns(GuildAddGraveyardRequestResp);
+  rpc HelpRequestsHandle(GuildHelpRequestsHandleReq) returns(GuildHelpRequestsHandleResp);
+  rpc GetElites(GuildGetElitesReq) returns(GuildGetElitesResp);
+  rpc RecommendInfo(GuildRecommendInfoReq) returns(GuildRecommendInfoResp);
+  rpc GetTaskList(GuildTaskListReq) returns(GuildTaskListResp);
+  rpc TaskRewards(GuildTaskRewardsReq) returns(GuildTaskRewardsResp);
+  rpc TaskAddProgress(GuildTaskAddProgressReq) returns(GuildTaskAddProgressResp);
+  rpc SendGroupMail(GuildSendGroupMailReq) returns(GuildSendGroupMailResp);
+  rpc GetApplyList(GuildGetApplyListReq) returns(GuildGetApplyListResp);
+  rpc Modify(GuildModifyReq) returns(GuildModifyResp);
+}
+
+// --------------- Sync ---------------
+message GuildSyncReq {
+  int64 guildID = 1;
+  int64 userID = 2;
+  int64 lastLoginTime = 3; // 上次登录时间
+  int32 status = 4; // 在线状态
+}
+
+message GuildSyncResp {
+}
+
+// --------------- IsDissolved ---------------
+message GuildIsDissolvedReq {
+  int64 guildID = 1;
+}
+
+message GuildIsDissolvedResp {
+  bool isDissolved = 1;
+  bool isInDissolving = 2;
+}
+
+// --------------- Recommend ---------------
+message C2SGuildRecommend {
+}
+
+message S2CGuildRecommend {
+  repeated VOGuildShowInfo guildShowInfoList = 1;
+}
+
+message GuildRecommendReq {
+}
+
+message GuildRecommendResp {
+  repeated VOGuildShowInfo guildShowInfoList = 1;
+}
+
+// --------------- Search ---------------
+message C2SGuildSearch {
+  string guildName = 1;
+}
+
+message S2CGuildSearch {
+  VOGuildShowInfo guildShowInfo = 1;
+}
+
+// --------------- Info ---------------
+message C2SGuildInfo {
+}
+
+message S2CGuildInfo {
+  VOGuildInfo guildInfo = 1;
+}
+
+message GuildInfoReq {
+  int64 guildID = 1;
+  int64 userID = 2;
+}
+
+message GuildInfoResp {
+  VOGuildInfo guildInfo = 1;
+}
+
+// --------------- ShowInfo ---------------
+message GuildShowInfoReq {
+  int64 guildID = 1;
+}
+
+message GuildShowInfoResp {
+  VOGuildShowInfo guildShowInfo = 1;
+}
+
+// --------------- Create ---------------
+message C2SGuildCreate {
+  string name = 1;
+  VOGuildIcon icon = 2;
+  int32 joinModel = 3;
+  string title = 4;
+}
+
+message S2CGuildCreate {
+  VOGuildInfo guildInfo = 1;
+  VOResourceResult resource = 2;
+}
+
+message GuildCreateReq {
+  int64 guildID = 1;
+  int64 userID = 2;
+  string name = 3;
+  VOGuildIcon icon = 4;
+  int32 joinModel = 5;
+  string title = 6;
+}
+
+message GuildCreateResp {
+  VOGuildInfo guildInfo = 1;
+}
+
+// --------------- Dissolve ---------------
+message C2SGuildDissolve {
+}
+
+message S2CGuildDissolve{
+  VOGuildInfo guildInfo = 1;
+}
+
+message GuildDissolveReq {
+  int64 guildID = 1;
+  int64 userID = 2;
+}
+
+message GuildDissolveResp{
+  VOGuildInfo guildInfo = 1;
+}
+
+// --------------- Dissolve ---------------
+message C2SGuildCancelDissolve {
+}
+
+message S2CGuildCancelDissolve{
+  VOGuildInfo guildInfo = 1;
+}
+
+message GuildCancelDissolveReq {
+  int64 guildID = 1;
+  int64 userID = 2;
+}
+
+message GuildCancelDissolveResp{
+  VOGuildInfo guildInfo = 1;
+}
+
+// --------------- Apply ---------------
+message C2SGuildApply {
+  int64 guildID = 1;
+}
+
+message S2CGuildApply{
+  bool isJoined = 1;
+  VOUserGuild userGuild = 2;
+  VOGuildInfo guildInfo = 3;
+}
+
+message GuildApplyReq {
+  int64 guildID = 1;
+  int64 userID = 2;
+}
+
+message GuildApplyResp{
+  bool isJoined = 1;
+  VOGuildInfo guildInfo = 2;
+}
+
+// --------------- CancelApply ---------------
+message C2SGuildCancelApply {
+  int64 guildID = 1;
+}
+
+message S2CGuildCancelApply{
+  VOUserGuild userGuild = 1;
+}
+
+message GuildCancelApplyReq {
+  int64 guildID = 1;
+  int64 userID = 2;
+}
+
+message GuildCancelApplyResp{
+}
+
+// --------------- Quit ---------------
+message C2SGuildQuit {
+}
+
+message S2CGuildQuit{
+  VOUserGuild userGuild = 1;
+}
+
+message GuildQuitReq {
+  int64 guildID = 1;
+  int64 userID = 2;
+}
+
+message GuildQuitResp{
+  VOGuildInfo guildInfo = 1;
+}
+
+// --------------- HandleApplied ---------------
+message C2SGuildHandleApplied {
+  repeated int64 approve = 1;
+  repeated int64 refuse = 2;
+}
+
+message S2CGuildHandleApplied{
+  VOGuildInfo guildInfo = 1;
+}
+
+message GuildHandleAppliedReq {
+  int64 guildID = 1;
+  int64 userID = 2;
+  repeated int64 approve = 3;
+  repeated int64 refuse = 4;
+}
+
+message GuildHandleAppliedResp{
+  VOGuildInfo guildInfo = 1;
+}
+
+// --------------- Kick ---------------
+message C2SGuildKick {
+  int64 userID = 1;
+}
+
+message S2CGuildKick{
+  VOGuildInfo guildInfo = 1;
+}
+
+message GuildKickReq {
+  int64 guildID = 1;
+  int64 userID = 2;
+  int64 kickedUserID = 3;
+}
+
+message GuildKickResp{
+  VOGuildInfo guildInfo = 1;
+}
+
+// --------------- Chat ---------------
+message C2SGuildChat {
+  string content = 1;
+}
+
+message S2CGuildChat{
+  VOGuildInfo guildInfo = 1;
+}
+
+message GuildChatReq {
+  int64 guildID = 1;
+  int64 userID = 2;
+  string userName = 3;
+  string content = 4;
+  int32 avatar = 5;
+  int32 frame = 6;
+}
+
+message GuildChatResp{
+  VOGuildInfo guildInfo = 1;
+}
+
+// --------------- Promotion ---------------
+message C2SGuildPromotion {
+  int64 userID = 1;
+}
+
+message S2CGuildPromotion{
+  VOGuildInfo guildInfo = 1;
+}
+
+message GuildPromotionReq {
+  int64 guildID = 1;
+  int64 userID = 2;
+  int64 target = 3;
+}
+
+message GuildPromotionResp{
+  VOGuildInfo guildInfo = 1;
+}
+
+// --------------- Demotion ---------------
+message C2SGuildDemotion {
+  int64 userID = 1;
+}
+
+message S2CGuildDemotion{
+  VOGuildInfo guildInfo = 1;
+}
+
+message GuildDemotionReq {
+  int64 guildID = 1;
+  int64 userID = 2;
+  int64 target = 3;
+}
+
+message GuildDemotionResp{
+  VOGuildInfo guildInfo = 1;
+}
+
+// --------------- Transfer ---------------
+message C2SGuildTransfer {
+  int64 userID = 1;
+}
+
+message S2CGuildTransfer{
+  VOGuildInfo guildInfo = 1;
+}
+
+message GuildTransferReq {
+  int64 guildID = 1;
+  int64 userID = 2;
+  int64 target = 3;
+}
+
+message GuildTransferResp{
+  VOGuildInfo guildInfo = 1;
+}
+
+// -----------------Task----------------------
+message GuildTaskListReq{
+  int64 guildID = 1;
+  int64 userID = 2;
+}
+message GuildTaskListResp{
+  repeated VOGuildTask tasks = 1;
+}
+
+message GuildTaskRewardsReq{
+  int64 guildID = 1;
+  int64 userID = 2;
+  int32 taskId = 3;
+}
+message GuildTaskRewardsResp{
+  int32 activation = 1;
+}
+
+message GuildTaskAddProgressReq{
+  int64 guildID = 1;
+  int64 userID = 2;
+  repeated VOGuildTaskItem items = 3;
+}
+message GuildTaskAddProgressResp{
+}
+
+// ---------------CoBuild----------------
+message GuildCoBuildGetInfoReq{
+  int64 guildID = 1;
+  int32 buildID = 2;
+}
+
+message GuildCoBuildGetInfoResp{
+  VOGuildYggdrasilCoBuild coBuild = 1;
+}
+
+message GuildCoBuildImproveReq{
+  int64 guildID = 1;
+  int32 buildID = 2;
+  int64 userID = 3;
+}
+
+message GuildCoBuildImproveResp{
+  VOGuildYggdrasilCoBuild coBuild = 1;
+  bool buildNotExcuted = 2;
+}
+
+message GuildCoBuildUseReq{
+  int64 guildID = 1;
+  int32 buildID = 2;
+  int64 userID = 3;
+}
+
+message GuildCoBuildUseResp{
+  VOGuildYggdrasilCoBuild coBuild = 1;
+}
+
+message GuildMembersReq{
+  int64 guildID = 1;
+}
+
+message GuildMembersResp{
+  repeated int64 userIds = 1;
+
+}
+
+message GuildGetElitesReq{
+  int64 guildId = 1;
+}
+message GuildGetElitesResp{
+  repeated int64 userIds = 1;
+}
+
+//---------Dispatch Characters-----------
+message GuildGetDispatchCharacReq{
+  int64 guildID = 1;
+  int32 characterId = 2;
+}
+message GuildGetDispatchCharacResp{
+  repeated VOYggDispatchGuildCharacter guildCharacters = 1;
+}
+
+//---------Greetings--------------------
+message GuildAddGreetingsReq{
+  int64 guildID = 1;
+  int64 userId = 2;
+  repeated VOGreetings greetings = 3;
+}
+
+message GuildAddGreetingsResp{
+}
+
+message GuildGetGreetingsReq{
+  int64 guildID = 1;
+  int64 userId = 2;
+}
+
+message GuildGetGreetingsResp{
+  repeated VOGreetings greetings = 1;
+}
+
+message GuildUpdateGreetingsReq{
+  int64 guildID = 1;
+  int64 userId = 2;
+  int64 lastTimestamp = 3;
+}
+
+message GuildUpdateGreetingsResp{
+}
+
+// --------------- 公会互助相关rpc ---------------
+
+message GuildGetGraveyardRequestsReq{
+  int64 guildID = 1;
+  int64 userId = 2;
+}
+
+message  GuildGetGraveyardRequestsResp{
+  repeated VOGraveyardHelpRequest requests = 1;
+}
+
+message GuildAddGraveyardRequestReq{
+  int64 guildID = 1;
+  VOAddGraveyardRequest add = 2;
+}
+
+
+
+message GuildAddGraveyardRequestResp{
+  int64 requestUid = 1;
+}
+
+message GuildHelpRequestsHandleReq{
+  int64 guildID = 1;
+  int64 userId = 2;
+  int32 dailyAddActivation = 3;//今日已经增加的公会贡献
+  int32 dailyAddGold = 4;//今日已经获得的公会代币
+
+}
+
+message GuildHelpRequestsHandleResp{
+  int32 dailyAddGold = 1; //今日已经获得的公会代币
+  int32 dailyAddActivation = 2; //今日已经增加的公会贡献
+  int32 helpCount = 3;
+  VOGuildInfo guildInfo = 4;
+}
+
+// -----------公会推荐列表的信息----------
+message GuildRecommendInfoReq{
+  int64 guildId = 1;
+}
+message GuildRecommendInfoResp{
+  VOGuildSimpleInfo info = 1;
+}
+
+// ------------公会编辑-------------------
+message GuildModifyReq{
+  int64 guildId = 1;
+  int64 userId = 2;
+  VOGuildIcon icon = 3;
+  int32 joinModel = 4;
+  string title = 5;
+}
+message GuildModifyResp{
+  VOGuildInfo info = 1;
+}
+
+message C2SGuildModify{
+  VOGuildIcon icon = 1;
+  int32 joinModel = 2;
+  string title = 3;
+}
+message S2CGuildModify{
+  int64 guildId = 1;
+  VOGuildIcon icon = 2;
+  int32 joinModel = 3;
+  string title = 4;
+}
+
+// 异界问候
+message C2SGuildGetMemberGreetings{
+}
+
+message S2CGuildGetMemberGreetings{
+  repeated VOGreetings greetings = 1;
+}
+
+message C2SGuildGreetingsRewards{
+}
+
+message S2CGuildGreetingsRewards{
+  VOResourceResult resourceResult = 1;
+}
+
+// 公会推荐列表
+message C2SGuildGetList{
+}
+
+message S2CGuildGetList{
+  repeated VOGuildSimpleInfo info = 1;
+  int64 lastQuitTime = 2;
+  int32 applyNum = 3;
+}
+
+message C2SGuildListInfo{
+  int64 guildId = 1;
+}
+
+message S2CGuildListInfo{
+  VOGuildShowInfo guildInfo = 1;
+}
+
+// 公会申请列表
+message C2SGuildApplyList{
+}
+
+message S2CGuildApplyList{
+  repeated VOGuildSimpleInfo info = 1;
+}
+
+message C2SGraveyardGetHelpRequests{
+}
+
+message S2CGraveyardGetHelpRequests{
+  repeated VOGraveyardHelpRequest requests = 1;
+  int32 TodayHelpAddActivation = 2;
+}
+
+
+// 一键帮助他人减cd
+message C2SGraveyardHelp{
+
+}
+
+message S2CGraveyardHelp{
+  int32 helpCount = 1; //成功帮助x人
+  VOResourceResult  resourceResult = 2;
+}
+
+// 公会任务领取
+message C2SGuildTaskRewards{
+  int32 id = 1;
+}
+
+message S2CGuildTaskRewards{
+  VOResourceResult  resourceResult = 1;
+  int32 activationChange = 2;
+}
+
+message C2SGuildTaskList{
+}
+
+message S2CGuildTaskList{
+  repeated VOGuildTask tasks = 1;
+}
+
+// --------------- GroupMail ---------------
+message C2SGuildSendGroupMail{
+  string title = 1;
+  string content = 2;
+}
+
+message S2CGuildSendGroupMail{
+}
+
+message GuildSendGroupMailReq{
+  int64 userID = 1;
+  int64 guildID = 2;
+  string title = 3;
+  string content = 4;
+  string sender = 5;
+}
+
+message GuildSendGroupMailResp{
+}
+
+// --------------- GetApplyList ---------------
+message C2SGuildGetApplyList{
+}
+
+message S2CGuildGetApplyList{
+  repeated VOGuildApplyUser applyList = 1;
+}
+
+message GuildGetApplyListReq{
+  int64 userID = 1;
+  int64 guildID = 2;
+}
+
+message GuildGetApplyListResp{
+  repeated VOGuildApplyUser applyList = 1;
+}
+
+// --------------- VO ---------------
+// 公会列表展示数据
+message VOGuildShowInfo {
+  int64 guildID = 1;
+  string name = 2;
+  int64 chairman = 3;
+  repeated int64 viceChairmen = 4;
+  VOGuildIcon icon = 5;
+  string title = 6;
+  int32 exp = 7;
+  int32 level = 8;
+  int32 joinModel = 9;
+  int64 createTime = 10;
+  repeated VOGuildMember chairmenInfo = 11;
+}
+
+// 公会详细数据
+message VOGuildInfo {
+  int64 guildID = 1;
+  string name = 2;
+  int64 chairman = 3;
+  repeated int64 viceChairmen = 4;
+  VOGuildIcon icon = 5;
+  string title = 6;
+  int32 exp = 7;
+  int32 level = 8;
+  int32 joinModel = 9;
+  int64 createTime = 10;
+  repeated VOGuildMember members = 11;
+  repeated VOGuildChat chats = 12;
+  int64 dissolveTime = 13;
+  int64 lastCancelDissolveTime = 14;
+}
+
+message VOUserGuild {
+  int64 guildID = 1;
+  string guildName = 2;
+  repeated int64 applyList = 3;
+  int64 lastQuitTime = 4;
+}
+
+message VOGuildChat {
+  int64 userID = 1;
+  string userName = 2;
+  int32 position = 3;// 如果chatType不为0，则此字段为0
+  string content = 4;// 如果chatType不为0，则此字段为空
+  int64 createTime = 5;
+  int32 chatType = 6;// 为0时代表是玩家聊天
+  int32 avatar = 7;// 头像，如果chatType不为0，则此字段为0
+  int32 frame = 8;// 头像框，果chatType不为0，则此字段为0
+}
+
+message VOGuildMember {
+  int64 userID = 1;
+  string userName = 2;
+  int32 position = 3;
+  bool isOnline = 4;
+  int64 lastLoginTime = 5;
+  int32 level = 6;
+  int32 activation = 7;
+  int32 intimacy = 8;
+  int32 power = 9;
+  int32 avatar = 10;
+  int32 frame = 11;
+}
+
+message VOGuildYggdrasilCoBuild{
+  int32 buildID = 1;
+  bool isBuildComplete = 2;
+  int32 progress = 3;
+  int64 totalUseCount = 4;
+  repeated int64 contributorList = 5;
+}
+
+message VOGuildSimpleInfo{
+  int64 guildID = 1;
+  string name = 2;
+  VOGuildIcon icon = 3;
+  int32 level = 4;
+  int32 joinModel = 5;
+  int32 memberCount = 6;
+  int64 createTime = 7;
+}
+
+message VOGuildIcon {
+  int32 decorateID = 1;
+  string decorateColor = 2;
+  int32 backgroundID = 3;
+  string backgroundColor = 4;
+  int32 pictureID = 5;
+  string pictureColor = 6;
+}
+
+message VOGuildTask{
+  int32 id = 1;
+  int32 count = 2;
+  bool isReceived = 3;// 是否已经领取过奖励
+}
+
+message VOGuildTaskItem{
+  int32 taskId = 1;
+  int32 value = 2;
+}
+
+message VOAddGraveyardRequest{
+  int64 buildUid = 1;
+  int32 buildId = 2;
+  int32 buildLv = 3;
+  int64 userId = 4;
+  int32 helpType = 5;
+  int32 totalSec = 6;
+  int64 expireAt = 7;
+}
+
+message VOGuildApplyUser {
+  int64 userID = 1;
+  string userName = 2;
+  int64 applyTime = 3;
+  int32 power = 4;
+  int32 avatar = 5;
+  int32 frame = 6;
+  int32 level = 7;
+}
+
+message VOGraveyardHelpRequest{
+  VOGuildMember member = 1;
+  int32 buildId = 2;
+  int32 buildLv = 3;
+  int32 helpedCount = 4; //已被帮助次数
+  int32 helpType = 5; // 1 2 3 4 分别表示建造升级升阶生产
+}

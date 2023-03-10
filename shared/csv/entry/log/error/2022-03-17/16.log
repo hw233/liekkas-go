@@ -1,0 +1,90 @@
+2022-03-17 16:21:24 ERROR ERROR: load *entry.GachaEntry error: (/ﾟДﾟ)/ A Error Occurred!
+Code: -1
+Text: Gacha CfgCharacter Visible cannot be false,characterId:2014
+Trace:
+Gacha CfgCharacter Visible cannot be false,characterId:2014
+	shared/csv/entry.CheckDropRarity()
+		C:/code/overlord-backend-go/shared/csv/entry/gacha.go:216	
+	shared/csv/entry.(*GachaEntry).Reload()
+		C:/code/overlord-backend-go/shared/csv/entry/gacha.go:176	
+
+shared/csv/entry.(*Manager).Reload
+	C:/code/overlord-backend-go/shared/csv/entry/manager.go:123
+shared/csv/entry.TestMain
+	C:/code/overlord-backend-go/shared/csv/entry/main_test.go:25
+main.main
+	_testmain.go:129
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:225
+2022-03-17 16:22:37 ERROR ERROR: load *entry.GachaEntry error: (/ﾟДﾟ)/ A Error Occurred!
+Code: -1
+Text: Gacha CfgCharacter Visible cannot be false,characterId:2014
+Trace:
+Gacha CfgCharacter Visible cannot be false,characterId:2014
+	shared/csv/entry.CheckDropRarity()
+		C:/code/overlord-backend-go/shared/csv/entry/gacha.go:216	
+	shared/csv/entry.(*GachaEntry).Reload()
+		C:/code/overlord-backend-go/shared/csv/entry/gacha.go:176	
+
+shared/csv/entry.(*Manager).Reload
+	C:/code/overlord-backend-go/shared/csv/entry/manager.go:123
+shared/csv/entry.TestMain
+	C:/code/overlord-backend-go/shared/csv/entry/main_test.go:25
+main.main
+	_testmain.go:129
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:225
+2022-03-17 16:23:43 ERROR ERROR: load *entry.GachaEntry error: (/ﾟДﾟ)/ A Error Occurred!
+Code: -1
+Text: Gacha CfgCharacter Visible cannot be false,characterId:1022
+Trace:
+Gacha CfgCharacter Visible cannot be false,characterId:1022
+	shared/csv/entry.CheckDropRarity()
+		C:/code/overlord-backend-go/shared/csv/entry/gacha.go:216	
+	shared/csv/entry.(*GachaEntry).Reload()
+		C:/code/overlord-backend-go/shared/csv/entry/gacha.go:180	
+
+shared/csv/entry.(*Manager).Reload
+	C:/code/overlord-backend-go/shared/csv/entry/manager.go:123
+shared/csv/entry.TestMain
+	C:/code/overlord-backend-go/shared/csv/entry/main_test.go:25
+main.main
+	_testmain.go:129
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:225
+2022-03-17 16:30:17 ERROR ERROR: load *entry.GachaEntry error: (/ﾟДﾟ)/ A Error Occurred!
+Code: -1
+Text: Gacha CfgCharacter Visible cannot be false,characterId:1019
+Trace:
+Gacha CfgCharacter Visible cannot be false,characterId:1019
+	shared/csv/entry.CheckDropRarity()
+		C:/code/overlord-backend-go/shared/csv/entry/gacha.go:216	
+	shared/csv/entry.(*GachaEntry).Reload()
+		C:/code/overlord-backend-go/shared/csv/entry/gacha.go:180	
+
+shared/csv/entry.(*Manager).Reload
+	C:/code/overlord-backend-go/shared/csv/entry/manager.go:123
+shared/csv/entry.TestMain
+	C:/code/overlord-backend-go/shared/csv/entry/main_test.go:25
+main.main
+	_testmain.go:129
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:225
+2022-03-17 16:31:55 ERROR ERROR: load *entry.GachaEntry error: (/ﾟДﾟ)/ A Error Occurred!
+Code: -1
+Text: Gacha CfgCharacter Visible cannot be false,characterId:1019
+Trace:
+Gacha CfgCharacter Visible cannot be false,characterId:1019
+	shared/csv/entry.CheckDropRarity()
+		C:/code/overlord-backend-go/shared/csv/entry/gacha.go:216	
+	shared/csv/entry.(*GachaEntry).Reload()
+		C:/code/overlord-backend-go/shared/csv/entry/gacha.go:180	
+
+shared/csv/entry.(*Manager).Reload
+	C:/code/overlord-backend-go/shared/csv/entry/manager.go:123
+shared/csv/entry.TestMain
+	C:/code/overlord-backend-go/shared/csv/entry/main_test.go:25
+main.main
+	_testmain.go:129
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:225

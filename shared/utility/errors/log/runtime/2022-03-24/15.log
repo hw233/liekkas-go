@@ -1,0 +1,17 @@
+2022-03-24 15:58:08 WARN errors/errors_test.go:182 (/ﾟДﾟ)/ A Error Occurred!
+Code: 233
+Text: code errors 111111:111111
+Trace:
+code errors 111111:111111
+	shared/utility/errors.TestFormat()
+		C:/code/overlord-backend-go/shared/utility/errors/errors_test.go:168	
+
+2022-03-24 15:58:26 WARN errors/errors_test.go:182 (/ﾟДﾟ)/ A Error Occurred!
+Code: 233
+Text: code errors 111111:111111
+Trace:
+code errors 111111:111111
+	shared/utility/errors.TestFormat()
+		C:/code/overlord-backend-go/shared/utility/errors/errors_test.go:168	
+
+2022-03-24 15:58:53 WARN errors/errors_test.go:182 code errors 111111:111111

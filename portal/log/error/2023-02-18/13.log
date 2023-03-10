@@ -1,0 +1,68 @@
+2023-02-18 13:38:26 ERROR pick: conns.GetBalance(game01) !ok
+shared/grpc/balancer/picker/least_conn.(*picker).pick
+	/Users/xuecenming/Desktop/projects/overlord-backend-go/shared/grpc/balancer/picker/least_conn/least_conn.go:160
+shared/grpc/balancer/picker/least_conn.(*picker).Pick
+	/Users/xuecenming/Desktop/projects/overlord-backend-go/shared/grpc/balancer/picker/least_conn/least_conn.go:91
+google.golang.org/grpc.(*pickerWrapper).pick
+	/Users/xuecenming/go/pkg/mod/google.golang.org/grpc@v1.44.0/picker_wrapper.go:126
+google.golang.org/grpc.(*ClientConn).getTransport
+	/Users/xuecenming/go/pkg/mod/google.golang.org/grpc@v1.44.0/clientconn.go:962
+google.golang.org/grpc.(*clientStream).newAttemptLocked
+	/Users/xuecenming/go/pkg/mod/google.golang.org/grpc@v1.44.0/stream.go:408
+google.golang.org/grpc.newClientStreamWithParams
+	/Users/xuecenming/go/pkg/mod/google.golang.org/grpc@v1.44.0/stream.go:298
+google.golang.org/grpc.newClientStream.func2
+	/Users/xuecenming/go/pkg/mod/google.golang.org/grpc@v1.44.0/stream.go:184
+google.golang.org/grpc.newClientStream
+	/Users/xuecenming/go/pkg/mod/google.golang.org/grpc@v1.44.0/stream.go:212
+google.golang.org/grpc.invoke
+	/Users/xuecenming/go/pkg/mod/google.golang.org/grpc@v1.44.0/call.go:66
+google.golang.org/grpc.(*ClientConn).Invoke
+	/Users/xuecenming/go/pkg/mod/google.golang.org/grpc@v1.44.0/call.go:37
+shared/grpc.(*ClientConn).Invoke
+	/Users/xuecenming/Desktop/projects/overlord-backend-go/shared/grpc/client_conn.go:169
+shared/protobuf/pb.(*gameClient).Transfer
+	/Users/xuecenming/Desktop/projects/overlord-backend-go/shared/protobuf/pb/game_service_grpc.pb.go:50
+portal/controller.(*Handler).Transfer
+	/Users/xuecenming/Desktop/projects/overlord-backend-go/portal/controller/handler.go:228
+portal/controller.(*Handler).handle
+	/Users/xuecenming/Desktop/projects/overlord-backend-go/portal/controller/handler.go:172
+portal/controller.(*Handler).HandleClient
+	/Users/xuecenming/Desktop/projects/overlord-backend-go/portal/controller/handler.go:117
+portal/controller.(*Handler).React.func1
+	/Users/xuecenming/Desktop/projects/overlord-backend-go/portal/controller/handler.go:72
+github.com/panjf2000/ants/v2.(*goWorker).run.func1
+	/Users/xuecenming/go/pkg/mod/github.com/panjf2000/ants/v2@v2.4.6/worker.go:70
+2023-02-18 13:38:26 ERROR picker: pick error: rpc error: code = Unavailable desc = name game01 disable
+shared/grpc/balancer/picker/least_conn.(*picker).Pick
+	/Users/xuecenming/Desktop/projects/overlord-backend-go/shared/grpc/balancer/picker/least_conn/least_conn.go:93
+google.golang.org/grpc.(*pickerWrapper).pick
+	/Users/xuecenming/go/pkg/mod/google.golang.org/grpc@v1.44.0/picker_wrapper.go:126
+google.golang.org/grpc.(*ClientConn).getTransport
+	/Users/xuecenming/go/pkg/mod/google.golang.org/grpc@v1.44.0/clientconn.go:962
+google.golang.org/grpc.(*clientStream).newAttemptLocked
+	/Users/xuecenming/go/pkg/mod/google.golang.org/grpc@v1.44.0/stream.go:408
+google.golang.org/grpc.newClientStreamWithParams
+	/Users/xuecenming/go/pkg/mod/google.golang.org/grpc@v1.44.0/stream.go:298
+google.golang.org/grpc.newClientStream.func2
+	/Users/xuecenming/go/pkg/mod/google.golang.org/grpc@v1.44.0/stream.go:184
+google.golang.org/grpc.newClientStream
+	/Users/xuecenming/go/pkg/mod/google.golang.org/grpc@v1.44.0/stream.go:212
+google.golang.org/grpc.invoke
+	/Users/xuecenming/go/pkg/mod/google.golang.org/grpc@v1.44.0/call.go:66
+google.golang.org/grpc.(*ClientConn).Invoke
+	/Users/xuecenming/go/pkg/mod/google.golang.org/grpc@v1.44.0/call.go:37
+shared/grpc.(*ClientConn).Invoke
+	/Users/xuecenming/Desktop/projects/overlord-backend-go/shared/grpc/client_conn.go:169
+shared/protobuf/pb.(*gameClient).Transfer
+	/Users/xuecenming/Desktop/projects/overlord-backend-go/shared/protobuf/pb/game_service_grpc.pb.go:50
+portal/controller.(*Handler).Transfer
+	/Users/xuecenming/Desktop/projects/overlord-backend-go/portal/controller/handler.go:228
+portal/controller.(*Handler).handle
+	/Users/xuecenming/Desktop/projects/overlord-backend-go/portal/controller/handler.go:172
+portal/controller.(*Handler).HandleClient
+	/Users/xuecenming/Desktop/projects/overlord-backend-go/portal/controller/handler.go:117
+portal/controller.(*Handler).React.func1
+	/Users/xuecenming/Desktop/projects/overlord-backend-go/portal/controller/handler.go:72
+github.com/panjf2000/ants/v2.(*goWorker).run.func1
+	/Users/xuecenming/go/pkg/mod/github.com/panjf2000/ants/v2@v2.4.6/worker.go:70

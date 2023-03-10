@@ -1,0 +1,3 @@
+2022-03-22 19:54:41 FATAL failed to listen: rpc error: code = Unavailable desc = error reading from server: read tcp 127.0.0.1:52495->127.0.0.1:2579: wsarecv: An existing connection was forcibly closed by the remote host.
+main.listenSignal
+	C:/code/overlord-backend-go/gamesvr/signal.go:31

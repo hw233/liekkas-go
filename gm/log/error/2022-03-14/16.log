@@ -1,0 +1,27 @@
+2022-03-14 16:05:42 ERROR ServeHTTP Filter err:Bearer Authentication
+gm/controller.(*Dispatcher).ServeHTTP
+	C:/code/overlord-backend-go/gm/controller/dispatch.go:25
+net/http.(*ServeMux).ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2428
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2867
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1932
+2022-03-14 16:06:58 ERROR ServeHTTP Filter err:Bearer Authentication
+gm/controller.(*Dispatcher).ServeHTTP
+	C:/code/overlord-backend-go/gm/controller/dispatch.go:25
+net/http.(*ServeMux).ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2428
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2867
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1932
+2022-03-14 16:46:09 ERROR ServeHTTP Filter err:Bearer Authentication
+gm/controller.(*Dispatcher).ServeHTTP
+	C:/code/overlord-backend-go/gm/controller/dispatch.go:25
+net/http.(*ServeMux).ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2428
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2867
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1932

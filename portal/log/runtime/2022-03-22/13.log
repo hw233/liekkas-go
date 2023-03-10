@@ -1,0 +1,285 @@
+2022-03-22 13:15:49 INFO etcd/dial.go:30 etcd 127.0.0.1:2379 connect success
+2022-03-22 13:15:49 INFO etcd/dial.go:30 etcd 127.0.0.1:2479 connect success
+2022-03-22 13:15:49 INFO etcd/dial.go:30 etcd 127.0.0.1:2579 connect success
+2022-03-22 13:15:49 INFO balancer/balancer.go:107 + service [game] register server [game01, 10.23.41.20:56634]
+2022-03-22 13:15:49 INFO controller/handler.go:50 Echo server is listening on [::]:9080 (multi-cores: true, loops: 12)
+
+2022-03-22 13:15:49 INFO resolver/watcher.go:55 start watching service [game]
+2022-03-22 13:15:49 INFO grpc/server.go:80 grpc listen addr: 10.23.40.30:59038
+2022-03-22 13:16:07 INFO balancer/balancer.go:121 - service [game] unregister server [game01]
+2022-03-22 13:16:07 INFO balancer/balancer.go:128 + service [game] register server [game01, 10.23.40.30:59088]
+2022-03-22 13:16:07 INFO least_conn/least_conn.go:57 
+--------- service [game] regenerate server ----------
+          1. game01, 10.23.40.30:59088
+---------------------------------------------------
+2022-03-22 13:18:44 DEBUG controller/handler.go:185 Connect: req[command:1001  serial:1  content:"\x10\x97\xeb\xb2\xef-"]
+2022-03-22 13:18:44 DEBUG grpc/client_conn.go:168 call rpc method[/Game/Connect], id[0], service[game], server[], args[gameReq:{command:1001  serial:1  content:"\x10\x97\xeb\xb2\xef-"}  token:"cdcda8d2-b1f5-528a-8a54-aaa173b2a613"  server:"portal01"]
+2022-03-22 13:18:47 DEBUG controller/handler.go:199 Connect: resp[gameResp:  {
+  command:  1002
+  serial:  1
+  timestamp:  1647926327
+  content:  "\x10\x97\xeb\xb2\xef-"
+}
+uid:  12313212311
+]
+2022-03-22 13:18:47 DEBUG controller/handler.go:139 HandleClient: resp[command:1002  serial:1  timestamp:1647926327  content:"\x10\x97\xeb\xb2\xef-"]
+2022-03-22 13:18:47 DEBUG controller/handler.go:213 Transfer: req[command:1005  serial:2]
+2022-03-22 13:18:47 DEBUG grpc/client_conn.go:168 call rpc method[/Game/Transfer], id[12313212311], service[game], server[game01], args[gameReq:{command:1005  serial:2}  uid:12313212311]
+2022-03-22 13:18:47 DEBUG controller/handler.go:230 Transfer: resp[gameResp:  {
+  command:  1006
+  serial:  2
+  timestamp:  1647926327
+  content:  "\n\x1c\x08\x97\xeb\xb2\xef-\x12\x08飞鼠_8\x18\x01 \x010\xc4\xc4n8\xd9\xe0o\x12\x08 x(\xb7\xb8\xe5\x91\x06\x1a\x06\x08\xc4\xc4n\x10\x01\x1a\x06\x08\xd9\xe0o\x10\x01\"0\x08\xf4\x07\x18\x01 \x010\xb4\xb8\xe5\x91\x06:\x06\x08Ԗ\x06\x10\x01:\x06\x08Ֆ\x06\x10\x01:\x06\x08і\x06\x10\x01P\xd4\x03X\xb4\xb8\xe5\x91\x06`\x03Z\x04\x08\x94\x95\x06"
+}
+]
+2022-03-22 13:18:47 DEBUG controller/handler.go:139 HandleClient: resp[command:1006  serial:2  timestamp:1647926327  content:"\n\x1c\x08\x97\xeb\xb2\xef-\x12\x08飞鼠_8\x18\x01 \x010\xc4\xc4n8\xd9\xe0o\x12\x08 x(\xb7\xb8\xe5\x91\x06\x1a\x06\x08\xc4\xc4n\x10\x01\x1a\x06\x08\xd9\xe0o\x10\x01\"0\x08\xf4\x07\x18\x01 \x010\xb4\xb8\xe5\x91\x06:\x06\x08Ԗ\x06\x10\x01:\x06\x08Ֆ\x06\x10\x01:\x06\x08і\x06\x10\x01P\xd4\x03X\xb4\xb8\xe5\x91\x06`\x03Z\x04\x08\x94\x95\x06"]
+2022-03-22 13:18:47 DEBUG controller/handler.go:213 Transfer: req[command:1203  serial:3  content:"\x10\x01"]
+2022-03-22 13:18:47 DEBUG grpc/client_conn.go:168 call rpc method[/Game/Transfer], id[12313212311], service[game], server[game01], args[gameReq:{command:1203  serial:3  content:"\x10\x01"}  uid:12313212311]
+2022-03-22 13:18:47 DEBUG controller/handler.go:230 Transfer: resp[gameResp:  {
+  command:  23
+  serial:  3
+  timestamp:  1647926327
+  content:  "\x08\xb9\x10"
+}
+]
+2022-03-22 13:18:47 DEBUG controller/handler.go:139 HandleClient: resp[command:23  serial:3  timestamp:1647926327  content:"\x08\xb9\x10"]
+2022-03-22 13:19:00 INFO balancer/balancer.go:139 - service [game] unregister Server [game01]
+2022-03-22 13:21:41 INFO balancer/balancer.go:107 + service [game] register server [game01, 10.23.40.30:59980]
+2022-03-22 13:21:41 INFO least_conn/least_conn.go:57 
+--------- service [game] regenerate server ----------
+          1. game01, 10.23.40.30:59980
+---------------------------------------------------
+2022-03-22 13:21:46 DEBUG controller/handler.go:185 Connect: req[command:1001  serial:1  content:"\x10\x97\xeb\xb2\xef-"]
+2022-03-22 13:21:46 DEBUG grpc/client_conn.go:168 call rpc method[/Game/Connect], id[0], service[game], server[], args[gameReq:{command:1001  serial:1  content:"\x10\x97\xeb\xb2\xef-"}  token:"c6f59475-ccb8-54f7-b09d-12e12588b8b0"  server:"portal01"]
+2022-03-22 13:21:48 DEBUG controller/handler.go:199 Connect: resp[gameResp:  {
+  command:  1002
+  serial:  1
+  timestamp:  1647926508
+  content:  "\x10\x97\xeb\xb2\xef-"
+}
+uid:  12313212311
+]
+2022-03-22 13:21:48 DEBUG controller/handler.go:139 HandleClient: resp[command:1002  serial:1  timestamp:1647926508  content:"\x10\x97\xeb\xb2\xef-"]
+2022-03-22 13:21:48 DEBUG controller/handler.go:213 Transfer: req[command:1005  serial:2]
+2022-03-22 13:21:48 DEBUG grpc/client_conn.go:168 call rpc method[/Game/Transfer], id[12313212311], service[game], server[game01], args[gameReq:{command:1005  serial:2}  uid:12313212311]
+2022-03-22 13:21:48 DEBUG controller/handler.go:230 Transfer: resp[gameResp:  {
+  command:  1006
+  serial:  2
+  timestamp:  1647926508
+  content:  "\n\x1c\x08\x97\xeb\xb2\xef-\x12\x08飞鼠_8\x18\x01 \x010\xc4\xc4n8\xd9\xe0o\x12\x08 x(\xec\xb9\xe5\x91\x06\x1a\x06\x08\xc4\xc4n\x10\x01\x1a\x06\x08\xd9\xe0o\x10\x01\"0\x08\xf4\x07\x18\x01 \x010\xb4\xb8\xe5\x91\x06:\x06\x08і\x06\x10\x01:\x06\x08Ԗ\x06\x10\x01:\x06\x08Ֆ\x06\x10\x01P\xd4\x03X\xb4\xb8\xe5\x91\x06`\x03Z\x04\x08\x94\x95\x06"
+}
+]
+2022-03-22 13:21:48 DEBUG controller/handler.go:139 HandleClient: resp[command:1006  serial:2  timestamp:1647926508  content:"\n\x1c\x08\x97\xeb\xb2\xef-\x12\x08飞鼠_8\x18\x01 \x010\xc4\xc4n8\xd9\xe0o\x12\x08 x(\xec\xb9\xe5\x91\x06\x1a\x06\x08\xc4\xc4n\x10\x01\x1a\x06\x08\xd9\xe0o\x10\x01\"0\x08\xf4\x07\x18\x01 \x010\xb4\xb8\xe5\x91\x06:\x06\x08і\x06\x10\x01:\x06\x08Ԗ\x06\x10\x01:\x06\x08Ֆ\x06\x10\x01P\xd4\x03X\xb4\xb8\xe5\x91\x06`\x03Z\x04\x08\x94\x95\x06"]
+2022-03-22 13:21:48 DEBUG controller/handler.go:213 Transfer: req[command:1203  serial:3  content:"\x10\x01"]
+2022-03-22 13:21:48 DEBUG grpc/client_conn.go:168 call rpc method[/Game/Transfer], id[12313212311], service[game], server[game01], args[gameReq:{command:1203  serial:3  content:"\x10\x01"}  uid:12313212311]
+2022-03-22 13:21:48 DEBUG controller/handler.go:230 Transfer: resp[gameResp:  {
+  command:  23
+  serial:  3
+  timestamp:  1647926508
+  content:  "\x08\xb9\x10"
+}
+]
+2022-03-22 13:21:48 DEBUG controller/handler.go:139 HandleClient: resp[command:23  serial:3  timestamp:1647926508  content:"\x08\xb9\x10"]
+2022-03-22 13:21:53 INFO balancer/balancer.go:139 - service [game] unregister Server [game01]
+2022-03-22 13:22:16 INFO balancer/balancer.go:107 + service [game] register server [game01, 10.23.40.30:60074]
+2022-03-22 13:22:16 INFO least_conn/least_conn.go:57 
+--------- service [game] regenerate server ----------
+          1. game01, 10.23.40.30:60074
+---------------------------------------------------
+2022-03-22 13:25:56 INFO balancer/balancer.go:139 - service [game] unregister Server [game01]
+2022-03-22 13:26:00 INFO balancer/balancer.go:107 + service [game] register server [game01, 10.23.40.30:60645]
+2022-03-22 13:26:00 INFO least_conn/least_conn.go:57 
+--------- service [game] regenerate server ----------
+          1. game01, 10.23.40.30:60645
+---------------------------------------------------
+2022-03-22 13:29:28 DEBUG controller/handler.go:185 Connect: req[command:1001  serial:1  content:"\x10\x97\xeb\xb2\xef-"]
+2022-03-22 13:29:28 DEBUG grpc/client_conn.go:168 call rpc method[/Game/Connect], id[0], service[game], server[], args[gameReq:{command:1001  serial:1  content:"\x10\x97\xeb\xb2\xef-"}  token:"9ab44152-7afe-5277-9d67-520feb696a05"  server:"portal01"]
+2022-03-22 13:29:30 DEBUG controller/handler.go:199 Connect: resp[gameResp:  {
+  command:  1002
+  serial:  1
+  timestamp:  1647926970
+  content:  "\x10\x97\xeb\xb2\xef-"
+}
+uid:  12313212311
+]
+2022-03-22 13:29:30 DEBUG controller/handler.go:139 HandleClient: resp[command:1002  serial:1  timestamp:1647926970  content:"\x10\x97\xeb\xb2\xef-"]
+2022-03-22 13:29:30 DEBUG controller/handler.go:213 Transfer: req[command:1005  serial:2]
+2022-03-22 13:29:30 DEBUG grpc/client_conn.go:168 call rpc method[/Game/Transfer], id[12313212311], service[game], server[game01], args[gameReq:{command:1005  serial:2}  uid:12313212311]
+2022-03-22 13:29:30 DEBUG controller/handler.go:230 Transfer: resp[gameResp:  {
+  command:  1006
+  serial:  2
+  timestamp:  1647926970
+  content:  "\n\x1c\x08\x97\xeb\xb2\xef-\x12\x08飞鼠_8\x18\x01 \x010\xc4\xc4n8\xd9\xe0o\x12\x08 x(\xba\xbd\xe5\x91\x06\x1a\x06\x08\xc4\xc4n\x10\x01\x1a\x06\x08\xd9\xe0o\x10\x01\"0\x08\xf4\x07\x18\x01 \x010\xb4\xb8\xe5\x91\x06:\x06\x08і\x06\x10\x01:\x06\x08Ԗ\x06\x10\x01:\x06\x08Ֆ\x06\x10\x01P\xd4\x03X\xb4\xb8\xe5\x91\x06`\x03Z\x04\x08\x94\x95\x06"
+}
+]
+2022-03-22 13:29:30 DEBUG controller/handler.go:139 HandleClient: resp[command:1006  serial:2  timestamp:1647926970  content:"\n\x1c\x08\x97\xeb\xb2\xef-\x12\x08飞鼠_8\x18\x01 \x010\xc4\xc4n8\xd9\xe0o\x12\x08 x(\xba\xbd\xe5\x91\x06\x1a\x06\x08\xc4\xc4n\x10\x01\x1a\x06\x08\xd9\xe0o\x10\x01\"0\x08\xf4\x07\x18\x01 \x010\xb4\xb8\xe5\x91\x06:\x06\x08і\x06\x10\x01:\x06\x08Ԗ\x06\x10\x01:\x06\x08Ֆ\x06\x10\x01P\xd4\x03X\xb4\xb8\xe5\x91\x06`\x03Z\x04\x08\x94\x95\x06"]
+2022-03-22 13:29:30 DEBUG controller/handler.go:213 Transfer: req[command:1203  serial:3  content:"\x10\x01"]
+2022-03-22 13:29:30 DEBUG grpc/client_conn.go:168 call rpc method[/Game/Transfer], id[12313212311], service[game], server[game01], args[gameReq:{command:1203  serial:3  content:"\x10\x01"}  uid:12313212311]
+2022-03-22 13:29:30 DEBUG controller/handler.go:230 Transfer: resp[gameResp:  {
+  command:  23
+  serial:  3
+  timestamp:  1647926970
+  content:  "\x08\xb9\x10"
+}
+]
+2022-03-22 13:29:30 DEBUG controller/handler.go:139 HandleClient: resp[command:23  serial:3  timestamp:1647926970  content:"\x08\xb9\x10"]
+2022-03-22 13:29:41 INFO balancer/balancer.go:121 - service [game] unregister server [game01]
+2022-03-22 13:29:41 INFO balancer/balancer.go:128 + service [game] register server [game01, 10.23.40.30:61239]
+2022-03-22 13:29:41 INFO least_conn/least_conn.go:57 
+--------- service [game] regenerate server ----------
+          1. game01, 10.23.40.30:61239
+---------------------------------------------------
+2022-03-22 13:29:46 DEBUG controller/handler.go:185 Connect: req[command:1001  serial:1  content:"\x10\x97\xeb\xb2\xef-"]
+2022-03-22 13:29:46 DEBUG grpc/client_conn.go:168 call rpc method[/Game/Connect], id[0], service[game], server[], args[gameReq:{command:1001  serial:1  content:"\x10\x97\xeb\xb2\xef-"}  token:"382de94c-a640-5847-9300-9da878975a8a"  server:"portal01"]
+2022-03-22 13:29:48 DEBUG controller/handler.go:199 Connect: resp[gameResp:  {
+  command:  1002
+  serial:  1
+  timestamp:  1647926988
+  content:  "\x10\x97\xeb\xb2\xef-"
+}
+uid:  12313212311
+]
+2022-03-22 13:29:48 DEBUG controller/handler.go:139 HandleClient: resp[command:1002  serial:1  timestamp:1647926988  content:"\x10\x97\xeb\xb2\xef-"]
+2022-03-22 13:29:48 DEBUG controller/handler.go:213 Transfer: req[command:1005  serial:2]
+2022-03-22 13:29:48 DEBUG grpc/client_conn.go:168 call rpc method[/Game/Transfer], id[12313212311], service[game], server[game01], args[gameReq:{command:1005  serial:2}  uid:12313212311]
+2022-03-22 13:29:48 DEBUG controller/handler.go:230 Transfer: resp[gameResp:  {
+  command:  1006
+  serial:  2
+  timestamp:  1647926988
+  content:  "\n\x1c\x08\x97\xeb\xb2\xef-\x12\x08飞鼠_8\x18\x01 \x010\xc4\xc4n8\xd9\xe0o\x12\x08 x(̽\xe5\x91\x06\x1a\x06\x08\xc4\xc4n\x10\x01\x1a\x06\x08\xd9\xe0o\x10\x01\"0\x08\xf4\x07\x18\x01 \x010\xb4\xb8\xe5\x91\x06:\x06\x08і\x06\x10\x01:\x06\x08Ԗ\x06\x10\x01:\x06\x08Ֆ\x06\x10\x01P\xd4\x03X\xb4\xb8\xe5\x91\x06`\x03Z\x04\x08\x94\x95\x06"
+}
+]
+2022-03-22 13:29:48 DEBUG controller/handler.go:139 HandleClient: resp[command:1006  serial:2  timestamp:1647926988  content:"\n\x1c\x08\x97\xeb\xb2\xef-\x12\x08飞鼠_8\x18\x01 \x010\xc4\xc4n8\xd9\xe0o\x12\x08 x(̽\xe5\x91\x06\x1a\x06\x08\xc4\xc4n\x10\x01\x1a\x06\x08\xd9\xe0o\x10\x01\"0\x08\xf4\x07\x18\x01 \x010\xb4\xb8\xe5\x91\x06:\x06\x08і\x06\x10\x01:\x06\x08Ԗ\x06\x10\x01:\x06\x08Ֆ\x06\x10\x01P\xd4\x03X\xb4\xb8\xe5\x91\x06`\x03Z\x04\x08\x94\x95\x06"]
+2022-03-22 13:29:48 DEBUG controller/handler.go:213 Transfer: req[command:1203  serial:3  content:"\x10\x01"]
+2022-03-22 13:29:48 DEBUG grpc/client_conn.go:168 call rpc method[/Game/Transfer], id[12313212311], service[game], server[game01], args[gameReq:{command:1203  serial:3  content:"\x10\x01"}  uid:12313212311]
+2022-03-22 13:29:48 DEBUG controller/handler.go:230 Transfer: resp[gameResp:  {
+  command:  23
+  serial:  3
+  timestamp:  1647926988
+  content:  "\x08\xb9\x10"
+}
+]
+2022-03-22 13:29:48 DEBUG controller/handler.go:139 HandleClient: resp[command:23  serial:3  timestamp:1647926988  content:"\x08\xb9\x10"]
+2022-03-22 13:29:50 INFO balancer/balancer.go:139 - service [game] unregister Server [game01]
+2022-03-22 13:29:54 INFO balancer/balancer.go:107 + service [game] register server [game01, 10.23.40.30:61282]
+2022-03-22 13:29:54 INFO least_conn/least_conn.go:57 
+--------- service [game] regenerate server ----------
+          1. game01, 10.23.40.30:61282
+---------------------------------------------------
+2022-03-22 13:29:59 DEBUG controller/handler.go:185 Connect: req[command:1001  serial:1  content:"\x10\x97\xeb\xb2\xef-"]
+2022-03-22 13:29:59 DEBUG grpc/client_conn.go:168 call rpc method[/Game/Connect], id[0], service[game], server[], args[gameReq:{command:1001  serial:1  content:"\x10\x97\xeb\xb2\xef-"}  token:"2742013b-e552-5461-85fd-502791dea552"  server:"portal01"]
+2022-03-22 13:30:01 DEBUG controller/handler.go:199 Connect: resp[gameResp:  {
+  command:  1002
+  serial:  1
+  timestamp:  1647927001
+  content:  "\x10\x97\xeb\xb2\xef-"
+}
+uid:  12313212311
+]
+2022-03-22 13:30:01 DEBUG controller/handler.go:139 HandleClient: resp[command:1002  serial:1  timestamp:1647927001  content:"\x10\x97\xeb\xb2\xef-"]
+2022-03-22 13:30:01 DEBUG controller/handler.go:213 Transfer: req[command:1005  serial:2]
+2022-03-22 13:30:01 DEBUG grpc/client_conn.go:168 call rpc method[/Game/Transfer], id[12313212311], service[game], server[game01], args[gameReq:{command:1005  serial:2}  uid:12313212311]
+2022-03-22 13:30:01 DEBUG controller/handler.go:230 Transfer: resp[gameResp:  {
+  command:  1006
+  serial:  2
+  timestamp:  1647927001
+  content:  "\n\x1c\x08\x97\xeb\xb2\xef-\x12\x08飞鼠_8\x18\x01 \x010\xc4\xc4n8\xd9\xe0o\x12\x08 x(ٽ\xe5\x91\x06\x1a\x06\x08\xc4\xc4n\x10\x01\x1a\x06\x08\xd9\xe0o\x10\x01\"0\x08\xf4\x07\x18\x01 \x010\xb4\xb8\xe5\x91\x06:\x06\x08і\x06\x10\x01:\x06\x08Ԗ\x06\x10\x01:\x06\x08Ֆ\x06\x10\x01P\xd4\x03X\xb4\xb8\xe5\x91\x06`\x03Z\x04\x08\x94\x95\x06"
+}
+]
+2022-03-22 13:30:01 DEBUG controller/handler.go:139 HandleClient: resp[command:1006  serial:2  timestamp:1647927001  content:"\n\x1c\x08\x97\xeb\xb2\xef-\x12\x08飞鼠_8\x18\x01 \x010\xc4\xc4n8\xd9\xe0o\x12\x08 x(ٽ\xe5\x91\x06\x1a\x06\x08\xc4\xc4n\x10\x01\x1a\x06\x08\xd9\xe0o\x10\x01\"0\x08\xf4\x07\x18\x01 \x010\xb4\xb8\xe5\x91\x06:\x06\x08і\x06\x10\x01:\x06\x08Ԗ\x06\x10\x01:\x06\x08Ֆ\x06\x10\x01P\xd4\x03X\xb4\xb8\xe5\x91\x06`\x03Z\x04\x08\x94\x95\x06"]
+2022-03-22 13:30:01 DEBUG controller/handler.go:213 Transfer: req[command:1203  serial:3  content:"\x10\x01"]
+2022-03-22 13:30:01 DEBUG grpc/client_conn.go:168 call rpc method[/Game/Transfer], id[12313212311], service[game], server[game01], args[gameReq:{command:1203  serial:3  content:"\x10\x01"}  uid:12313212311]
+2022-03-22 13:30:01 DEBUG controller/handler.go:230 Transfer: resp[gameResp:  {
+  command:  23
+  serial:  3
+  timestamp:  1647927001
+  content:  "\x08\xb9\x10"
+}
+]
+2022-03-22 13:30:01 DEBUG controller/handler.go:139 HandleClient: resp[command:23  serial:3  timestamp:1647927001  content:"\x08\xb9\x10"]
+2022-03-22 13:30:08 INFO balancer/balancer.go:139 - service [game] unregister Server [game01]
+2022-03-22 13:30:46 INFO balancer/balancer.go:107 + service [game] register server [game01, 10.23.40.30:61422]
+2022-03-22 13:30:46 INFO least_conn/least_conn.go:57 
+--------- service [game] regenerate server ----------
+          1. game01, 10.23.40.30:61422
+---------------------------------------------------
+2022-03-22 13:30:53 DEBUG controller/handler.go:185 Connect: req[command:1001  serial:1  content:"\x10\x97\xeb\xb2\xef-"]
+2022-03-22 13:30:53 DEBUG grpc/client_conn.go:168 call rpc method[/Game/Connect], id[0], service[game], server[], args[gameReq:{command:1001  serial:1  content:"\x10\x97\xeb\xb2\xef-"}  token:"630b295f-f4ab-56da-a04a-0367a59d28da"  server:"portal01"]
+2022-03-22 13:30:55 DEBUG controller/handler.go:199 Connect: resp[gameResp:  {
+  command:  1002
+  serial:  1
+  timestamp:  1647927055
+  content:  "\x10\x97\xeb\xb2\xef-"
+}
+uid:  12313212311
+]
+2022-03-22 13:30:55 DEBUG controller/handler.go:139 HandleClient: resp[command:1002  serial:1  timestamp:1647927055  content:"\x10\x97\xeb\xb2\xef-"]
+2022-03-22 13:30:55 DEBUG controller/handler.go:213 Transfer: req[command:1005  serial:2]
+2022-03-22 13:30:55 DEBUG grpc/client_conn.go:168 call rpc method[/Game/Transfer], id[12313212311], service[game], server[game01], args[gameReq:{command:1005  serial:2}  uid:12313212311]
+2022-03-22 13:30:55 DEBUG controller/handler.go:230 Transfer: resp[gameResp:  {
+  command:  1006
+  serial:  2
+  timestamp:  1647927055
+  content:  "\n\x1c\x08\x97\xeb\xb2\xef-\x12\x08飞鼠_8\x18\x01 \x010\xc4\xc4n8\xd9\xe0o\x12\x08 x(\x8f\xbe\xe5\x91\x06\x1a\x06\x08\xc4\xc4n\x10\x01\x1a\x06\x08\xd9\xe0o\x10\x01\"0\x08\xf4\x07\x18\x01 \x010\xb4\xb8\xe5\x91\x06:\x06\x08і\x06\x10\x01:\x06\x08Ԗ\x06\x10\x01:\x06\x08Ֆ\x06\x10\x01P\xd4\x03X\xb4\xb8\xe5\x91\x06`\x03Z\x04\x08\x94\x95\x06"
+}
+]
+2022-03-22 13:30:55 DEBUG controller/handler.go:139 HandleClient: resp[command:1006  serial:2  timestamp:1647927055  content:"\n\x1c\x08\x97\xeb\xb2\xef-\x12\x08飞鼠_8\x18\x01 \x010\xc4\xc4n8\xd9\xe0o\x12\x08 x(\x8f\xbe\xe5\x91\x06\x1a\x06\x08\xc4\xc4n\x10\x01\x1a\x06\x08\xd9\xe0o\x10\x01\"0\x08\xf4\x07\x18\x01 \x010\xb4\xb8\xe5\x91\x06:\x06\x08і\x06\x10\x01:\x06\x08Ԗ\x06\x10\x01:\x06\x08Ֆ\x06\x10\x01P\xd4\x03X\xb4\xb8\xe5\x91\x06`\x03Z\x04\x08\x94\x95\x06"]
+2022-03-22 13:30:55 DEBUG controller/handler.go:213 Transfer: req[command:1203  serial:3  content:"\x10\x01"]
+2022-03-22 13:30:55 DEBUG grpc/client_conn.go:168 call rpc method[/Game/Transfer], id[12313212311], service[game], server[game01], args[gameReq:{command:1203  serial:3  content:"\x10\x01"}  uid:12313212311]
+2022-03-22 13:30:55 DEBUG controller/handler.go:230 Transfer: resp[gameResp:  {
+  command:  23
+  serial:  3
+  timestamp:  1647927055
+  content:  "\x08\xb9\x10"
+}
+]
+2022-03-22 13:30:55 DEBUG controller/handler.go:139 HandleClient: resp[command:23  serial:3  timestamp:1647927055  content:"\x08\xb9\x10"]
+2022-03-22 13:30:59 INFO balancer/balancer.go:139 - service [game] unregister Server [game01]
+2022-03-22 13:32:11 INFO balancer/balancer.go:107 + service [game] register server [game01, 10.23.40.30:61666]
+2022-03-22 13:32:11 INFO least_conn/least_conn.go:57 
+--------- service [game] regenerate server ----------
+          1. game01, 10.23.40.30:61666
+---------------------------------------------------
+2022-03-22 13:32:12 INFO balancer/balancer.go:139 - service [game] unregister Server [game01]
+2022-03-22 13:32:25 INFO balancer/balancer.go:107 + service [game] register server [game01, 10.23.40.30:61714]
+2022-03-22 13:32:25 INFO least_conn/least_conn.go:57 
+--------- service [game] regenerate server ----------
+          1. game01, 10.23.40.30:61714
+---------------------------------------------------
+2022-03-22 13:32:27 INFO balancer/balancer.go:139 - service [game] unregister Server [game01]
+2022-03-22 13:32:52 INFO balancer/balancer.go:107 + service [game] register server [game01, 10.23.40.30:61791]
+2022-03-22 13:32:52 INFO least_conn/least_conn.go:57 
+--------- service [game] regenerate server ----------
+          1. game01, 10.23.40.30:61791
+---------------------------------------------------
+2022-03-22 13:32:54 INFO balancer/balancer.go:139 - service [game] unregister Server [game01]
+2022-03-22 13:33:18 INFO balancer/balancer.go:107 + service [game] register server [game01, 10.23.40.30:61884]
+2022-03-22 13:33:18 INFO least_conn/least_conn.go:57 
+--------- service [game] regenerate server ----------
+          1. game01, 10.23.40.30:61884
+---------------------------------------------------
+2022-03-22 13:33:19 INFO balancer/balancer.go:139 - service [game] unregister Server [game01]
+2022-03-22 13:33:23 INFO balancer/balancer.go:107 + service [game] register server [game01, 10.23.40.30:61905]
+2022-03-22 13:33:23 INFO least_conn/least_conn.go:57 
+--------- service [game] regenerate server ----------
+          1. game01, 10.23.40.30:61905
+---------------------------------------------------
+2022-03-22 13:33:32 INFO balancer/balancer.go:139 - service [game] unregister Server [game01]
+2022-03-22 13:34:01 INFO balancer/balancer.go:107 + service [game] register server [game01, 10.23.40.30:62015]
+2022-03-22 13:34:01 INFO least_conn/least_conn.go:57 
+--------- service [game] regenerate server ----------
+          1. game01, 10.23.40.30:62015
+---------------------------------------------------
+2022-03-22 13:34:03 INFO balancer/balancer.go:139 - service [game] unregister Server [game01]
+2022-03-22 13:34:19 INFO balancer/balancer.go:107 + service [game] register server [game01, 10.23.40.30:62069]
+2022-03-22 13:34:19 INFO least_conn/least_conn.go:57 
+--------- service [game] regenerate server ----------
+          1. game01, 10.23.40.30:62069
+---------------------------------------------------
+2022-03-22 13:35:47 INFO balancer/balancer.go:139 - service [game] unregister Server [game01]
+2022-03-22 13:35:51 INFO balancer/balancer.go:107 + service [game] register server [game01, 10.23.40.30:62317]
+2022-03-22 13:35:51 INFO least_conn/least_conn.go:57 
+--------- service [game] regenerate server ----------
+          1. game01, 10.23.40.30:62317
+---------------------------------------------------
+2022-03-22 13:35:53 INFO balancer/balancer.go:139 - service [game] unregister Server [game01]

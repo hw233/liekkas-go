@@ -1,0 +1,2 @@
+﻿id,buildingType,posX,posY,buildCost,usingCost,intimacy
+int,int,int,int,strings,strings,int

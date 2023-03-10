@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "shared/protobuf/proto/gm.proto";
+
+option go_package = "./;pb";
+
+service Foreplay {
+    rpc ReloadAnnouncement(ReloadAnnouncementReq) returns(ReloadAnnouncementResp);
+    rpc ReloadMaintain(ReloadMaintainReq) returns(ReloadMaintainResp);
+}

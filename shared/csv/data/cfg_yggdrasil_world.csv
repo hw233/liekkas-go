@@ -1,0 +1,5 @@
+﻿id,mapTileDataPath,areaPosId
+int,strings,strings
+1,"Assets/YGGDRASIL/DataAssets/TileMap01.asset,Assets/YGGDRASIL/DataAssets/TileMapState01.asset","-28:-8:-4,-27:-10:-2"
+2,Assets/YGGDRASIL/DataAssets/TileMap02.asset,
+3,,

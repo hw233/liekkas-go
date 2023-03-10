@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+import "shared/protobuf/proto/portal.proto";
+import "shared/protobuf/proto/mail.proto";
+import "shared/protobuf/proto/gm.proto";
+
+option go_package = "./;pb";
+
+service Game {
+    rpc Connect(ConnectReq) returns (ConnectResp);
+    rpc Transfer(TransferReq) returns (TransferResp);
+    rpc Close(CloseReq) returns(CloseResp);
+
+    rpc NewGroupMailNotify(NewGroupMailReq) returns (NewGroupMailResp);
+    rpc NewPersonalMailNotify(NewPersonalMailReq) returns (NewPersonalMailResp);
+
+    rpc ReloadWhiteList(ReloadWhiteListReq) returns(ReloadWhiteListResp);
+    rpc ReloadMaintain(ReloadMaintainReq) returns(ReloadMaintainResp);
+
+    rpc ReloadAnnouncement(ReloadAnnouncementReq) returns(ReloadAnnouncementResp);
+}

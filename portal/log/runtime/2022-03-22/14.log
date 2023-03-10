@@ -1,0 +1,48 @@
+2022-03-22 14:57:02 INFO balancer/balancer.go:107 + service [game] register server [game01, 10.23.40.30:62288]
+2022-03-22 14:57:02 INFO least_conn/least_conn.go:57 
+--------- service [game] regenerate server ----------
+          1. game01, 10.23.40.30:62288
+---------------------------------------------------
+2022-03-22 14:57:05 INFO balancer/balancer.go:139 - service [game] unregister Server [game01]
+2022-03-22 14:57:12 INFO balancer/balancer.go:107 + service [game] register server [game01, 10.23.40.30:62323]
+2022-03-22 14:57:12 INFO least_conn/least_conn.go:57 
+--------- service [game] regenerate server ----------
+          1. game01, 10.23.40.30:62323
+---------------------------------------------------
+2022-03-22 14:57:14 INFO balancer/balancer.go:139 - service [game] unregister Server [game01]
+2022-03-22 14:57:31 INFO balancer/balancer.go:107 + service [game] register server [game01, 10.23.40.30:62384]
+2022-03-22 14:57:31 INFO least_conn/least_conn.go:57 
+--------- service [game] regenerate server ----------
+          1. game01, 10.23.40.30:62384
+---------------------------------------------------
+2022-03-22 14:57:33 INFO balancer/balancer.go:139 - service [game] unregister Server [game01]
+2022-03-22 14:58:11 INFO balancer/balancer.go:107 + service [game] register server [game01, 10.23.40.30:62500]
+2022-03-22 14:58:11 INFO least_conn/least_conn.go:57 
+--------- service [game] regenerate server ----------
+          1. game01, 10.23.40.30:62500
+---------------------------------------------------
+2022-03-22 14:58:13 INFO balancer/balancer.go:139 - service [game] unregister Server [game01]
+2022-03-22 14:58:17 INFO balancer/balancer.go:107 + service [game] register server [game01, 10.23.40.30:62528]
+2022-03-22 14:58:17 INFO least_conn/least_conn.go:57 
+--------- service [game] regenerate server ----------
+          1. game01, 10.23.40.30:62528
+---------------------------------------------------
+2022-03-22 14:58:19 INFO balancer/balancer.go:139 - service [game] unregister Server [game01]
+2022-03-22 14:58:25 INFO balancer/balancer.go:107 + service [game] register server [game01, 10.23.40.30:62561]
+2022-03-22 14:58:25 INFO least_conn/least_conn.go:57 
+--------- service [game] regenerate server ----------
+          1. game01, 10.23.40.30:62561
+---------------------------------------------------
+2022-03-22 14:58:27 INFO balancer/balancer.go:139 - service [game] unregister Server [game01]
+2022-03-22 14:58:40 INFO balancer/balancer.go:107 + service [game] register server [game01, 10.23.40.30:62604]
+2022-03-22 14:58:40 INFO least_conn/least_conn.go:57 
+--------- service [game] regenerate server ----------
+          1. game01, 10.23.40.30:62604
+---------------------------------------------------
+2022-03-22 14:58:42 INFO balancer/balancer.go:139 - service [game] unregister Server [game01]
+2022-03-22 14:58:56 INFO balancer/balancer.go:107 + service [game] register server [game01, 10.23.40.30:62655]
+2022-03-22 14:58:56 INFO least_conn/least_conn.go:57 
+--------- service [game] regenerate server ----------
+          1. game01, 10.23.40.30:62655
+---------------------------------------------------
+2022-03-22 14:58:58 INFO balancer/balancer.go:139 - service [game] unregister Server [game01]

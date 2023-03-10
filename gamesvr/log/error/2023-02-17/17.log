@@ -1,0 +1,60 @@
+2023-02-17 17:35:47 ERROR etcd connect error: context deadline exceeded
+gamesvr/manager.Init
+	/Users/xuecenming/Desktop/projects/overlord-backend-go/gamesvr/manager/manager.go:80
+main.main
+	/Users/xuecenming/Desktop/projects/overlord-backend-go/gamesvr/main.go:12
+runtime.main
+	/usr/local/go/src/runtime/proc.go:250
+2023-02-17 17:35:47 FATAL manager init error: context deadline exceeded
+main.main
+	/Users/xuecenming/Desktop/projects/overlord-backend-go/gamesvr/main.go:14
+runtime.main
+	/usr/local/go/src/runtime/proc.go:250
+2023-02-17 17:47:04 ERROR etcd connect error: context deadline exceeded
+gamesvr/manager.Init
+	/Users/xuecenming/Desktop/projects/overlord-backend-go/gamesvr/manager/manager.go:80
+main.main
+	/Users/xuecenming/Desktop/projects/overlord-backend-go/gamesvr/main.go:12
+runtime.main
+	/usr/local/go/src/runtime/proc.go:250
+2023-02-17 17:47:04 FATAL manager init error: context deadline exceeded
+main.main
+	/Users/xuecenming/Desktop/projects/overlord-backend-go/gamesvr/main.go:14
+runtime.main
+	/usr/local/go/src/runtime/proc.go:250
+2023-02-17 17:47:44 ERROR etcd connect error: context deadline exceeded
+gamesvr/manager.Init
+	/Users/xuecenming/Desktop/projects/overlord-backend-go/gamesvr/manager/manager.go:80
+main.main
+	/Users/xuecenming/Desktop/projects/overlord-backend-go/gamesvr/main.go:12
+runtime.main
+	/usr/local/go/src/runtime/proc.go:250
+2023-02-17 17:47:44 FATAL manager init error: context deadline exceeded
+main.main
+	/Users/xuecenming/Desktop/projects/overlord-backend-go/gamesvr/main.go:14
+runtime.main
+	/usr/local/go/src/runtime/proc.go:250
+2023-02-17 17:50:48 ERROR etcd connect error: context deadline exceeded
+gamesvr/manager.Init
+	/Users/xuecenming/Desktop/projects/overlord-backend-go/gamesvr/manager/manager.go:80
+main.main
+	/Users/xuecenming/Desktop/projects/overlord-backend-go/gamesvr/main.go:12
+runtime.main
+	/usr/local/go/src/runtime/proc.go:250
+2023-02-17 17:50:48 FATAL manager init error: context deadline exceeded
+main.main
+	/Users/xuecenming/Desktop/projects/overlord-backend-go/gamesvr/main.go:14
+runtime.main
+	/usr/local/go/src/runtime/proc.go:250
+2023-02-17 17:51:04 ERROR etcd connect error: context deadline exceeded
+gamesvr/manager.Init
+	/Users/xuecenming/Desktop/projects/overlord-backend-go/gamesvr/manager/manager.go:80
+main.main
+	/Users/xuecenming/Desktop/projects/overlord-backend-go/gamesvr/main.go:12
+runtime.main
+	/usr/local/go/src/runtime/proc.go:250
+2023-02-17 17:51:04 FATAL manager init error: context deadline exceeded
+main.main
+	/Users/xuecenming/Desktop/projects/overlord-backend-go/gamesvr/main.go:14
+runtime.main
+	/usr/local/go/src/runtime/proc.go:250

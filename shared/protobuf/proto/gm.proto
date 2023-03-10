@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+
+option go_package = "./;pb";
+
+message ReloadWhiteListReq{
+}
+
+message ReloadWhiteListResp{
+}
+
+message ReloadMaintainReq{
+}
+
+message ReloadMaintainResp{
+}
+
+
+message ReloadAnnouncementReq {
+}
+message ReloadAnnouncementResp {
+}

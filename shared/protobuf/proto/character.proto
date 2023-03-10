@@ -1,0 +1,82 @@
+syntax = "proto3";
+
+import "shared/protobuf/proto/vo.proto";
+
+option go_package = "./;pb";
+
+// ------------ 角色列表 ------------
+message C2SGetCharacterList{
+}
+
+message S2CGetCharacterList{
+  repeated VOUserCharacter characters = 1; // 角色列表
+}
+
+// ------------ 角色升级 ------------
+message C2SCharacterLvUp{
+  int32 characterId = 1; // 角色ID
+  repeated VOResource costs = 2; // 消耗
+}
+
+
+message S2CCharacterLvUp{
+  VOUserCharacter result = 1; // 角色数据
+  VOResourceResult resourceResult = 2; // 玩家资源
+
+}
+
+// ------------ 角色升星 ------------
+message C2SCharacterStarUp{
+  int32 characterId = 1; // 角色ID
+}
+
+message S2CCharacterStarUp{
+  VOUserCharacter result = 1; // 角色数据
+  VOResourceResult resourceResult = 2; // 玩家资源
+}
+
+// ------------ 角色升阶 ------------
+message C2SCharacterStageUp{
+  int32 characterId = 1; // 角色ID
+}
+
+message S2CCharacterStageUp{
+  VOUserCharacter result = 1; // 角色ID
+  VOResourceResult resourceResult = 2; // 玩家资源
+}
+
+// ------------ 角色技能升级 ------------
+message C2SCharacterSkillLvUp{
+  int32 characterId = 1; // 角色ID
+  int32 skillId = 2; // 技能ID
+  int32 lvUpAmount = 3; // 技能升级量
+}
+
+message S2CCharacterSkillLvUp{
+  VOUserCharacter character = 1; // 角色数据
+  VOResourceResult resourceResult = 2; // 玩家资源
+}
+
+// ------------ 穿戴装备 ------------
+message C2SCharacterWear {
+  int32 characterID = 1; // 角色ID
+  repeated int64 equipmentUIDs = 2; // 装备唯一ID数组
+  repeated int64 worldItemUIDs = 3; // 世界级道具唯一ID数据
+}
+
+message S2CCharacterWear {
+  repeated VOUserEquipment equipments = 1; // 影响的装备数组
+  repeated VOUserWorldItem worldItems = 2; // 影响的世界级道具数组
+}
+
+// ------------ 卸下装备 ------------
+message C2SCharacterUndress {
+  int32 characterID = 1; // 角色ID
+  repeated int64 equipmentUIDs = 2; // 装备唯一ID数组
+  repeated int64 worldItemUIDs = 3; // 世界级道具唯一ID数据
+}
+
+message S2CCharacterUndress {
+  repeated VOUserEquipment equipments = 1; // 影响的装备数组
+  repeated VOUserWorldItem worldItems = 2; // 影响的世界级道具数组
+}

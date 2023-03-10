@@ -1,0 +1,12 @@
+﻿id,expireDays,publisher,title,titleIcon,content
+int,int,string,string,string,string
+999,,cfg_mail_template_publisher_999,,,
+1,7,cfg_mail_template_publisher_骨王,cfg_mail_template_title_1,,cfg_mail_template_content_1
+2,7,cfg_mail_template_publisher_公会通知,cfg_mail_template_title_2,,cfg_mail_template_content_2
+3,7,cfg_mail_template_publisher_公会通知,cfg_mail_template_title_3,,cfg_mail_template_content_3
+4,7,cfg_mail_template_publisher_公会通知,cfg_mail_template_title_4,,cfg_mail_template_content_4
+5,7,cfg_mail_template_publisher_公会通知,cfg_mail_template_title_5,,cfg_mail_template_content_5
+6,7,cfg_mail_template_publisher_世界探索,cfg_mail_template_title_6,,cfg_mail_template_content_6
+101,3,系统,测试邮件,,uid: %d
+7,3,cfg_mail_template_publisher_版本更新,cfg_mail_template_title_7,,cfg_mail_template_content_7
+8,30,cfg_mail_template_publisher_8,cfg_mail_template_title_8,,cfg_mail_template_content_8

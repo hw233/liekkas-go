@@ -1,0 +1,25 @@
+2022-03-24 15:47:32 ERROR load error: unexpected end of JSON input
+shared/utility/mysql.(*EmbedModule).load
+	C:/code/overlord-backend-go/shared/utility/mysql/module.go:129
+shared/utility/mysql.(*Handler).Load
+	C:/code/overlord-backend-go/shared/utility/mysql/handler.go:171
+gamesvr/session.(*Session).OnCreated
+	C:/code/overlord-backend-go/gamesvr/session/session.go:59
+shared/utility/session.(*EmbedManagedSession).Create
+	C:/code/overlord-backend-go/shared/utility/session/session.go:74
+shared/utility/session.(*manager).getSession
+	C:/code/overlord-backend-go/shared/utility/session/manager.go:93
+shared/utility/session.(*manager).NewSessionIfNotExist
+	C:/code/overlord-backend-go/shared/utility/session/manager.go:76
+gamesvr/controller.(*GameHandler).LoginHandle
+	C:/code/overlord-backend-go/gamesvr/controller/login.go:66
+gamesvr/controller.(*GameHandler).Connect
+	C:/code/overlord-backend-go/gamesvr/controller/handler.go:56
+shared/protobuf/pb._Game_Connect_Handler
+	C:/code/overlord-backend-go/shared/protobuf/pb/game_service_grpc.pb.go:173
+google.golang.org/grpc.(*Server).processUnaryRPC
+	C:/Users/xuecm/go/pkg/mod/google.golang.org/grpc@v1.44.0/server.go:1282
+google.golang.org/grpc.(*Server).handleStream
+	C:/Users/xuecm/go/pkg/mod/google.golang.org/grpc@v1.44.0/server.go:1616
+google.golang.org/grpc.(*Server).serveStreams.func1.2
+	C:/Users/xuecm/go/pkg/mod/google.golang.org/grpc@v1.44.0/server.go:921

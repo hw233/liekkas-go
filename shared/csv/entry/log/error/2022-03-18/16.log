@@ -1,0 +1,88 @@
+2022-03-18 16:19:00 ERROR ERROR: load *entry.YggdrasilEntry error: (/ﾟДﾟ)/ A Error Occurred!
+Code: 1003
+Text: Not found in csv. (file: cfg_drop_data, id: 0
+Trace:
+Not found in csv. (file: cfg_drop_data, id: 0
+
+shared/csv/entry.(*Manager).Reload
+	C:/code/overlord-backend-go/shared/csv/entry/manager.go:123
+shared/csv/entry.TestMain
+	C:/code/overlord-backend-go/shared/csv/entry/main_test.go:25
+main.main
+	_testmain.go:129
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:225
+2022-03-18 16:19:31 ERROR ERROR: load *entry.YggdrasilEntry error: (/ﾟДﾟ)/ A Error Occurred!
+Code: 1003
+Text: Not found in csv. (file: cfg_drop_data, id: 0
+Trace:
+Not found in csv. (file: cfg_drop_data, id: 0
+	shared/csv/entry.(*YggdrasilEntry).Reload()
+		C:/code/overlord-backend-go/shared/csv/entry/yggdrasil.go:524	
+
+shared/csv/entry.(*Manager).Reload
+	C:/code/overlord-backend-go/shared/csv/entry/manager.go:123
+shared/csv/entry.TestMain
+	C:/code/overlord-backend-go/shared/csv/entry/main_test.go:25
+main.main
+	_testmain.go:129
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:225
+2022-03-18 16:21:52 ERROR ERROR: load *entry.YggdrasilEntry error: (/ﾟДﾟ)/ A Error Occurred!
+Code: -1
+Text: CfgYggdrasilObjectState Type Chest param cannot =0, CfgYggdrasilObjectState Id = 9962
+Trace:
+CfgYggdrasilObjectState Type Chest param cannot =0, CfgYggdrasilObjectState Id = 9962
+	shared/csv/entry.(*YggdrasilEntry).Reload()
+		C:/code/overlord-backend-go/shared/csv/entry/yggdrasil.go:523	
+
+shared/csv/entry.(*Manager).Reload
+	C:/code/overlord-backend-go/shared/csv/entry/manager.go:123
+shared/csv/entry.TestMain
+	C:/code/overlord-backend-go/shared/csv/entry/main_test.go:25
+main.main
+	_testmain.go:129
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:225
+2022-03-18 16:27:42 ERROR ERROR: load *entry.YggdrasilEntry error: (/ﾟДﾟ)/ A Error Occurred!
+Code: 1003
+Text: Not found in csv. (file: cfg_yggdrasil_object_state, id: 0
+Trace:
+Not found in csv. (file: cfg_yggdrasil_object_state, id: 0
+
+shared/csv/entry.(*Manager).Reload
+	C:/code/overlord-backend-go/shared/csv/entry/manager.go:123
+shared/csv/entry.TestMain
+	C:/code/overlord-backend-go/shared/csv/entry/main_test.go:25
+main.main
+	_testmain.go:129
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:225
+2022-03-18 16:28:16 ERROR ERROR: load *entry.YggdrasilEntry error: (/ﾟДﾟ)/ A Error Occurred!
+Code: 1003
+Text: Not found in csv. (file: cfg_yggdrasil_object_state, id: 0
+Trace:
+Not found in csv. (file: cfg_yggdrasil_object_state, id: 0
+
+shared/csv/entry.(*Manager).Reload
+	C:/code/overlord-backend-go/shared/csv/entry/manager.go:123
+shared/csv/entry.TestMain
+	C:/code/overlord-backend-go/shared/csv/entry/main_test.go:25
+main.main
+	_testmain.go:129
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:225
+2022-03-18 16:28:41 ERROR ERROR: load *entry.YggdrasilEntry error: (/ﾟДﾟ)/ A Error Occurred!
+Code: 1003
+Text: Not found in csv. (file: cfg_yggdrasil_object_state, id: 0
+Trace:
+Not found in csv. (file: cfg_yggdrasil_object_state, id: 0
+
+shared/csv/entry.(*Manager).Reload
+	C:/code/overlord-backend-go/shared/csv/entry/manager.go:123
+shared/csv/entry.TestMain
+	C:/code/overlord-backend-go/shared/csv/entry/main_test.go:25
+main.main
+	_testmain.go:129
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:225

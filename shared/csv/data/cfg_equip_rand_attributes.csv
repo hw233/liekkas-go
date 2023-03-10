@@ -1,0 +1,6 @@
+﻿id,hpAddPercent,atkAddPercent,mAtkAddPercent,defAddPercent,mDefAddPercent,critAddPercent,critDamPercent,critDamReducePercent,cureAddPercent,phyDamAdd,phyDamReduce,magDamAdd,magDamReduce,phyPen,magPen
+int,ints,ints,ints,ints,ints,ints,ints,ints,ints,ints,ints,ints,ints,ints,ints
+1,"100,1","100,1","100,1","100,1","100,1","100,1","100,1","100,1","100,1","100,1","100,1","100,1","100,1","100,1","100,1"
+2,"100,2","100,2","100,2","100,2","100,2","100,2","100,2","100,2","100,2","100,2","100,2","100,2","100,2","100,2","100,2"
+3,"100,3","100,3","100,3","100,3","100,3","100,3","100,3","100,3","100,3","100,3","100,3","100,3","100,3","100,3","100,3"
+4,"100,4","100,4","100,4","100,4","100,4","100,4","100,4","100,4","100,4","100,4","100,4","100,4","100,4","100,4","100,4"

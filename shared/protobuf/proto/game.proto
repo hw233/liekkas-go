@@ -1,0 +1,833 @@
+syntax = "proto3";
+
+import "shared/protobuf/proto/vo.proto";
+import "shared/protobuf/proto/announcement.proto";
+
+option go_package = "./;pb";
+
+message TestReq {
+  int64 uid = 1;
+  string name = 2;
+}
+
+message TestResp {
+  int64 uid = 1;
+  string name = 2;
+}
+
+message EnterReq {
+  int64 uid = 1;
+  string token = 2;
+}
+
+message EnterResp {
+  int64 uid = 1;
+  string token = 2;
+}
+
+message C2SGetItemList {
+}
+message C2SHeartBeatReq {
+}
+message C2SHeartBeatResp {
+}
+
+message C2SItemSell {
+  repeated VOItemInfo items = 1;
+}
+
+message C2SLogin {
+  string token = 1;
+  int64 userId = 2;
+  string name = 3;
+  bool isSdk = 4;
+  bool isIos = 5;
+  string deviceMode = 6;
+  string deviceId = 7;
+}
+message C2SLogout {
+}
+
+message C2SSuitUser {
+}
+message C2SSystemVersion {
+}
+message C2STest {
+  int32 intValue = 1;
+  string stringValue = 2;
+  bool boolValue = 3;
+}
+message C2STpGateDestory {
+  int32 tpGateId = 1;
+}
+message C2STpGateList {
+}
+message C2STpGateUse {
+  int32 tpGateId = 1;
+}
+message C2SUserGuide {
+  int32 guideId = 1;
+}
+message C2SUserGuideGetAll {
+}
+
+
+message C2SUserReconnect {
+  string token = 1;
+  int64 userId = 2;
+}
+
+message C2SVnGetInfo {
+}
+message C2SVnGetReward {
+  int32 vnId = 1;
+}
+message C2SVnRead {
+  int32 vnId = 1;
+}
+
+
+message S2CError {
+  int32 error = 1;
+  string arg = 2;
+}
+
+message S2CGetItemList {
+  repeated VOItemInfo items = 1;
+}
+
+message S2CHeartBeatReq {
+}
+message S2CHeartBeatResp {
+}
+
+message S2CItemSell {
+  repeated VOItemInfo items = 1;
+  VOUserResource resource = 2;
+}
+message S2CLogin {
+  string token = 1;
+  int64 userId = 2;
+  bool isNewUser = 3;
+}
+message S2CLogout {
+  int32 exitType = 1;
+}
+
+message S2CSuitUser {
+  VOUserInfo userInfo = 1;
+  VOUserResource resource = 2;
+  repeated VOItemInfo items = 3;
+  repeated VOUserCharacter characters = 4;
+  repeated VOUserEquipment equipments = 5;
+  int32 guideId = 6;
+  VOAchievement achievement = 7;
+  repeated VOTask tasks = 8;
+  repeated VOHero heroes = 9;
+  repeated VOUserWorldItem worldItems = 10;
+  repeated VOManualInfo manualInfos = 11;
+  int32 kanban = 12;// 看板
+}
+message S2CSystemVersion {
+  string version = 1;
+  string clientVersion = 2;
+  string dataVersion = 3;
+}
+message S2CTest {
+  int32 intValue = 1;
+  string stringValue = 2;
+  bool boolValue = 3;
+}
+
+message S2CTpGateDestory {
+  VOTpGate tpGate = 1;
+}
+message S2CTpGateList {
+  repeated VOTpGate tpGates = 1;
+}
+message S2CTpGateUse {
+  VOTpGate tpGate = 1;
+}
+
+message S2CUserGuide {
+  int32 guideId = 1;
+  VOResourceResult resourceResult = 2;
+}
+message S2CUserGuideGetAll {
+  repeated int32 passedGuideIds = 1;
+}
+
+
+message S2CUserReconnect {
+  string token = 1;
+}
+
+message S2CVnGetInfo {
+  repeated int32 vnIdList = 1;
+}
+message S2CVnGetReward {
+  int32 vnId = 1;
+  VOResourceResult resourceResult = 2;
+}
+message S2CVnRead {
+  int32 vnId = 1;
+}
+
+message C2SGM {
+  int32 gmType = 1;
+  repeated string args = 2;
+}
+
+message S2CGM {
+  VOResourceResult resourceResult = 1;
+  VOGraveyardBuild voBuild = 2;
+  repeated VOLevel levels = 3;
+}
+
+message C2SGetQuestInfo {
+}
+
+message S2CGetQuestInfo {
+  VOQuestInfo questInfo = 1;
+}
+
+message C2SRecieveQuest {
+  int32 questId = 1;
+}
+
+message S2CRecieveQuest {
+  int32 questId = 1;
+  VOResourceResult resourceResult = 2;
+}
+
+message C2SRecieveQuestActivityReward {
+  int32 activityId = 1;
+}
+
+message S2CRecieveQuestActivityReward {
+  VOQuestActivity questActivity = 1;
+  VOResourceResult resourceResult = 2;
+}
+
+message S2CQuestUpdateNotify {
+  VOQuestInfo questInfo = 1;
+}
+
+message C2SGetSignInInfo{
+}
+
+message S2CGetSignInInfo{
+  repeated VOSignInInfo signinInfos = 1;
+}
+
+message C2SSignIn{
+  int32 signinId = 1;
+}
+
+message S2CSignIn{
+  VOSignInInfo signinInfo = 1;
+  VOResourceResult resourceResult = 2;
+}
+
+// 使用道具
+message C2SItemUse {
+  int32 itemId = 1;
+  int32 amount = 2;
+  int32 param = 3;
+}
+// 使用道具
+message S2CItemUse {
+  VOResourceResult resourceResult = 1; // 玩家资源
+}
+
+// 问卷-存数据
+message C2SSurveyData{
+  int32 surveyId = 1;
+  repeated VOSurveyAnswer surveyAnswers = 2;
+}
+
+message S2CSurveyData{
+  int32 surveyId = 1;
+  VOResourceResult resourceResult = 2;
+}
+
+// 问卷-查看问卷是否已经填过
+message C2SSurveyCheckMark{
+  int32 surveyId = 1;
+}
+
+message S2CSurveyCheckMark{
+  int32 surveyId = 1;
+  bool hasDone = 2;
+}
+
+message C2SLevelInfo {
+}
+
+message S2CLevelInfo {
+  VOLevelInfo levelInfo = 1;
+}
+
+message C2SLevelBattleStart {
+  int32 levelId = 1;
+  int32 levelSystemType = 2;
+  repeated int64 levelSystemParams = 3;
+  VOBattleFormation battleFormation = 4;
+}
+
+message S2CLevelBattleStart {
+  int32 levelId = 1;
+  int32 seed = 2;
+  VOBattleFighterDetail attacker = 3;
+  VOBattleFighterDetail defender = 4;
+}
+
+message C2SLevelBattleEnd {
+  bool isWin = 1;
+  string battleInput = 2;
+  string battleOutput = 3;
+  repeated int32 targets = 4;
+  repeated int32 achievements = 5;
+  VOBattleStatis battleStatis = 6;
+  repeated VOBattleCharacter battleCharacters = 7;
+  int32 battleResult = 8;
+}
+
+message S2CLevelBattleEnd {
+  bool isWin = 1;
+  int32 verifyResult = 2;
+  VOLevel level = 3;
+  VOLevelResouceResults resouceResults = 4;
+  VOChapter chapter = 5;
+  repeated VOUserCharacter charas = 6;
+  int32 battleResult = 7;
+}
+
+message C2SLevelSweep {
+  int32 levelId = 1;
+  int32 times = 2;
+}
+
+message S2CLevelSweep {
+  VOLevel level = 1;
+  VOResourceResult resourceResult = 2;
+}
+
+message S2CLevelNotify {
+  repeated VOLevel levels = 1;
+}
+
+message C2SChapterInfo {
+}
+
+message S2CChapterInfo {
+  VOChapterInfo chapterInfo = 1;
+}
+
+message C2SReceiveChapterReward {
+  int32 rewardId = 1;
+}
+
+message S2CReceiveChapterReward {
+  VOChapter chapter = 1;
+  VOResourceResult resourceResult = 2;
+}
+
+message C2SExploreInfo {
+}
+
+message S2CExploreInfo {
+  VOExploreInfo exploreInfo = 1;
+}
+
+message C2SEnterChapterMap {
+  int32 chapterId = 1;
+}
+
+message S2CEnterChapterMap {
+  VOExploreMap exploreMap = 1;
+}
+
+message C2SExploreUpdatePosition {
+  int32 chapterId = 1;
+  VOPosition pos = 2;
+}
+
+message S2CExploreUpdatePosition {
+  int32 chapterId = 1;
+}
+
+message C2SExploreNPCInteract {
+  int32 npcId = 1;
+  int32 option = 2;
+}
+
+message S2CExploreNPCInteract {
+  int32 npcId = 1;
+  VOExploreEvent exploreEvent = 2;
+  VOResourceResult resourceResult = 3;
+}
+
+message C2SExploreGather {
+  int32 gatherId = 1;
+}
+
+message S2CExploreGather {
+  int32 gatherId = 1;
+  VOExploreEvent exploreEvent = 2;
+  VOResourceResult resourceResult = 3;
+}
+
+message S2CExploreEventNotify {
+  repeated VOExploreEvent exploreEvent = 1;
+}
+
+message S2CExploreResourceNotify {
+  repeated VOExploreResource resourcePoint = 1;
+}
+
+message C2SUnlockFog {
+  int32 fogId = 1;
+}
+
+message S2CUnlockFog {
+  int32 fogId = 1;
+}
+
+message C2SExploreStartCollectResource {
+  int32 resourceId = 1;
+}
+
+message S2CExploreStartCollectResource {
+  VOExploreResource resource = 1;
+}
+
+message C2SExploreFinishCollectResource {
+  int32 resourceId = 1;
+}
+
+message S2CExploreFinishCollectResource {
+  VOExploreResource resource = 1;
+  VOResourceResult resourceResult = 2;
+}
+
+message C2SExploreEnterTPGate {
+  int32 id = 1;
+}
+
+message S2CExploreEnterTPGate {
+  VOExploreTransportGate gate = 1;
+}
+
+message C2SExploreDestroyTPGate {
+  int32 id = 1;
+}
+
+message S2CExploreDestroyTPGate {
+  VOExploreTransportGate gate = 1;
+}
+
+// 图鉴领奖
+message C2SManualGetReward {
+  repeated int32 manualIds = 1;
+}
+
+message S2CManualGetReward {
+  repeated VOManualInfo infos = 1;
+  VOResourceResult resourceResult = 2;
+}
+
+// 获得图鉴所有信息
+message C2SManualGetAll {
+}
+message S2CManualGetAll {
+  repeated VOManualInfo infos = 1;
+}
+
+// 商店--获取商店商品信息
+message C2SStoreGetGoods{
+  repeated int32 storeIds = 1;// 根据商店id返回对应的商店信息
+}
+
+message S2CStoreGetGoods{
+  repeated VOStoreInfo storeInfos = 1;
+}
+
+// 商店--购买商品
+message C2SStorePurchase{
+  int32 storeId = 1; // 商店id
+  int32 subStoreId = 2;// 子商店id
+  int32 cellIndex = 3;// 栏位索引
+  int32 goodsId = 4;// 商品id
+  int32 currency = 5;// 所使用的的货币种类
+  int32 num = 6;// 要购买的商品的数量
+}
+
+message S2CStorePurchase{
+  int32 storeId = 1;
+  int32 subStoreId = 2;
+  int32 cellIndex = 3;
+  int32 goodsId = 4;
+  int32 num = 5;
+  VOResourceResult resourceResult = 6;
+}
+
+// 商店--强制刷新
+message C2SStoreUpdate{
+  int32 storeId = 1; // 要主动刷新的商店Id
+}
+
+message S2CStoreUpdate{
+  VOStoreInfo storeInfos = 1;// 刷新后的商品信息
+}
+
+// 商店--快速购买加速券
+message C2SStoreQuickPurchase{
+  int32 goodsID = 1;
+}
+
+message S2CStoreQuickPurchase{
+  VOResourceResult resourceResult = 1;
+}
+
+message S2CStoreDailyRefresh{
+}
+
+
+// 获得抽卡卡池抽奖情况
+message C2SGetGachaList {
+}
+message S2CGetGachaList {
+  repeated VOGachaInfo gachaList = 1;
+}
+
+// 抽卡
+message C2SUserGachaDrop {
+  bool isSingle = 1;
+  int32 gachaId = 2;
+}
+
+message S2CUserGachaDrop {
+  VOResourceResult resourceResult = 1;
+  repeated VOGachaInfo gachaInfo = 2;
+}
+
+// 抽卡记录
+message C2SUserGachaRecords {
+  bool charaOrWorldItem = 1; // true为角色池子，false是世界级道具池子
+  int64 offset = 2 ;  //第一次的时候传int64最大值,后续每次传上次查询最后一个元素的uid,如果查询结果个数<num则查询结束
+  int32 num = 3; //需要查询多少条数据
+}
+
+message S2CUserGachaRecords {
+  repeated VOGachaResultRecord records = 1;
+}
+
+
+//至尊
+//获取至尊信息
+message C2SHeroInfo {
+}
+
+message S2CHeroInfo {
+  VOHeroInfo heroInfo = 1;
+}
+
+//解锁至尊
+message C2SUnlockHero {
+  int32 heroId = 1;
+}
+
+message S2CUnlockHero {
+  VOHero hero = 1;
+  VOResourceResult resourceResult = 2;
+}
+
+//至尊升级
+message C2SHeroLevelUp {
+}
+
+message S2CHeroLevelUp {
+  int32 Level = 1;
+}
+
+//至尊技能升级
+message C2SHeroSkillUpgrade {
+  int32 heroId = 1;
+  int32 skillId = 2;
+}
+
+message S2CHeroSkillUpgrade {
+  VOHero hero = 1;
+  VOResourceResult resourceResult = 2;
+}
+
+//至尊缔结侍从
+message C2SAddHeroAttendant {
+  int32 heroId = 1;
+  int32 slot = 2;           //侍从槽位
+  int32 charaId = 3;
+}
+
+message S2CAddHeroAttendant {
+  repeated VOHero heros = 1;                  //缔结的至尊和被扒下来的至尊
+  repeated VOUserCharacter characters = 2;    //修改的角色
+}
+
+//至尊移除侍从
+message C2SRemoveHeroAttendant {
+  int32 heroId = 1;
+  int32 slot = 2;               //侍从槽位
+}
+
+message S2CRemoveHeroAttendant {
+  VOHero hero = 1;
+  VOUserCharacter character = 2;      //修改的角色
+}
+
+//更新至尊的属性
+message C2SUpdateHeroLastCalcAttr {
+  int32 heroId = 1;
+  int32 heroAttr = 2;
+  repeated VOHeroAttendant charas = 3;
+}
+
+message S2CUpdateHeroLastCalcAttr {
+  VOHero hero = 1;
+}
+
+message C2SHeroSetNewOneFlag {
+  bool newOne = 1;
+}
+
+message S2CHeroSetNewOneFlag {
+  bool newOne = 1;
+}
+
+// 快速购买-体力
+message C2SQuickPurchaseStamina{
+}
+
+message S2CQuickPurchaseStamina{
+  VOStaminaInfo staminaInfo = 1;
+  VOResourceResult resourceResult = 2;
+}
+
+message C2SGetStaminaInfo{
+}
+
+message S2CGetStaminaInfo{
+  VOStaminaInfo staminaInfo = 1;
+}
+
+message C2STowerInfo {
+}
+
+message S2CTowerInfo {
+  repeated VOTower towers = 1;
+}
+
+message S2CTowerUpdateNotify {
+  repeated VOTower towers = 1;
+}
+
+//获取邮件信息
+message C2SMailInfo {
+}
+
+message S2CMailInfo {
+  repeated VOMail mails = 1;
+}
+
+//标记已读
+message C2SMailMarkRead {
+  int64 mailId = 1;
+}
+
+message S2CMailMarkRead {
+  VOMail mail = 1;
+}
+
+//领取附件
+message C2SMailReceiveAttachment {
+  int64 mailId = 1;
+}
+
+message S2CMailReceiveAttachment {
+  VOMail mail = 1;
+  VOResourceResult resourceResult = 2;
+}
+
+//删除邮件
+message C2SMailRemove {
+  int64 mailId = 1;
+}
+
+message S2CMailRemove {
+  int64 mailId = 1;
+}
+
+//一键领取
+message C2SMailReceiveAll {
+}
+
+message S2CMailReceiveAll {
+  repeated VOMail mails = 1;
+  VOResourceResult resourceResult = 2;
+}
+
+//删除已读和已领取
+message C2SMailRemoveReadAndReceived {
+}
+
+message S2CMailRemoveReadAndReceived {
+  repeated int64 removeMails = 1;       //删除的id列表
+}
+
+//邮件推送
+message S2CMailNotify {
+  repeated VOMail mails = 1;        //新增，修改的
+  repeated int64 removeMails = 2;   //删除的id列表
+}
+
+//每日刷新提示
+message S2CDailyRefreshNotify {
+  int64 nextDailyRefreshTime = 1;   //明日刷新时间
+}
+
+// 领取兑换码奖励
+message C2SExchangeCDKey {
+  string code = 1; // 兑换码
+}
+
+message S2CExchangeCDKey {
+  VOResourceResult resourceResult = 1; // 资源
+}
+
+// 刷新红点
+message C2SRefreshRedPoint {
+  repeated int32 needRefreshRedPoints = 1; // 需要刷新的红点
+}
+
+message S2CRefreshRedPoint {
+  repeated VORedPoint redPoints = 1; // 红点
+}
+
+// 获得新手池子本命角色(引导用)
+message C2SDestinyChild {
+}
+message S2CDestinyChild {
+  int32 destinyChild = 1; //新手池抽出的ssr的id,0表示还没抽新手池
+}
+
+// 查询用户简要信息
+message C2SUserQuerySimpleInfo {
+  repeated int64 userIdList = 1;
+}
+message S2CUserQuerySimpleInfo {
+  repeated VOUserInfoSimple simpleInfoList = 1;
+}
+
+//积分通行证信息
+message C2SScorePassInfo {
+}
+
+message S2CScorePassInfo {
+  VOScorePassInfo info = 1;
+}
+
+//领取积分通行证奖励
+message C2SReceiveScorePassReward {
+  int32 rewardId = 1;
+}
+
+message S2CReceiveScorePassReward {
+  int32 rewardId = 1;
+  VOResourceResult resourceResult = 2;
+}
+
+//积分通行证推送
+message S2CScorePassNotify {
+  repeated VOScorePassSeason seasons = 1;
+}
+// 佣兵
+message C2SGetMercenaryList{
+}
+// 已经借到的佣兵id, 来自哪个玩家
+message S2CGetMercenaryList{
+  repeated VOMercenarySimple info = 1;
+  int64 expireTime = 2;
+  repeated VOMercenaries userCharacters = 3;
+}
+message C2SMercenarySendApply{
+  int64 userId = 1;
+  int32 characterId = 2;
+}
+// 发送成功，或者发送失败(已经被借出,以及借到其他人的角色)
+message S2CMercenarySendApply{
+  int64 userId = 1;
+  int32 characterId = 2;
+  int32 status = 3; // 为0代表发送成功，为1代表关系已失效，为2代表角色已借出
+}
+message C2SMercenaryManagement{
+}
+message S2CMercenaryManagement{
+  repeated VOMercenaryApply apply = 1;
+}
+message C2SMercenaryHandleApply{
+  bool ifIgnore = 1; // 同意借出则默认为false，如果忽略申请则为true
+  int32 characterId = 2;
+  int64 userId = 3;
+}
+message S2CMercenaryHandleApply{
+  int32 characterId = 1;
+  int64 userId = 2;
+  int32 status = 3; // 为0代表处理成功，为1代表关系失效，为2代表对方已接到角色
+}
+message C2SMercenaryRecord{
+}
+message S2CMercenaryRecord{
+  repeated VOMercenaryRecord records = 1;
+}
+// 获取佣兵的详细数据
+message C2SGetMercenaryCharacter{
+  int32 systemType = 1;
+}
+message S2CGetMercenaryCharacter{
+  repeated VOMercenaryDetail mercenaries = 1;
+}
+message C2SMercenaryCancel{
+  int64 userId = 1;
+  int32 characterId = 2;
+}
+message S2CMercenaryCancel{
+  int64 userId = 1;
+  int32 characterId = 2;
+  int64 coolDownTime = 3; // 剩余的cd时间，当status是1时，此字段为0
+  int32 status = 4; // 为0代表正常撤销，为1代表已经借到此角色
+}
+
+message C2SFormationInfo {
+}
+
+message S2CFormationInfo {
+  repeated VOFormation formations = 1;
+}
+
+message C2SSetFormation {
+  int32 id = 1;
+  int32 formationType = 2;
+  VOBattleFormation battleFormation = 3;
+}
+
+message S2CSetFormation {
+  VOFormation formation = 1;
+}
+
+message C2SFetchAnnouncement {
+}
+
+message S2CFetchAnnouncement {
+  repeated VOAnnouncement announcements = 1;
+  repeated VOBanner banners = 2;
+}

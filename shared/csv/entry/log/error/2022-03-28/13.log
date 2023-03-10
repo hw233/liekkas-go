@@ -1,0 +1,14 @@
+2022-03-28 13:22:14 ERROR ERROR: load *entry.Character error: (/ﾟДﾟ)/ A Error Occurred!
+Code: -1
+Text: charaAvatar not found,characterId:1019
+Trace:
+charaAvatar not found,characterId:1019
+
+shared/csv/entry.(*Manager).Reload
+	C:/code/overlord-backend-go/shared/csv/entry/manager.go:123
+shared/csv/entry.TestMain
+	C:/code/overlord-backend-go/shared/csv/entry/main_test.go:25
+main.main
+	_testmain.go:131
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:225

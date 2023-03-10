@@ -1,0 +1,28 @@
+2022-06-05 18:31:14 INFO etcd/dial.go:30 etcd 127.0.0.1:2379 connect success
+2022-06-05 18:31:14 INFO etcd/dial.go:30 etcd 127.0.0.1:2479 connect success
+2022-06-05 18:31:14 INFO etcd/dial.go:30 etcd 127.0.0.1:2579 connect success
+2022-06-05 18:31:14 INFO balancer/balancer.go:107 + service [game] register server [game01, 10.23.41.5:56025]
+2022-06-05 18:31:14 INFO controller/handler.go:50 Echo server is listening on [::]:9080 (multi-cores: true, loops: 12)
+
+2022-06-05 18:31:14 INFO resolver/watcher.go:55 start watching service [game]
+2022-06-05 18:31:47 INFO etcd/dial.go:30 etcd 127.0.0.1:2379 connect success
+2022-06-05 18:31:47 INFO etcd/dial.go:30 etcd 127.0.0.1:2479 connect success
+2022-06-05 18:31:47 INFO etcd/dial.go:30 etcd 127.0.0.1:2579 connect success
+2022-06-05 18:31:47 INFO balancer/balancer.go:107 + service [game] register server [game01, 10.23.41.5:56025]
+2022-06-05 18:31:47 INFO controller/handler.go:50 Echo server is listening on [::]:9080 (multi-cores: true, loops: 12)
+
+2022-06-05 18:31:47 INFO resolver/watcher.go:55 start watching service [game]
+2022-06-05 18:32:22 INFO etcd/dial.go:30 etcd 127.0.0.1:2379 connect success
+2022-06-05 18:32:22 INFO etcd/dial.go:30 etcd 127.0.0.1:2479 connect success
+2022-06-05 18:32:22 INFO etcd/dial.go:30 etcd 127.0.0.1:2579 connect success
+2022-06-05 18:32:22 INFO balancer/balancer.go:107 + service [game] register server [game01, 10.23.41.5:56025]
+2022-06-05 18:32:22 INFO controller/handler.go:50 Echo server is listening on [::]:9080 (multi-cores: true, loops: 12)
+
+2022-06-05 18:32:22 INFO resolver/watcher.go:55 start watching service [game]
+2022-06-05 18:32:59 INFO etcd/dial.go:30 etcd 127.0.0.1:2379 connect success
+2022-06-05 18:32:59 INFO etcd/dial.go:30 etcd 127.0.0.1:2479 connect success
+2022-06-05 18:32:59 INFO etcd/dial.go:30 etcd 127.0.0.1:2579 connect success
+2022-06-05 18:32:59 INFO balancer/balancer.go:107 + service [game] register server [game01, 10.23.41.5:56025]
+2022-06-05 18:32:59 INFO controller/handler.go:50 Echo server is listening on [::]:9080 (multi-cores: true, loops: 12)
+
+2022-06-05 18:32:59 INFO resolver/watcher.go:55 start watching service [game]

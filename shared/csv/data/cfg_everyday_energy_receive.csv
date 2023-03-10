@@ -1,0 +1,5 @@
+﻿id,starReceiveTime,endReceiveTime,dropID
+int,string,string,int
+1,12:00,24:00,51200
+2,18:00,24:00,51800
+3,21:00,24:00,52100

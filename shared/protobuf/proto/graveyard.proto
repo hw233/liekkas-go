@@ -1,0 +1,173 @@
+syntax = "proto3";
+
+import "shared/protobuf/proto/vo.proto";
+
+option go_package = "./;pb";
+
+message C2SGraveyardGetInfo{
+
+}
+
+message S2CGraveyardGetInfo{
+  repeated VOGraveyardBuild  builds = 1;
+  int32 sendRequestCount = 2; // 今日请求帮助次数
+  repeated int32 RewardHours = 3; // 今日随机区间(小时)
+
+}
+
+message C2SGraveyardRefreshBuildInfo{
+  repeated int64 buildUidList = 1;
+
+}
+
+message S2CGraveyardRefreshBuildInfo{
+  repeated VOGraveyardBuild  buildInfoList = 1;
+
+}
+
+message C2SGraveyardBuildCreate{
+  int32 buildId = 1;
+  VOPosition  position = 2;
+
+}
+
+message S2CGraveyardBuildCreate{
+  VOGraveyardBuild  build = 1;
+  VOResourceResult  resourceResult = 2;
+
+}
+
+message C2SGraveyardBuildLvUp{
+  int64 buildUid = 1;
+}
+
+message S2CGraveyardBuildLvUp{
+  VOGraveyardBuild  build = 1;
+  VOResourceResult  resourceResult = 2;
+}
+
+
+message C2SGraveyardBuildStageUp{
+  int64 buildUid = 1;
+
+}
+
+message S2CGraveyardBuildStageUp{
+  VOGraveyardBuild  build = 1;
+  VOResourceResult  resourceResult = 2;
+}
+
+message C2SGraveyardProduceStart{
+  int64 buildUid = 1;
+  int32  produceNum = 2;
+}
+
+message S2CGraveyardProduceStart{
+  repeated VOGraveyardBuild  builds = 1;
+  VOResourceResult  resourceResult = 2;
+}
+
+message C2SGraveyardProductionGet{
+  repeated int64 buildUidList = 1;
+}
+
+message S2CGraveyardProductionGet{
+  repeated VOGraveyardBuild  builds = 1;
+
+  VOResourceResult  resourceResult = 2;
+}
+
+message C2SGraveyardOpenCurtain{
+  int64 buildUid = 1;
+}
+
+message S2CGraveyardOpenCurtain{
+  VOGraveyardBuild  build = 1;
+  VOResourceResult  resourceResult = 2;
+}
+
+message C2SGraveyardRelocation{
+  repeated VOBuildRelocation relocations = 1;
+}
+
+message S2CGraveyardRelocation{
+  repeated VOGraveyardBuild  builds = 1;
+}
+
+message  C2SGraveyardCharacterDispatch{
+  int64  buildUid = 1;
+  repeated  VOCharacterPos characters = 2;
+
+}
+
+message S2CGraveyardCharacterDispatch{
+  repeated VOGraveyardBuild  builds = 1;
+}
+
+message C2SGraveyardAccelerate{
+  int64 buildUid = 1;
+  repeated VOResource  consumes = 2;
+
+}
+
+message S2CGraveyardAccelerate{
+  VOResourceResult resourceResult = 1;
+  VOGraveyardBuild voBuild = 2;
+}
+
+message C2SGraveyardPopulationSet{
+  repeated VOGraveyardPopulationSet  populations = 1;
+
+}
+
+message S2CGraveyardPopulationSet{
+  repeated VOGraveyardBuild  buildInfos = 1;
+
+}
+
+// 请求帮助
+message C2SGraveyardSendHelpRequest{
+  int64 buildUid = 1;
+}
+
+message S2CGraveyardSendHelpRequest{
+  int32 sendRequestCount = 1;
+  VOGraveyardBuild  build = 2;
+}
+
+
+
+
+// 收到此推送后，互助请求被处理建筑减cd
+message S2CGraveyardReceiveHelp{
+  VOGraveyardBuild build = 1;
+}
+
+// 小人对话领奖
+message C2SGraveyardReceivePlotReward{
+
+}
+
+message S2CGraveyardReceivePlotReward{
+  VOResourceResult  resourceResult = 1; // 资源变动
+  repeated int32 RewardHours = 2; // 今日随机区间(小时)
+}
+
+// 获得小人对话领奖区间
+message C2SGraveyardGetRewardHours{
+}
+message S2CGraveyardGetRewardHours{
+  repeated int32 RewardHours = 1; // 今日随机区间(小时)
+
+}
+
+// 使用模拟经营buff道具
+message C2SGraveyardUseBuff {
+  int32 itemId = 1;
+  int32 amount = 2;
+}
+message S2CGraveyardUseBuff {
+  VOResourceResult resourceResult = 1; // 玩家资源
+  repeated VOGraveyardBuild  buildInfoList = 2;
+
+}

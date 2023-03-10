@@ -1,0 +1,2 @@
+2022-03-30 16:18:15 DEBUG controller/handler.go:328 PreHandle Intercepted ,uid:12313212315
+2022-03-30 16:18:15 WARN controller/handler.go:83 ERROR: illegal Command 1005

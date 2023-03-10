@@ -1,0 +1,7 @@
+id,channel,appVersion,resourceUrl,resourceVersion
+int,string,string,strings,string
+1,debug,0.5.0,,0_0_19
+2,debug,0.5.1,,0_0_17
+3,debug,0.6.0,,0_0_17
+4,android,0.5.1,,0_0_16
+5,android,0.6.0,,0_0_17

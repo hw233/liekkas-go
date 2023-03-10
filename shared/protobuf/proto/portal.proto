@@ -1,0 +1,60 @@
+syntax = "proto3";
+
+import "shared/protobuf/proto/vo.proto";
+import "shared/protobuf/proto/game.proto";
+
+option go_package = "./;pb";
+
+service Portal {
+  rpc Push(PushReq) returns (PushResp);
+}
+
+message GameReq {
+  int32 command = 1;
+  int32 serial = 2;
+  bytes content = 3;
+}
+
+message GameResp {
+  int32 command = 1;
+  int32 serial = 2;
+  int64 timestamp = 3;
+  bytes content = 4;
+}
+
+message TransferReq {
+  GameReq gameReq = 1;
+  int64 uid = 2;
+  string token = 3;
+  int64 ctime = 4;
+}
+
+message TransferResp {
+  GameResp gameResp = 1;
+}
+
+message ConnectReq {
+  GameReq gameReq = 1;
+  string token = 2;
+  string server = 3;
+  int64 ctime = 4;
+}
+
+message ConnectResp {
+  GameResp gameResp = 1;
+  int64 uid = 2;
+}
+
+message CloseReq {
+}
+
+message CloseResp {
+}
+
+message PushReq {
+  GameResp gameResp = 1;
+  int64 uid = 2;
+}
+
+message PushResp {
+}

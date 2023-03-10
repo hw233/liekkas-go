@@ -1,0 +1,27 @@
+# csv文件路径
+CSVPath = "../shared/csv/data"
+# etcd终端
+ETCDEndpoints = [
+    "127.0.0.1:2379",
+    "127.0.0.1:2479",
+    "127.0.0.1:2579",
+]
+# redis配置
+[Redis]
+    Addr = ":6379"
+    UserName = "root"
+    Password = ""
+# mysql配置
+[MySQL]
+    Addr = "root:xuecm01,@tcp(localhost:3306)/overlord?charset=utf8mb4&parseTime=true&loc=Local"
+    MaxIdleConn = 5
+    MaxOpenConn = 5
+    ConnMaxLifetime = "4h"
+
+# log
+[Log]
+    LogLevel = "DEBUG"
+    LogDir = "./log"
+    FileSizeLimit = 4294967296
+[Http]
+    port = 8080

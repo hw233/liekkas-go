@@ -1,0 +1,280 @@
+﻿id,chapterId,name,type,typeParam
+Int,Int,String,Int,Int
+1,1,10101-LevelPrefab1,4,10101
+2,1,10102-LevelPrefab2,4,10102
+3,1,10103-LevelPrefab3,4,10103
+4,1,10104-LevelPrefab4,4,10104
+5,1,ColliderPrefab,6,0
+6,2,GatherPrefab,3,10202
+7,2,GatherPrefab (1),3,10204
+8,2,GatherPrefab (2),3,10206
+10,2,LevelPrefab1,4,10201
+11,2,LevelPrefab2,4,10202
+12,2,LevelPrefab3,4,10203
+13,2,LevelPrefab4,4,10204
+14,2,LevelPrefab5,4,10205
+15,2,LevelPrefab6,4,10206
+16,2,LevelPrefab_caidan,4,10207
+17,2,ColliderPrefab,6,
+18,2,ColliderPrefab (1),6,
+19,3,Npc_kulou,3,10305
+20,3,GatherPrefab,3,10303
+21,3,GatherPrefab (1),3,10306
+22,3,GatherPrefab (2),3,10307
+23,3,GatherPrefab (3),3,10309
+24,3,LevelPrefab1,4,10301
+25,3,LevelPrefab2,4,10302
+26,3,LevelPrefab3,4,10303
+27,3,LevelPrefab4,4,10304
+28,3,LevelPrefab5,4,10305
+29,3,LevelPrefab6,4,10306
+30,3,LevelPrefab7,4,10307
+31,3,LevelPrefab8,4,10308
+32,3,LevelPrefab9,4,10309
+33,3,LevelPrefab_caidan,4,10310
+34,3,LevelPrefab_dituguai,3,10304
+35,3,LevelPrefab_dituguai (1),3,10308
+36,3,ColliderPrefab,6,
+37,4,Npc_maoxianzhe,3,10408
+38,4,GatherPrefab,3,10401
+39,4,GatherPrefab (1),3,10404
+40,4,GatherPrefab (2),3,10405
+41,4,GatherPrefab (3),3,10409
+42,4,GatherPrefab (4),3,10412
+45,4,LevelPrefab1,4,10401
+46,4,LevelPrefab2,4,10402
+47,4,LevelPrefab3,4,10403
+48,4,LevelPrefab4,4,10404
+49,4,LevelPrefab5,4,10405
+50,4,LevelPrefab6,4,10406
+51,4,LevelPrefab7,4,10407
+52,4,LevelPrefab8,4,10408
+53,4,LevelPrefab9,4,10409
+54,4,LevelPrefab10,4,10410
+55,4,LevelPrefab11,4,10411
+56,4,LevelPrefab12,4,10412
+57,4,LevelPrefab_caidan,4,10413
+58,4,LevelPrefab_dituguai1,3,10403
+59,4,LevelPrefab_dituguai2,3,10407
+60,4,LevelPrefab_dituguai3,3,10416
+61,4,ColliderPrefab,6,
+62,5,Npc_maoxianzhe,3,10512
+63,5,GatherPrefab,3,10503
+64,5,GatherPrefab (1),3,10511
+65,5,GatherPrefab (2),3,10506
+66,5,GatherPrefab (3),3,10514
+67,5,GatherPrefab (4),3,10507
+70,5,GatherPrefab (7),3,10513
+71,5,LevelPrefab1,4,10501
+72,5,LevelPrefab2,4,10502
+73,5,LevelPrefab3,4,10503
+74,5,LevelPrefab4,4,10504
+75,5,LevelPrefab5,4,10505
+76,5,LevelPrefab6,4,10506
+77,5,LevelPrefab7,4,10507
+78,5,LevelPrefab8,4,10508
+79,5,LevelPrefab9,4,10509
+80,5,LevelPrefab10,4,10510
+81,5,LevelPrefab11,4,10511
+82,5,LevelPrefab12,4,10512
+83,5,LevelPrefab13,4,10513
+84,5,LevelPrefab14,4,10514
+85,5,LevelPrefab15,4,10515
+86,5,LevelPrefab16,4,10516
+87,5,LevelPrefab17,4,10517
+88,5,LevelPrefab_caidan,4,10518
+89,5,LevelPrefab_dituguai1,3,10502
+90,5,LevelPrefab_dituguai2,3,10509
+91,5,LevelPrefab_dituguai3,3,10516
+92,5,ColliderPrefab,6,0
+93,203031,203061-LevelPrefab,4,203031
+94,203031,ColliderPrefab,6,
+95,203031,ColliderPrefab (1),6,
+96,204091,204091-LevelPrefab,4,204091
+97,204091,ColliderPrefab,6,
+98,204091,ColliderPrefab (1),6,
+99,205091,205091-LevelPrefab,4,205091
+100,205091,ColliderPrefab,6,
+101,205091,ColliderPrefab (1),6,
+102,206121,206121-LevelPrefab,4,206121
+103,206121,ColliderPrefab,6,
+104,206121,ColliderPrefab (1),6,
+105,207101,207101-LevelPrefab,4,207101
+106,207101,ColliderPrefab,6,
+107,207101,ColliderPrefab (1),6,
+108,207211,207211-LevelPrefab,4,207211
+109,207211,ColliderPrefab,6,
+110,207211,ColliderPrefab (1),6,
+111,208191,208191-LevelPrefab,4,208191
+112,208191,ColliderPrefab,6,
+113,208191,ColliderPrefab (1),6,
+114,209101,209101-LevelPrefab,4,209101
+115,209101,ColliderPrefab,6,
+116,209101,ColliderPrefab (1),6,
+117,209181,209181-LevelPrefab,4,209181
+118,209181,ColliderPrefab,6,
+119,209181,ColliderPrefab (1),6,
+120,210201,210201-LevelPrefab,4,210201
+121,210201,ColliderPrefab,6,
+122,210201,ColliderPrefab (1),6,
+123,211101,211101-LevelPrefab,4,211101
+124,211101,ColliderPrefab,6,
+125,211101,ColliderPrefab (1),6,
+126,211201,211201-LevelPrefab,4,211201
+127,211201,ColliderPrefab,6,
+128,211201,ColliderPrefab (1),6,
+129,212111,212111-LevelPrefab,4,212111
+130,212111,ColliderPrefab,6,
+131,212111,ColliderPrefab (1),6,
+132,212231,212231-LevelPrefab,4,212231
+133,212231,ColliderPrefab,6,
+134,212231,ColliderPrefab (1),6,
+135,6,Npc_maoxianzhe6-11,3,10601
+136,6,GatherPrefab 6-4,3,10602
+137,6,GatherPrefab 6-7,3,10603
+138,6,GatherPrefab 6-10,3,10604
+139,6,GatherPrefab 6-13,3,10605
+140,6,GatherPrefab 6-15,3,10606
+141,6,GatherPrefab 6-16,3,10607
+142,6,GatherPrefab-baoxiang,3,10608
+143,6,LevelPrefab1,4,10601
+144,6,LevelPrefab2,4,10602
+145,6,LevelPrefab3,4,10603
+146,6,LevelPrefab4,4,10604
+147,6,LevelPrefab5,4,10605
+148,6,LevelPrefab6,4,10606
+149,6,LevelPrefab7,4,10607
+150,6,LevelPrefab8,4,10608
+151,6,LevelPrefab9,4,10609
+152,6,LevelPrefab10,4,10610
+153,6,LevelPrefab11,4,10611
+154,6,LevelPrefab12,4,10612
+155,6,LevelPrefab13,4,10613
+156,6,LevelPrefab14,4,10614
+157,6,LevelPrefab15,4,10615
+158,6,LevelPrefab16,4,10616
+159,6,LevelPrefab17,4,10617
+160,6,LevelPrefab-caidan,4,10618
+161,6,MonsterPrefab 6-12,3,10612
+162,6,MonsterPrefab 6-9,3,10613
+163,6,MonsterPrefab 6-3,3,10614
+164,6,ColliderPrefab,6,0
+165,6,ColliderPrefab (1),6,0
+166,7,Npc_maoxianzhe7-8,3,10701
+167,7,MonsterPrefab7-3,3,10702
+168,7,MonsterPrefab7-14,3,10703
+169,7,MonsterPrefab7-19,3,10704
+170,7,GatherPrefab7-4,3,10705
+171,7,GatherPrefab 7-6,3,10706
+172,7,GatherPrefab 7-9,3,10707
+173,7,GatherPrefab 7-11,3,10708
+174,7,GatherPrefab 7-12,3,10709
+175,7,GatherPrefab 7-16,3,10710
+176,7,GatherPrefab 7-20,3,10711
+177,7,GatherPrefab -baoxiang,3,10712
+178,7,GatherPrefab (5),3,10713
+179,7,GatherPrefab (6),3,10714
+180,7,GatherPrefab (7),3,10715
+181,7,GatherPrefab (8),3,10716
+182,7,GatherPrefab (9),3,10717
+183,7,LevelPrefab1,4,10701
+184,7,LevelPrefab2,4,10702
+185,7,LevelPrefab3,4,10703
+186,7,LevelPrefab4,4,10704
+187,7,LevelPrefab5,4,10705
+188,7,LevelPrefab6,4,10706
+189,7,LevelPrefab7,4,10707
+190,7,LevelPrefab8,4,10708
+191,7,LevelPrefab9,4,10709
+192,7,LevelPrefab10,4,10710
+193,7,LevelPrefab11,4,10711
+194,7,LevelPrefab12,4,10712
+195,7,LevelPrefab13,4,10713
+196,7,LevelPrefab14,4,10714
+197,7,LevelPrefab15,4,10715
+198,7,LevelPrefab16,4,10716
+199,7,LevelPrefab17,4,10717
+200,7,LevelPrefab18,4,10718
+201,7,LevelPrefab19,4,10719
+202,7,LevelPrefab20,4,10720
+203,7,LevelPrefab21,4,10721
+204,7,LevelPrefab22,4,10722
+205,7,LevelPrefab-candan7-22,4,10723
+206,7,ColliderPrefab (1),6,0
+207,7,ColliderPrefab (2),6,0
+208,8,Npc_maoxianzhe8-16,3,10801
+209,8,MonsterPrefab8-2,3,10802
+210,8,MonsterPrefab 8-8,3,10803
+211,8,MonsterPrefab 8-15,3,10804
+212,8,MonsterPrefab 8-20,3,10805
+213,8,GatherPrefab8-4,3,10806
+214,8,GatherPrefab 8-6,3,10807
+215,8,GatherPrefab 8-10,3,10808
+216,8,GatherPrefab 8-12,3,10809
+217,8,GatherPrefab 8-14,3,10810
+218,8,GatherPrefab 8-17,3,10811
+219,8,GatherPrefab 8-21,3,10812
+220,8,GatherPrefab-baoxiang,3,10813
+221,8,LevelPrefab1,4,10801
+222,8,LevelPrefab2,4,10802
+223,8,LevelPrefab3,4,10803
+224,8,LevelPrefab4,4,10804
+225,8,LevelPrefab5,4,10805
+226,8,LevelPrefab6,4,10806
+227,8,LevelPrefab7,4,10807
+228,8,LevelPrefab8,4,10808
+229,8,LevelPrefab9,4,10809
+230,8,LevelPrefab10,4,10810
+231,8,LevelPrefab11,4,10811
+232,8,LevelPrefab12,4,10812
+233,8,LevelPrefab13,4,10813
+234,8,LevelPrefab14,4,10814
+235,8,LevelPrefab15,4,10815
+236,8,LevelPrefab16,4,10816
+237,8,LevelPrefab17,4,10817
+238,8,LevelPrefab18,4,10818
+239,8,LevelPrefab19,4,10819
+240,8,LevelPrefab20,4,10820
+241,8,LevelPrefab21,4,10821
+242,8,LevelPrefab22,4,10822
+243,8,ColliderPrefab (1),6,0
+244,8,ColliderPrefab (2),6,0
+245,9,Npc_maoxianzhe 9-14,3,10901
+246,9,MonsterPrefab 9-2,3,10902
+247,9,MonsterPrefab 9-7,3,10903
+248,9,MonsterPrefab 9-13,3,10904
+249,9,MonsterPrefab 9-18,3,10905
+250,9,GatherPrefab 9-3,3,10906
+251,9,GatherPrefab 9-5,3,10907
+252,9,GatherPrefab 9-8,3,10908
+253,9,GatherPrefab 9-10,3,10909
+254,9,GatherPrefab 9-12,3,10910
+255,9,GatherPrefab 9-15,3,10911
+256,9,GatherPrefab 9-19,3,10912
+257,9,GatherPrefab -baoxiang,3,10913
+258,9,LevelPrefab1,4,10901
+259,9,LevelPrefab2,4,10902
+260,9,LevelPrefab3,4,10903
+261,9,LevelPrefab4,4,10904
+262,9,LevelPrefab5,4,10905
+263,9,LevelPrefab6,4,10906
+264,9,LevelPrefab7,4,10907
+265,9,LevelPrefab8,4,10908
+266,9,LevelPrefab9,4,10909
+267,9,LevelPrefab10,4,10910
+268,9,LevelPrefab11,4,10911
+269,9,LevelPrefab12,4,10912
+270,9,LevelPrefab13,4,10913
+271,9,LevelPrefab14,4,10914
+272,9,LevelPrefab15,4,10915
+273,9,LevelPrefab16,4,10916
+274,9,LevelPrefab17,4,10917
+275,9,LevelPrefab18,4,10918
+276,9,LevelPrefab19,4,10919
+277,9,LevelPrefab20,4,10920
+278,9,LevelPrefab21,4,10921
+279,9,LevelPrefab22,4,10922
+280,9,LevelPrefab-caidan,4,10923
+281,9,ColliderPrefab,6,0
+282,9,ColliderPrefab (1),6,0
+283,9,ColliderPrefab (2),6,0

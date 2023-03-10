@@ -1,0 +1,36 @@
+syntax = "proto3";
+option go_package = "./;pb";
+
+message VOBanner {
+    int64 id = 1;
+    int32 type = 2;             //页签类型
+    string jump = 3;            //跳转
+    string Image = 4;           //图片地址
+    int64 startTime = 5;        //开始时间
+    int64 endTime = 6;          //结束时间
+    int64 showStartTime = 7;    //显示的开始时间
+    int64 showEndTime = 8;      //显示的结束时间
+    int32 priority = 9;         //排序优先级
+}
+
+message VOAnnouncement {
+    int64 id = 1;
+    int32 type = 2;             //页签类型
+    string title = 3;           //标题
+    string content = 4;         //内容
+    int32 tag = 5;              //标签
+    string Image = 6;           //图片地址
+    int64 startTime = 7;        //开始时间
+    int64 endTime = 8;          //结束时间
+    int64 showStartTime = 9;    //显示的开始时间
+    int64 showEndTime = 10;     //显示的结束时间
+    int32 priority = 11;        //排序优先级
+}
+
+message VOForeplayCaution {
+    int64 id = 1;
+    string content = 2;
+    string Image = 3;
+    int64 startTime = 4;
+    int64 endTime = 5;
+}
